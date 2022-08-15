@@ -1,0 +1,119 @@
+.yellowcolor{
+	color: rgb(255,194,33);
+}
+a{
+	text-decoration: none;
+}
+.pointer:hover{
+	cursor: pointer;
+}
+.yellowbg{
+	background-color: rgb(255,194,33);
+}
+.borderyellow{
+	border: 0px solid rgb(255,194,33);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.bggrey{
+	background-color: rgba(221,221,221,0.5);
+}
+.textsm{
+	font-size:12px;
+}
+.login:hover{
+	background-color: gold;}
+.container{
+	width: 65%;
+}
+.mynav a{
+	border: 1px solid rgba(255,194,33,0);
+	width: 100%;
+}
+.navhov span:hover{
+	color: rgb(255,194,33);
+}
+.banner{
+	background-image: url(../images/banner2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	min-height: 210px;
+	padding: 5% 15%;
+}
+.seemorefunction{
+	padding: 1% 5%;
+	color: white;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.line{
+	height: 6px;
+	width: 10%;
+	background-color: black;
+	position: relative;
+	bottom: 9px;
+}
+.bordershadow{
+	padding: 10% 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.bgimg{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	min-height: 80vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	padding: 0px;	
+}
+
+.zoomimg{
+	display: inline-block;
+	overflow: hidden;
+}
+.zoomimg img{
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+}
+.zoomimg img:hover{
+	transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+}
+.blur{
+	min-height: 80vh;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 100%;
+}
+.greybg{
+	background-color: rgb(221,221,221);
+	padding: 10%;
+	font-size: 12px;
+	font-weight: bold;
+}
+.greybg p{
+	padding: 0;
+	margin: 0px;
+	z-index: 9999;
+}
+.greybg span{
+	font-weight: bolder;
+	font-size: 14px;
+}
+.bordershadow2{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.blurgrey{
+	background-color: rgba(0,0,0,0.15);
+	padding: 2% 0%;
+}
+.foot-a a{
+	text-decoration: none;
+	color: white;
+}
+.foot-a a:hover{
+	color: rgb(210,210,210);
+	border-bottom: 1px dotted white;
+}
+.foot-a br{
+	padding: 0;
+	margin: 0;
+} 

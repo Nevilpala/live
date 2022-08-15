@@ -1,0 +1,313 @@
+a{
+	text-decoration: none;
+}
+div{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav,ul,li,nav,header,.img-fluid{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	padding: 0;
+}
+.custom-container{
+	padding: 0 30px;
+}
+.mycontainer{
+	width: 60%;
+	margin: 0 auto;
+}
+.v-center{
+	display: flex!important;
+	align-items: center!important;
+}
+.paddingy{
+	padding: 7% 0;
+}
+.paddingy-sm{
+	padding: 4% 0;
+}
+.textsm{
+	font-size: 13px;
+}
+section{
+	scroll-behavior: smooth;
+
+}
+
+
+
+/*HEADER =====================================================================================================*/
+
+header{
+	color: white;
+	right: 3.5%!important;
+	top: 50%;
+	text-align: right;
+	position: fixed;
+	margin-top: -100px;
+	text-align: right;
+	z-index: 99999;
+}
+header nav ul {
+	display: block!important;
+}
+header ul li{
+	padding: 6px 0;
+}
+header ul li a{
+	color: white!important;
+	display: flex!important;	
+	flex-direction: row;
+	align-items: center;
+	margin: 0!important;
+	padding: 0!important;
+}
+header .header-circle{
+	font-size: 6px;
+	border-radius: 50%;
+	padding: 5px;
+	margin: 4px 0;
+}
+header nav .nav-pills .nav-link.active{
+
+	background-color: transparent!important;
+}
+header nav .nav-pills .nav-link.active .header-circle{
+	font-size: 8px;
+	border: 2px solid white;
+	padding: 2px;
+	background-color: transparent!important;
+}
+header ul li a .header-link{
+	display: none;		
+	-webkit-transition: all .2s;
+	transition: all .2s;
+	width: 100%;
+	padding: 2px 12px;
+	font-size: 12px;
+	background-color: white;
+	border-radius: 15px;
+	color: rgba(0,0,0,0.6);
+	text-align: center;
+	margin-right: 10px;
+}
+header ul:hover li a .header-link{
+	display: block;
+}
+header ul li:hover a .header-link{
+	color: black;
+	opacity: 1;
+}
+.myscrollspy-menu{
+	height: 100vh;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+}
+section{
+	scroll-snap-align: start;
+}
+/*SECTION-1 =====================================================================================================*/
+
+.section1{
+	background-image: url(../img/1st-section.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+.section1 div{
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	height: 100%;
+	text-align: center!important;
+}
+.section1 h1{
+	font-size: 125px;
+	font-weight: bolder;
+}
+.section1 p{
+	font-size: 47px;
+}
+.section1 p span{
+	color: #ff7d27;
+}
+button.orangebutton,a.orangebutton{
+	background-color: #ff7d27;
+	padding: 10px 25px;
+	border-color: transparent;
+	border-radius: 5px;
+	color: white;
+	margin-top: 25px;
+}
+button.orangebutton:hover, a.orangebutton:hover{
+	background-color: rgb(222, 109, 33);
+	color: white;
+}
+
+/*SECTION-2 =====================================================================================================*/
+
+.section2{
+	background-image: url(../img/2nd-section.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	color: white;	
+}
+.section2 ul.dashlist li{
+	line-height: 40px;
+	margin: 10px 0;
+}
+.section2 ul.dashlist li::before{
+	content: "- ";
+}
+.orangeline{
+	background-color: #ff7d27;
+	height: 3px;
+	width: 15%; 
+	margin: 17px 0;
+}
+.about-right{
+	padding: 0 20px;
+}
+.about-card{
+	background-color: rgba(0,0,0,0.4);
+	height: 100%!important;
+	padding: 35px;
+	padding-bottom: 40px;
+}
+
+
+/*SECTION-3 =====================================================================================================*/
+
+.section3{
+	background-image: url(../img/3rd-section.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	position: relative;
+}
+.cards-body{
+	text-align: center;
+	background-color: white;
+	padding: 20px 0;
+	font-size: 12px;
+}
+.carousel_button{
+	margin-top: 20px;
+}
+.carousel_button button{
+	width: auto;
+	background-color: transparent;
+	border: 0;
+}
+.carousel_button button i{
+	color: rgba(255,255,255,0.5);
+}
+.carousel_button button.actives i{
+	color: white;
+}
+.text-orange{
+	color: #ff7d27;	
+}
+
+/*SECTION-4 =====================================================================================================*/
+
+.section4{
+	background-image: url(../img/4th-section.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+.content_corosol p{
+	padding: 25px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	height: 125px;
+}
+.Ourstory_button{
+	margin-top: 25px;
+}
+.Ourstory_button button{
+	background-color: transparent;
+	color: white;
+	border: 4px solid white;
+	padding: 8px 10px;
+	margin-left: 15px;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: 600;
+}
+.Ourstory_button button:hover{
+	color: #ff7d27;
+}
+.Ourstory_button button.actives{
+	border-color: #ff7d27;
+}
+
+/*SECTION-5 =====================================================================================================*/
+
+.section5{
+	background-image: url(../img/5th-section.jpg);	
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+.contact-form,.map{
+	background-color: rgba(0,0,0,0.5);
+	padding: 25px 13px;
+}
+.form-input{
+	border-radius: 4px;
+	border: 0;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.contact-form textarea{
+	min-height: 230px;
+}
+.contact-form .submit-form{
+	background-color: #ff7d27;
+	border:0;
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	color: white;
+	font-size: 13px;
+	font-weight: 650;
+	letter-spacing: 1px;
+}
+
+
+
+@media screen and (max-width: 768px){
+	.section1 h1{
+		font-size: 50px;
+	}
+	.mycontainer{
+		width: 100%;
+	}
+	.myscrollspy-menu{
+		scroll-snap-type:none;
+	}
+}
+@media screen and (max-width: 576px){
+	.content_corosol p{
+		font-size: 12px;
+	}
+}

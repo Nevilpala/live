@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required metaatags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+   <!--  Font Awesome -->
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+   <!--  Custom CSS -->
+   <link rel="stylesheet" type="text/css" href="./css/mywebsitecss.css">
+
+   <!-- Logo -->
+
+    <link rel="icon" href="./images/logo-top.png" type="image/icon type">
+
+   <title>NEVIL's WEBSITE</title>
+</head>
+<body>
+    <div class="start-loading">
+        <div class="spinner-border text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+         <h4 class="ps-2">Loading..</h4>
+    </div>
+    <div style="position: fixed; background-color: white; z-index: -99999999999999; height: 100vh; width: 100%;"></div>
+	<div class="text-uppercase px-1 fixed-top"><span class="fw-bolder" data-bs-toggle="modal" data-bs-target="#menu"><i class="fas fa-bars" ></i></span></div>
+
+
+
+	<div class="modal fade" id="menu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title fw-bolder" id="exampleModalLabel">MENU</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body text-center bggrey modlbutton">
+
+					<a href="./index.html"><button class="btn btn-outline-secondary w-75 my-3" data-bs-dismiss="modal"> HOME</button></a>
+
+					<a href="./bootstrap.html"><button  class="btn btn-outline-secondary w-75 my-3" data-bs-dismiss="modal"> BOOTSTRAP</button></a>
+
+					<a href="./c.html"><button  class="btn btn-outline-secondary w-75 my-3" data-bs-dismiss="modal"> C </button></a>
+
+					<a href="#javascript" class="" data-bs-dismiss="modal"><button  class="btn btn-outline-secondary w-75 my-3" data-bs-dismiss="modal"> Javascript</button></a>
+
+				</div>
+				<div class="modal-footer justify-content-center">
+					<button type="button" class="btn w-75 yellowbg" data-bs-dismiss="modal">CLOSE</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-----------------------------------       HEADER        --------------------------------------->
+    <div class="bg-white">
+        <header class="container bg-white" id="home">
+            <nav class="navbar navbar-expand-md navbar-light mynav p-0 m-0">
+                <div class="container-fluid ">
+                    <div class="navbar-brand text-center w-25">
+                        <div class="logo">
+                           <img src="./images/logo.jpg" class="img-fluid" width="115">
+                        </div>
+                    </div>
+                    <button class="navbar-toggler bg-danger " type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                         <i class="fas fa-bars text-light"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse navbaar w-75 justify-content-end align-items-center" id="navbar1" >
+                        <div class="navbar-nav align-items-center textsm-md act">
+                            <a class="nav-link text-uppercase px-4 myactive" aria-current="page" href="#"><span class="fw-bolder ">Home</span></a>
+                            <a class="nav-link text-uppercase px-4" href="#" data-bs-toggle="modal" data-bs-target="#aboutmodal"><span class="fw-bolder">About</span></a>
+                        	<div class="nav-link dropdown mydrop">
+                        		<span class="dropdown-toggle fw-bolder" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        			PROJECT
+                        		</span>
+
+                        		<ul class="dropdown-menu mydropdown"  aria-labelledby="dropdownMenuLink">
+                        			<li><a class="dropdown-item" href="#template">BOOTSTRAP</a></li>
+                        			<li><a class="dropdown-item" href="#c">C</a></li>
+                        			<li><a class="dropdown-item " href="#js">JAVASCRIP</a></li>
+                        		</ul>
+                        	</div>
+                            <a class="nav-link text-uppercase px-4" href="#contact"><span class="fw-bolder">Contact</span></a>
+                            <a class="nav-link text-uppercase px-4" href="#" data-bs-toggle="modal" data-bs-target="#signup"><span class="fw-bolder">signup</span></a>
+                            <a class="nav-link text-uppercase px-4 btn btn-warning text-light" href="#"  data-bs-toggle="modal" data-bs-target="#login"><span class="fw-bolder">login</span></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+    <!---------------------------------------------------------------------------------------------------->
+
+        <section class="container-fluid bg2 bg-white">
+            <div class="container">
+                <!-- <img src="./images/banner-right-image.png" class="float-end img-fluid" width="50%"> -->
+                <div class="row">
+                    <div class="col-lg col-sm-12 align-self-center text-center">
+                        <h1 class="display-2 fw-bolder text-uppercase">welcome to <br>
+                        <span class="text-primary fst-italic">my</span> <span class="text-danger fst-italic">website</span></h1>
+                    </div>
+                    <div class="col-lg col-sm-12 h-100">
+                        <img src="./images/banner-right-image.png" class="float-end img-fluid bg-white">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<!----------------------------------------------------------------------------------------->
+
+    <section class="container-fluid bg3">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg col-sm-6 text-center">
+                    <img src="./images/about-left-image.png" class="img-fluid"> 
+                </div>
+                <div class="col-lg col-sm-12 align-self-center">
+                    <div class="row g-2">
+                       
+                        <div class="col-6 colhover">
+                            <a href="./bootstrap.html">
+                                <img src="./images/bootstrap.png" class="float-start  img-fluid rounded-circle p-1 bg-light" width="15%">
+                                <h5 class="ms-5 text-shadow text-light pt-1">BOOTSTRAP</h5>
+                            </a>
+                        </div>
+                        <div class="col-6 colhover">
+                            <a href="./c.html">
+                                <img src="./images/c.png" class="float-start p-1 bg-light  img-fluid rounded-circle" width="14%">
+                                <h5 class="ms-5 text-shadow text-light pt-1">C PROGRAMING</h5>
+                            </a>
+                        </div>
+                        <div class="col-6 colhover">
+                            <a href="#">
+                                <img src="./images/js.png" class="float-start  img-fluid rounded-circle" width="15%">
+                                <h5 class="ms-5 text-shadow text-light pt-1">JAVA SCRIP</h5>
+                            </a>
+                        </div>
+                        <div class="col-6 colhover">
+                            <a href="#">
+                                <img src="./images/service-icon-hover-01.png" class="float-start  img-fluid rounded-circle" width="15%">
+                                 <h5 class="ms-5 text-shadow text-light pt-1">OTHER</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+<!------------------------------------------BOOTSTRAP------------------------------------------>
+
+    <section class="container-fluid bg4 py-4 m-0 " id="template">
+        <div class="bg41 shadow"></div>
+        <div class="upper">
+        	<div class="row smallcontainer align-items-center">
+        		<div class="col-lg col-sm-12 col-md-12">
+        			<hr class="opacity-100" style="height: 5px; color: red">
+        		</div>
+        		<div class="col-lg-auto col-sm-12 col-md-12">
+        			<h1 class="text-center fw-bolder">BOOTSTRAP</h1>
+        		</div>
+        		<div class="col-lg col-sm-12 col-md-12">
+        			<hr class="opacity-100" style="height: 5px; color: red">
+        		</div>
+        	</div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="container smallcontainer">	
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active px-3">
+                            <div class="row g-4">
+                                <div class="col-lg col-sm-6">
+                                    <a href="./website/html/eletronic/index.html" class="templateimg">
+                                        <div class="card shadow h-100 zoomimg">
+                                            <img src="./templete/eletronic.png" class="card-img-top">
+                                            <div class="loading text-center">
+                                                <div class="spinner-border text-secondary" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                                <h2 class="text-secondary">Loading...</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg col-sm-6">
+                                    <a href="./website/html/zay_shop/index.html" class="templateimg">
+                                        <div class="card shadow h-100 zoomimg">
+                                            <img src="./templete/zay_shop.png" class="card-img-top">
+                                            <div class="loading text-center">
+                                                <div class="spinner-border text-secondary" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                                <h2 class="text-secondary">Loading...</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg col-sm-6">
+                                    <a href="./website/html/vanilla/index.html" class="templateimg">
+                                        <div class="card shadow h-100 zoomimg">
+                                            <img src="./templete/vanilla.png" class="card-img-top">
+                                            <div class="loading text-center">
+                                                <div class="spinner-border text-secondary" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                                <h2 class="text-secondary">Loading...</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item px-3">
+                            <div class="row g-4">
+                                <div class="col-lg col-sm-6">
+                                    <a href="./website/html/avalon/index.html" class="templateimg">
+                                        <div class="card shadow h-100 zoomimg">
+                                            <img src="./templete/avalon.png" class="card-img-top">
+                                            <div class="loading text-center">
+                                                <div class="spinner-border text-secondary" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                                <h2 class="text-secondary">Loading...</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg col-sm-6">
+                                    <a href="./website/html/leadership_event/index.html" class="templateimg">
+                                        <div class="card shadow h-100 zoomimg">
+                                            <img src="./templete/leadership_event.png" class="card-img-top">
+                                            <div class="loading text-center">
+                                                <div class="spinner-border text-secondary" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                                <h2 class="text-secondary">Loading...</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg col-sm-6">
+                                    <a href="./website/html/ion/index.html" class="templateimg">
+                                        <div class="card shadow h-100 zoomimg">
+                                            <img src="./templete/ion.png" class="card-img-top">
+                                            <div class="loading text-center">
+                                                <div class="spinner-border text-secondary" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                                <h2 class="text-secondary">Loading...</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item px-3">
+                            <div class="row g-4">
+                                <div class="col-lg col-sm-6">
+                                    <a href="./website/html/pop/index.html" class="templateimg">
+                                        <div class="card shadow h-100 zoomimg">
+                                            <img src="./templete/pop.png" class="card-img-top">
+                                            <div class="loading text-center">
+                                                <div class="spinner-border text-secondary" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                                <h2 class="text-secondary">Loading...</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg col-sm-6">
+                                    <a href="./website/html/ex2/index.html" class="templateimg">
+                                        <div class="card shadow h-100 zoomimg">
+                                            <img src="./templete/ex2.png" class="card-img-top">
+                                            <div class="loading text-center">
+                                                <div class="spinner-border text-secondary" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                                <h2 class="text-secondary">Loading...</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg col-sm-6">
+                                    <a href="./website/html/9/index.html" class="templateimg">
+                                        <div class="card shadow h-100 zoomimg ">
+                                            <img src="./templete/9.png" class="card-img-top">
+                                            <div class="loading text-center">
+                                                <div class="spinner-border text-secondary" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                                <h2 class="text-secondary">Loading...</h2>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span aria-hidden="true"><i class="fas fa-chevron-double-left fs-1 text-primary"></i></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span aria-hidden="true"><i class="fas fa-chevron-double-right fs-1 text-primary"></i></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+                <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <a href="./bootstrap.html" class="btn btn-outline-light border-2 fw-bold">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!------------------------------------     C     --------------------------------------->
+
+    <section class="container-fluid bg5 bggrey2" id="c">
+    	<div class="container">
+    		<div class="row smallcontainer align-items-center">
+    		<div class="col-lg col-sm-12 col-md-4">
+    			<hr class="opacity-100" style="height: 5px; color: red">
+    		</div>
+    		<div class="col-lg col-sm-12 col-md-4">
+    			<h1 class="text-center fw-bolder">C</h1>
+    		</div>
+    		<div class="col-lg col-sm-12 col-md-4">
+    			<hr class="opacity-100" style="height: 5px; color: red">
+    		</div>
+    	</div>
+    	<div class="row g-4 cbody py-5 px-4 cmd">
+			<div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext">
+					<button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="modal" data-bs-target="#aboutmodal" aria-controls="offcanvasRight">Simple IF</button>
+                    <!-- <button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#simpleif" aria-controls="offcanvasRight">Simple IF</button> -->
+			</div>
+			<div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext">
+				<button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="modal" data-bs-target="#aboutmodal" aria-controls="offcanvasRight">Else IF</button>
+                <!-- <button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#elseif" aria-controls="offcanvasRight">Else IF</button> -->
+			</div>
+			<div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext">
+				<button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#conditional" aria-controls="offcanvasRight">Conditional Operator</button>
+			</div>
+			<div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext">
+				<button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#switch" aria-controls="offcanvasRight">Switch-Case</button>
+			</div>
+			<div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext">
+				<button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#loop" aria-controls="offcanvasRight">Loop</button>
+			</div>
+			<div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext">
+				<button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#Pattern" aria-controls="offcanvasRight">Pattern</button>
+			</div>
+			<div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext">
+				<!-- <button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#array" aria-controls="offcanvasRight">Array</button> -->
+                <button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="modal" data-bs-target="#aboutmodal" aria-controls="offcanvasRight">Array</button>
+			</div>
+            <div class="   col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext">
+                <button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="modal" data-bs-target="#aboutmodal" aria-controls="offcanvasRight">Array 2D</button>
+                <!-- <button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#array2" aria-controls="offcanvasRight">Array 2D</button> -->
+            </div>
+            <div class="   col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext">
+                <button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#structure" aria-controls="offcanvasRight">Structure</button>
+            </div>
+            <div class="   col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext">
+                <button class="btn btn-dark myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#function" aria-controls="offcanvasRight">Function</button>
+            </div>
+            <div class="   col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 ctext text-center w-100">
+                <a class="btn btn-outline-danger fw-bolder border-3 myCbtn w-25" href="./c.html">View More</a>
+            </div>
+		</div>
+
+
+    </section>
+<!--------------------------------------------------------------------------------------------------->
+
+    <footer class="container-fluid footbg" id="contact">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg col-md-6 col-sm-12 linkhover2 shadow p-3 roundeda">
+                    <h4 class="fw-bold pb-4">Contact</h4>
+                    <ul class="ullink">
+                        <li><i class="fab fa-facebook-f pe-4"></i>Facebook</li>
+                        <li><i class="fab fa-twitter pe-3"></i> Twitter</li>
+                        <li><i class="fas fa-phone-alt pe-3"></i> +91 9913190874</li>
+                        <li><i class="fas fa-envelope pe-3"></i>np.webdesigner00@gmail.com</li>
+                        <!-- <a href=""></a>-->
+                    </ul>
+                </div>
+                <div class="col-lg col-md-6 col-sm-12 linkhover2 shadow p-3 roundeda">
+                    <h4 class="fw-bold pb-4">Useful Links</h4>
+                    <ul class="ullink">
+                        <li><a href="#home">BOOTSTRAP</a></li>
+                        <li><a href="./index2.html#c">C</a></li>
+                        <li><a href="#">JAVA</a></li>
+                        <li><a href="index.html">New Website</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg col-md-6 col-sm-12 shadow p-3 roundeda">
+                    <h4 class="fw-bold pb-4">Contact Us</h4>
+                    <form class="form2">
+                        <input type="text" placeholder="Full name" class=" text-light rounded-pill w-100 p-2 input2" required="required">
+                        <input type="email" placeholder="E-mail Address" class=" text-light rounded-pill w-100 p-2 input2" required="required">
+                        <textarea class="p-2 w-100 textarea2">Your Message</textarea>
+                        <input type="submit" class="btn btn-outline-light rounded-pill submit3" value="SEND MESSAGE">
+                    </form>
+                </div>
+            </div>      
+        </div>
+    </footer>
+
+<!---------------------------------------------------------------------------------------------------->
+
+
+    <section><!-------------------     login    ----------------------->
+
+        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bolder" id="exampleModalLabel"><img src="./images/logo.jpg" class="imgs img-fluid" width="25%"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center bggrey">
+                        <h2><span class="yellowcolor">U</span>SER <span class="yellowcolor">L</span>OGIN</h2><hr class="hr opacity-10 w-75" style="margin: 0px auto;">
+                        <input type="email" placeholder="Email" class="w-75 rounded-pill p-1 px-3 mt-5 borderyellow">
+                        <input type="password" placeholder="Password" class="w-75 rounded-pill p-1 px-3 my-4     borderyellow">
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn w-75 yellowbg login" data-bs-dismiss="modal">LOGIN</button>
+                        <p class="w-100 text-center textsm">OR</p>
+                        <button type="button" class="btn btn-secondary w-75 " data-bs-dismiss="modal">LOGIN WITH GOOGLE</button>
+                        <button type="button" class="btn btn-primary w-75 " data-bs-dismiss="modal">LOGIN WITH FACEBOOK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------------------------->
+
+                    <!-------------------     signup    ----------------------->
+
+        <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog bg-light">
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bolder" id="exampleModalLabel"><img src="./images/logo.jpg" class="imgs img-fluid" width="25%"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center bggrey">
+
+                            <h2><span class="yellowcolor">SIGN</span> UP</h2>
+                            <p class="textsm">If Already Have an Account?<span class="yellowcolor pointer" data-bs-toggle="modal" data-bs-target="#login">LOGIN</span></p>
+
+                        <hr class="hr opacity-10 w-75" style="margin: 0px auto;">
+
+                        <input type="text" placeholder="Name" class="w-75 rounded-pill p-1 px-3 my-4  borderyellow">
+                        <input type="email" placeholder="Email" class="w-75 rounded-pill p-1 px-3 mb-3 borderyellow">
+                        <input type="password" placeholder="Password" class="w-75 rounded-pill p-1 px-3 my-3 borderyellow">
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn w-75 yellowbg login" data-bs-dismiss="modal">SIGN UP</button>
+                        <p class="w-100 text-center textsm">OR</p>
+                        <button type="button" class="btn btn-secondary w-75 " data-bs-dismiss="modal">LOGIN WITH GOOGLE</button>
+                        <button type="button" class="btn btn-primary w-75 " data-bs-dismiss="modal">LOGIN WITH FACEBOOK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------        alert     ------------->
+
+        <div class="modal fade" id="aboutmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"><img src="./images/logo.jpg" class="imgs img-fluid" width="20%"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-primary d-flex align-items-center" role="alert">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+                                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                            </svg>
+                            <div>
+                                Content will be coming soon...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------- C ------------------------------------>
+
+                                                    <!-- Simple If -->
+
+                                            
+        <div class="offcanvas offcanvas-end about" tabindex="-1" id="simpleif" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Simple IF</h4>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+            </div>
+        </div>
+                                                    <!-- Else If -->
+
+        <div class="offcanvas offcanvas-end about" tabindex="-1" id="elseif" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Else If</h4>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+            </div>
+        </div>
+
+                                                    <!-- Conditional -->
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="conditional" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Conditional Operator</h4>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <hr class="m-0 p-0">
+                <div class="blurlink">
+                    <a href="./website/C/Conditional/2largecond.c">
+                        <h5 class="fs-6">=> WAP to find out largest number from given 2 numbers</h5>
+                    </a>
+                </div>
+                <hr class="m-0 p-0">
+                <div class="blurlink">
+                    <a href="./website/C/Conditional/3largecond.c">
+                        <h5 class="fs-6">=> WAP to find out largest number from given 3 numbers</h5>
+                    </a>
+                </div>
+                <hr class="m-0 p-0">
+                <div class="blurlink">
+                    <a href="./website/C/Conditional/mullarge.c">
+                        <h5 class="fs-6">=> WAP to read 3 numbers, multiply largest number from first two numbers to third one</h5>
+                    </a>
+                </div>
+                <hr class="cline m-0 p-0">
+
+            </div>
+        </div>
+
+                                                    <!-- Switch-Case -->
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="switch" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Switch-Case</h4>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <a href="./website/C/switchcase/day.c">
+                            <h5 class="fs-6">=> WAP to print number of days in the given month</h5>
+                        </a>
+                    </div>
+
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <a href="./website/C/switchcase/week.c">
+                            <h5 class="fs-6">=> WAP to perform day on a week like mon,tues..</h5>
+                        </a>
+                    </div>
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <a href="./website/C/switchcase/swchoice.c">
+                            <h5 class="fs-6">=> WAP to perform Addition, Subtraction, Multiplication and Division of 2 numbers as per user’s choice</h5>
+                        </a>
+                    </div>
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <a href="./website/C/switchcase/swchoice2.c">
+                            <h5 class="fs-6">=> WAP to perform in sign form +, -, * and / of 2 numbers as per user’s choice</h5>
+                        </a>
+                    </div>
+                <hr class="m-0 p-0">
+            </div>
+        </div>
+
+                                                    <!-- loop  -->
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="loop" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel" class="text-danger fw-bolder">Loop</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#while">BASIC WHILE LOOP</button>
+                    </div>
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <button type="button" class="btn btn-primary w-100 text-uppercase" data-bs-toggle="modal" data-bs-target="#p10">Sum of SERies</button>
+                    </div>
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#p11">MATHS SUM</button>
+                    </div>
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#nested">NESTED LOOP</button>
+                    </div>
+                <hr class="m-0 p-0">  
+            </div>
+        </div>
+
+                <!----------------------------------While------------------------------------->
+
+                <div class="modal fade" id="while" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">BASIC WHILE LOOP</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p9/loop.c">
+                                            <h5 class="fs-6">=> Print 10time name</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p9/num.c">
+                                            <h5 class="fs-6">=> Print 1 to 10</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p9/1ton.c">
+                                            <h5 class="fs-6">=> Print 1 to n</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p9/odd1ton.c">
+                                            <h5 class="fs-6">=> Print odd numbers between 1 to n</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p9/div2not3.c">
+                                            <h5 class="fs-6">=> Print numbers between two given numbers which is divisible by 2 but not divisible by 3</h5>
+                                        </a>
+                                    </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------SUM OF SERIES------------------------------------->
+
+                <div class="modal fade" id="p10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">SUM OF GIVEN STATEMENT</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p10/sum1ton.c">
+                                            <h5 class="fs-6">=> Sum of 1 to n numbers</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p10/1+4+9+16.c">
+                                            <h5 class="fs-6">=> Sum of series 1+4+9+16+25+36+…n</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p10/1-2+3-4.c">
+                                            <h5 class="fs-6">=> Sum of series 1–2+3–4+5–6+7… n</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p10/1+1-2+1-3+.c">
+                                            <h5 class="fs-6">=> Sum of series 1+1/2+1/3+1/4+1/5+...+ 1/n</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------MATHS Calculation------------------------------------->
+
+                <div class="modal fade" id="p11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">MATHS Calculation</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p11/factorial.c">
+                                            <h5 class="fs-6">=> Find factorial</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p11/factor.c">
+                                            <h5 class="fs-6">=> Find factors</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p11/fls.c">
+                                            <h5 class="fs-6">=> WAP to find out sum of first and last digit of a given number</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p11/x^y.c">
+                                            <h5 class="fs-6">=> Find x^y</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/p11/perfect.c">
+                                            <h5 class="fs-6">=> WAP to check whether the given number is perfect or not.</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                    <div class="blurlink">
+                                        <a href="./website/C/loop/p11/printnumber.c">
+                                            <h5 class="fs-6">=> WAP to print digits of given number</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                    <div class="blurlink">
+                                        <a href="./website/C/loop/p11/sumofdigit.c">
+                                            <h5 class="fs-6">=> WAP to print sum of digits of given number</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                    <div class="blurlink">
+                                        <a href="./website/C/loop/p11/prime.c">
+                                            <h5 class="fs-6">=> WAP to find whether the given number is prime</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                    <div class="blurlink">
+                                        <a href="./website/C/loop/p11/Aormstong.c">
+                                            <h5 class="fs-6">=>  WAP to check whether the given number is Armstrong or not</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                    <div class="blurlink">
+                                        <a href="./website/C/loop/p11/palindrome.c">
+                                            <h5 class="fs-6">=> WAP to check whether the given number is palindrome or not</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                    <div class="blurlink">
+                                        <a href="./website/C/loop/p11/reverse.c">
+                                            <h5 class="fs-6">=> REVERSE</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!----------------------------------NESTED LOOP------------------------------------->
+
+                <div class="modal fade" id="nested" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">SUM OF GIVEN STATEMENT</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/nested/1_1+2_1+2+3.c">
+                                            <h5 class="fs-6">=> WAP to find the sum of 1+(1+2)+(1+2+3)+(1+2+3+4)+…+(1+2+3+4+….+n)</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/nested/e.c">
+                                            <h5 class="fs-6">=> Evaluate  constant 'e' value 1+1/1!+1/2!+1/3!+....</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/nested/e^x.c">
+                                            <h5 class="fs-6">=> Evaluate e^x constant 1+x^1/1!+x^2/2!+x^3/3!+....</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/nested/ev1-x+.c">
+                                            <h5 class="fs-6">=> Evaluate the series 1-x + x^2/2! + x^3/3! + ... + x^9/9!</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                                   <div class="blurlink">
+                                        <a href="./website/C/loop/nested/table.c">
+                                            <h5 class="fs-6">=> Table</h5>
+                                        </a>
+                                    </div>
+                                <hr class="m-0 p-0">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+
+                                                    <!-- Pattern -->
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="Pattern" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Pattern</h4>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ">
+                <hr>
+
+                <!--//* * * * *
+                    //*       *
+                    //*       *
+                    //*       *
+                    //* * * * * -->
+                    <h5><a href="./website/C/Pattern/space.c">
+                        * * * * *<br>
+                        * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br>
+                        * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br>
+                        * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br>
+                        * * * * *   
+                    </a>
+                    <br>
+                    </h5>
+
+                <hr>
+
+                <!--// 1
+                    // 12
+                    // 123
+                    // 1234 -->
+                    <h5><a href="./website/C/Pattern/1_12_123patn.c">
+                        1<br>
+                        1 2<br>
+                        1 2 3<br>
+                        1 2 3 4 
+                    </a>
+                    <br>
+                </h5>
+
+                <hr>
+
+                <!--// 1
+                    // 23
+                    // 456
+                    // 78910 -->
+                    <h5><a href="./website/C/Pattern/1_23_456.c">
+                        1<br>
+                        2 3<br>
+                        4 5 6<br>
+                        7 8 9 10    
+                    </a>
+                    <br>
+                </h5>
+
+                <hr>
+
+                <!--// 1
+                    // 23
+                    // 345
+                    // 4567 -->
+                    <h5><a href="./website/C/Pattern/1_23_345.c">
+                        1<br>
+                        2 3<br>
+                        3 4 5<br>
+                        4 5 6 7 
+                    </a>
+                    <br>
+                </h5>
+
+                <hr>
+                <!--// 1
+                    // 01
+                    // 101
+                    // 0101 -->
+                    <h5><a href="./website/C/Pattern/1_01_101.c">
+                        1<br>
+                        0 1<br>
+                        1 0 1<br>
+                        0 1 0 1 
+                    </a>
+                    <br>
+                </h5>
+
+                <hr>
+                    <!--// *
+                    // **
+                    // ***
+                    //   **** -->
+                    <h5><a href="./website/C/Pattern/lastspace.c">
+                        *<br>
+                        * *<br>
+                        * * *<br>
+                        &nbsp;&nbsp;&nbsp;* * * *   
+                    </a>
+                    <br>
+                </h5>
+
+                <hr>
+
+                <!--//*****
+                    //****
+                    //***
+                    //**
+                    //* -->
+                    <h5>
+                        <a href="./website/C/Pattern/rev.c">
+                            *****<br>
+                            ****<br>
+                            ***<br>
+                            **<br>
+                            *
+                        </a>
+                        <br>
+                    </h5>
+
+                    <hr>
+
+                <!--// AAAAA
+                    // BBBB
+                    // CCC
+                    // DD
+                    // E -->
+                    <h5>
+                        <a href="./website/C/Pattern/AAA_BB_C.c">
+                            AAAAA<br>
+                            BBBB<br>
+                            CCC<br>
+                            DD<br>
+                            E
+                        </a>
+                        <br>
+                    </h5>
+
+                    <hr>
+
+                <!--// 12345
+                    // 1234
+                    // 123
+                    // 12
+                    // 1 -->
+                    <h5>
+                        <a href="./website/C/Pattern/12345_1234.c">
+                            12345<br>
+                            1234<br>
+                            123<br>
+                            12<br>
+                            1
+                        </a>
+                        <br>
+                    </h5>
+
+                    <hr>
+
+                <!--// 5 5 5 5 5
+                    // 4 4 4 4
+                    // 3 3 3
+                    // 2 2
+                    // 1 -->
+                    <h5>
+                        <a href="./website/C/Pattern/555_55_5.c">
+                            55555<br>
+                            4444<br>
+                            333<br>
+                            22<br>
+                            1
+                        </a>
+                        <br>
+                    </h5>
+
+                    <hr>
+
+                <!--//   1
+                    //  A B
+                    // 2 3 4
+                    //C D E F -->
+                    <h5>
+                        <a href="./website/C/Pattern/1_a.c">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<br>
+                            &nbsp;&nbsp;&nbsp;A B<br>
+                            &nbsp;&nbsp;2 3 4<br>
+                            C D E F
+                        </a>
+                        <br>
+                    </h5>
+
+                    <hr>
+
+                <!--//   1   
+                    //  2 2
+                    // 3 3 3
+                    //4 4 4 4 -->
+                    <h5>
+                        <a href="./website/C/Pattern/patten.c">
+                            &nbsp;&nbsp;&nbsp;1<br>
+                            &nbsp;&nbsp;2 2<br>
+                            &nbsp;3 3 3<br>
+                            4 4 4 4
+                        </a>
+                        <br>
+                    </h5>
+
+                    <hr>
+
+                <!--//   *   
+                    //  * *
+                    // * * *
+                    //* * * * -->
+                    <h5>
+                        <a href="./website/C/Pattern/Untitled3.c">
+                            &nbsp;&nbsp;&nbsp;&nbsp;*<br>
+                            &nbsp;&nbsp;&nbsp;* *<br>
+                            &nbsp;&nbsp;* * *<br>
+                            &nbsp;* * * *
+                        </a>
+                        <br>
+                    </h5>
+
+                    <hr>
+            </div>
+        </div>
+
+
+                                                    <!-- Array -->
+
+        <div class="offcanvas offcanvas-end about" tabindex="-1" id="aboutmodal" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Array</h4>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+            </div>
+        </div>
+                                                    <!-- Array 2D-->
+
+        <div class="offcanvas offcanvas-end about" tabindex="-1" id="array2" aria-labelledby="offcanvasRightLabel">
+
+            <div class="offcanvas-header">
+                <h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Array 2D</h4>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+            </div>
+        </div>
+                                                    <!-- Structure -->
+
+        <div class="offcanvas offcanvas-end about" tabindex="-1" id="structure" aria-labelledby="offcanvasRightLabel">
+
+            <div class="offcanvas-header">
+                <h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Structure</h4>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <a href="./website/C/Structure/stru_rna.c">
+                            <h5 class="fs-6">=> WAP rollno,name & address one student</h5>
+                        </a>
+                    </div>
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <a href="./website/C/Structure/stru_3rna.c">
+                            <h5 class="fs-6">=> WAP rollno,name & address multiple student</h5>
+                        </a>
+                    </div>   
+                <hr class="m-0 p-0"> 
+                    <div class="blurlink">
+                        <a href="./website/C/Structure/rec_fact.c">
+                            <h5 class="fs-6">=> WAP to find the factorial of a given number using recursion</h5>
+                        </a>
+                    </div>
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <a href="./website/C/Structure/stru_book.c">
+                            <h5 class="fs-6">=> WAP to enter mupltiple record of book</h5>
+                        </a>
+                    </div>
+                <hr class="m-0 p-0">
+                        
+            </div>
+        </div>
+
+                                                    <!-- Function -->
+
+        <div class="offcanvas offcanvas-end about" tabindex="-1" id="function" aria-labelledby="offcanvasRightLabel">
+
+            <div class="offcanvas-header">
+                <h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Function</h4>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <a href="./website/C/Function/max.c">
+                            <h5 class="fs-6">=> WAP to find maximum number from given two numbers using function</h5>
+                        </a>
+                    </div>
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <a href="./website/C/Function/bsi.c">
+                            <h5 class="fs-6">=> WAP to count simple interest using function</h5>
+                        </a>
+                    </div>
+                <hr class="m-0 p-0">
+                    <div class="blurlink">
+                        <a href="./website/C/Function/addn.c">
+                            <h5 class="fs-6">=> WAP that defines a function to add first n numbers</h5>
+                        </a>
+                    </div>   
+                <hr class="m-0 p-0">     
+            </div>
+        </div>        
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

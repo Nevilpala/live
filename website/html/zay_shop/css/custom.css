@@ -1,0 +1,226 @@
+/*================================================            ABOUT          =============================================*/
+
+.about_section1{
+	color: white;
+}
+.about_section1 p{
+	font-size: 20px;
+	padding-top: 10px;
+}
+.about_section2{
+	color: black;
+}
+.service_icon{
+	text-align: center;
+	padding: 50px 20px;
+	height: 100%;
+}
+.service_icon:hover,.service_icon:hover h1{
+	background-color:#59ab6e;
+	color: white!important; 
+}
+.service_icon h1{
+	font-size: 80px;
+	margin-bottom: 20px;
+	color: #59ab6e;
+}
+.about_section3{
+	background-color: rgb(233,238,244);
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+	color: grey!important;
+}
+#company_logo img{
+	width: 50%;
+}
+#company_logo i.control_arrow{
+	font-size: 30px!important;
+	color: grey;
+}
+
+
+
+
+/*================================================            SHOP          =============================================*/
+
+/*SIDERBAR-LEFT*/
+
+.drowpdown_categories li a{
+	font-size: 25px;
+	color: black;
+	line-height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: lighter;
+}
+.drowpdown_categories li a:hover{
+	color: rgba(0,0,0,0.8);
+}
+.drowpdown_categories .down_content a{
+	line-height: 27px;
+}
+
+/*SIDERBAR-RIGHT*/
+
+.side_right .title{
+	font-size: 30px!important;
+	padding-top: 7px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.side_right .title a{
+	color: black;
+	padding-right: 10px;
+}
+.side_right .title a:hover{
+	color: #59ab6e;
+}
+.select_title{
+	font-size: 20px;
+	border-color: rgba(0,0,0,0.2);
+	border-radius: 2px;
+	width: 30%;
+	padding: 0 5px;
+}
+.select_title option{
+	font-size: 20px;
+}
+.card_shop{
+	border: 1px solid #cfd6e1;
+	overflow: hidden;
+	position: relative;
+}
+.card_shop img{
+	border: 1px solid #cfd6e1;
+	padding: 2.5px;
+}
+.card_shop .card_hover{
+	display: none;
+}
+.card_shop:hover .card_hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%!important;
+	height: 100%!important;
+	z-index: 9;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,0.6);	
+}
+.card_shop .card_hover a{
+	width: 50px;
+	height: 50px;
+	background-color: #59ab6e;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.card_shop .card_hover a:hover{
+	opacity: 0.9;
+}
+.card_shop{
+	font-size: 20px;
+}
+.card_shop .card_main{
+	position: relative;
+}
+
+/*================================================         SHOPDETAIL      =============================================*/
+
+#shopdetail{
+	background-color: rgb(233,238,244);
+}
+#shopdetail .sidebar_content{
+	border-radius: 5px;
+	overflow: hidden;
+}
+#shopdetail #img_shop_main img{
+	border: 1px solid #cfd6e1;
+}
+#shopdetail .img_shop button{
+	border: 0;
+}
+#shopdetail .img_shop button img{
+	width: 100%;
+	height: 100%;
+}
+#shopdetail .shopdetail_next_pre{
+	color: black;
+	font-size: 30px;
+}
+#shopdetail .shopdetail_next_pre:hover,.shopdetail_next_pre:focus{
+	color: black;		
+}
+
+
+/*RIGHT SIDE*/
+
+#shopdetail .sideright_content{
+	padding: 20px;
+	background-color: white;
+	border: 1px solid #cfd6e1;
+}
+#shopdetail .sideright_content p{
+	padding: 15px 0;
+}
+#shopdetail .sideright_content .size_quantity{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#shopdetail .sideright_content .size_quantity select option{
+	background-color: white;
+	color: black;
+
+}
+#shopdetail .sideright_content .buy a{
+	width: 90%;
+	margin-right: 15px;
+
+}
+
+/*================================================         CONTACT      =============================================*/
+
+.contact_form{
+	width: 75%;
+	margin: 0 auto;
+	align-items: center;
+}
+.contact_form textarea{
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+	.side_right div.row{
+		margin: 20px;
+	}
+	#shopdetail .sideright_content .size_quantity {
+		display: block;
+		margin-top: 15px;
+	}
+	/*.side_right div.row .col-sm-6{
+		flex: 0 0 auto;
+		min-width: 50%;
+	}
+}
+

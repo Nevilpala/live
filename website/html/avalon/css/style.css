@@ -1,0 +1,443 @@
+a{
+	text-decoration: none;
+}
+div{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav,ul,li,nav,header,.img-fluid{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	padding: 0;
+}
+.custom-container{
+	padding: 0 30px;
+}
+.v-center{
+	display: flex!important;
+	align-items: center!important;
+}
+.paddingy{
+	padding: 7% 0;
+}
+.paddingy-sm{
+	padding: 4% 0;
+}
+.textsm{
+	font-size: 13px;
+}
+
+
+.bgcontent-1{
+	background-image: url(../img/banner-bg.png);
+	background-size: cover;
+	height: 680px;
+	min-height: 680px;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	justify-content: center;
+	padding-left: 150px;
+	color: white;
+}
+.line{
+	width: 10%;
+	height: 4px;
+	background-color: #f4bc51;
+	margin: 2% 0;
+}
+.discover{
+	border-radius: 220px;
+	padding: 15px;
+	border: 1px solid white;
+	background-color: transparent;
+	width: auto;
+	color: white;
+	margin-top: 10px;
+}
+.bgcontent-2{
+	background-color: #f4bc51;
+	height: 680px;
+	min-height: 680px;
+	max-width: 100%;
+	text-align: center;
+	color: white;
+	padding: 25% 30px 5% 30px;
+
+}
+.icon_social i{
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 8px;
+	background-color: white;
+	color: #f4bc51;
+	font-size: 25px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.bgcontent-3{
+	min-height: 550px;
+    height: 550px;
+	background-image: url(../img/best-offer-bg.png);
+	background-size: 100%;
+	background-position: center center;
+	flex-direction: column;
+	justify-content: center;
+}
+.best-offer{
+	padding: 50px;
+	border-radius: 50%;
+	border: 1px solid rgba(255,255,255,0.8);
+}
+.bgcontent-4{
+	padding: 30px;
+	min-height: 550px;
+    height: auto;
+    padding-top: 8%;
+    padding-bottom: 0;
+    background-color: #eee;
+}
+
+.bgcontent-4 h3{
+	color: #b94e5e;
+	margin: 5px 0;
+}
+.bgcontent-4 p{
+	margin: 15px 0;
+}
+.bgcontent-4 .discovermore{
+	background-color: #b94e5e;
+	border-radius: 50px;
+	border-color: transparent;
+	padding: 10px;
+	color: white;
+	font-weight: 500;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+
+.bgcontent-5{
+	background-image: url(../img/events-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 100px 0;
+}
+.indicate-corosel{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: stretch;
+	padding-bottom: 50px;
+}
+.indicate-corosel button{
+	border: 0;
+	padding: 15px;
+	font-family: sans-serif;
+	margin: 2px;
+	font-weight: 550;
+}
+.indicate-corosel button.actives{
+	color: 	#f4bc51;
+}
+
+
+.notification{
+	background-color: white;
+	min-height: 500px;
+	transition-duration: 20s;
+
+}
+.notification .notify:nth-child(1){
+	background-color: #eee;
+
+}
+.notification .notify:nth-child(2){
+	background-color: #ddd;
+	margin-top: 5px;
+}
+.notification .notify:nth-child(3){
+	margin-top: 5px;
+	background-color: #eee;
+}
+.notification .notify:nth-child(4){
+	margin-top: 5px;
+	background-color: #ddd;
+}
+.notification .notify:nth-child(5){
+	margin-top: 5px;
+	background-color: #eee;
+}
+
+.notify{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 30px 20px 10px;
+	align-items: center;
+}
+.notify div p{
+	font-size: 13px;
+	margin-top: 5px;
+}
+.notify div:first-child{
+	background-color: 	#f4bc51;
+	padding: 10px 15px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	flex: 0 0 auto;
+	width: 10%;
+	padding-left: 15px;
+}
+.notify div:nth-child(2){
+	text-align: left;
+	flex: 0 0 auto;
+	width: 30%;
+	padding-left: 15px;
+}
+.notify div:nth-child(3){
+	text-align: left;
+	flex: 0 0 auto;
+	width: 30%;
+	padding-left: 15px;
+}
+.notify div:nth-child(4){
+	text-align: right;
+	flex: 0 0 auto;
+	width: 30%;
+	padding-left: 15px;
+}
+.interest{
+	padding: 10px 20px;
+	border-radius: 60px;
+	border: 0;
+	background-color: white;
+	font-weight: 500;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.interest:hover{
+	background-color: #f4bc51;
+	color: white;
+	transition-duration: 0.4s;
+}
+.bgcontent-6{
+	min-height: 550px;
+	background-image: url(../img/testimonial-left-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.bgcontent-7{
+	min-height: 550px;
+
+}
+#profile{
+	user-select: none;
+}
+.profile-indicator button{
+	width: 20px!important;		
+	height: 20px!important;		
+	background-color: black!important;
+	border-radius: 50%;
+}
+
+
+
+
+.flip-box {
+	width: 100%!important;
+	height: 350px;
+	perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	padding: 0;
+}
+
+.flip-icon{
+	padding: 15px;
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid white;
+}
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.4s;
+	transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+	transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+
+/* Style the back side */
+.flip-box-back {
+	color: white;
+	padding: 30px;
+	padding-top: 30%;
+	font-size: 13px;
+	transform: rotateY(180deg);
+}
+.box-1{
+	background-color: rgba(244, 188, 81, 0.9)!important;
+	margin: 0!important;
+}
+.box-2{
+	background-color: rgba(243, 158, 75, 0.9)!important;
+	margin: 0!important;
+}
+.box-3{
+	background-color: rgba(185, 78, 94, 0.9)!important;
+	margin: 0!important;
+}
+.box-4{
+	background-color: rgba(232, 104, 89, 0.9)!important;
+	margin: 0!important;
+}
+.front-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.bgcontent-8{
+	background-image: url(../img/services-bg.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.bgcontent-9{
+	background-image: url(../img/contact-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+}
+.contact-form-detail{
+	width: 100%;
+	padding: 5px 20px;
+	border: 0;
+	border-bottom: 2px solid white;
+	background-color: rgba(255,255,255,0.2);
+	color: rgba(255,255,255,0.6);
+	font-size: 14px;
+	outline: none;
+}
+.contact-form-detail::placeholder{
+	color: rgba(255,255,255,0.6);
+}
+.contact-textarea{
+	width: 100%;
+	min-height: 200px;
+}
+.sendbtn{
+	padding: 10px 25px;
+	background-color: #f39e4b;
+	font-size: 13px;
+	outline: none;
+	border: 0;
+	border-radius: 100px;
+	color: white;
+	font-weight: bold;
+}
+.bgcontent-10{
+	background-image: url(../img/contact-right-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+}
+footer{
+	background-color: #bfd8d2;
+	line-height: 80px;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px)
+{
+	.bgcontent-1{
+		align-items: center;
+		padding: 0;
+	}
+	.bgcontent-2{
+		padding: 0 30px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.bgcontent-4 div{
+		text-align: center;
+		width: 100%!important;
+	}
+	.notify{
+	}
+	.notify div:nth-child(1){
+		width: 50%;
+		text-align: center;
+		padding: 20px;
+	}
+	.notify div:nth-child(2){
+		width: 50%;
+		text-align: center;
+		padding: 20px;
+	}
+	.notify div:nth-child(3){
+		width: 50%;
+		text-align: center;
+		padding: 20px;
+	}
+	.notify div:nth-child(4){
+		width: 50%;
+		text-align: center;
+		padding: 20px;
+	}
+}
+@media screen and (max-width: 576px)
+{
+	.indicate-corosel button{
+		flex: 0 0 auto;
+		width: 40%;
+	}
+	.notify div{
+		flex: 0 0 auto;
+		width: 100%!important;
+	}
+}

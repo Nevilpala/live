@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <!-- Required metaatags -->
+    	  <meta charset="utf-8">
+    	  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	 <!-- Bootstrap CSS -->
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	 <!--  Font Awesome -->
+  	  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	 
+	 <!--  Custom CSS -->
+	  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	
+	<title></title>
+</head>
+<body>
+    <div class="modal fade" id="menu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title fw-bolder" id="exampleModalLabel">MENU</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body text-center bggrey modlbutton">
+
+					<a href="./index2.html#home"><button  class="btn btn-outline-secondary w-75 my-3" data-bs-dismiss="modal"> HOME</button></a>
+
+					<a href="./index2.html#template"><button  class="btn btn-outline-secondary w-75 my-3 active" data-bs-dismiss="modal"> BOOTSTRAP</button></a>
+
+					<a href="./index2.html#c"><button  class="btn btn-outline-secondary w-75 my-3" data-bs-dismiss="modal"> C </button></a>
+
+					<a href="./index2.html#javascript" class="" data-bs-dismiss="modal"><button  class="btn btn-outline-secondary w-75 my-3" data-bs-dismiss="modal"> Javascript</button></a>
+
+				</div>
+				<div class="modal-footer justify-content-center">
+					<button type="button" class="btn w-75 yellowbg" data-bs-dismiss="modal">CLOSE</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-----------------------------------       HEADER          ---------------------------------------->
+
+    <header class="container" id="home">
+        <nav class="navbar navbar-expand-md navbar-light mynav p-0 m-0">
+            <div class="container-fluid ">
+                <div class="navbar-brand text-center w-25">
+                    <div class="logo">
+                       <img src="./images/logo.jpg" class="img-fluid" width="40%">
+                    </div>
+                </div>
+                <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                     <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse navbaar w-75 justify-content-end align-items-center" id="navbar1" >
+                    <div class="navbar-nav align-items-center textsm-md">
+                        <a class="nav-link text-uppercase px-4" aria-current="page" href="./index2.html#home"><span class="fw-bolder">Home</span></a>
+                        <a class="nav-link text-uppercase px-4" href="#" data-bs-toggle="modal" data-bs-target="#aboutmodal"><span class="fw-bolder">About</span></a>
+                    	<div class="nav-link dropdown mydrop">
+                    		<span class="dropdown-toggle fw-bolder" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    			PROJECT
+                    		</span>
+
+                    		<ul class="dropdown-menu mydropdown"  aria-labelledby="dropdownMenuLink">
+                    			<li><a class="dropdown-item" href="./index2.html#template">BOOTSTRAP</a></li>
+                    			<li><a class="dropdown-item" href="./index2.html#c">C</a></li>
+                    			<li><a class="dropdown-item" href="./index2.html#js">JAVASCRIP</a></li>
+                    		</ul>
+                    	</div>
+                        </a>
+                        <a class="nav-link text-uppercase px-4 pointer" data-bs-toggle="modal" data-bs-target="./index2.html#signup"><span class="fw-bolder">signup</span></a>
+                        <a class="nav-link text-uppercase px-4 btn btn-warning text-light" href="./index2.html#login"><span class="fw-bolder">login</span></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+                <!------------------------------        alert     ------------->
+
+                <div class="modal fade" id="aboutmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                	<div class="modal-dialog">
+                		<div class="modal-content">
+                			<div class="modal-header">
+                				<h5 class="modal-title" id="exampleModalLabel"><img src="./images/logo.jpg" class="imgs img-fluid" width="20%"></h5>
+                				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                			</div>
+                			<div class="modal-body">
+                				<div class="alert alert-primary d-flex align-items-center" role="alert">
+                					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+                						<path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                					</svg>
+                					<div>
+                						Content will be coming soon...
+                					</div>
+                				</div>
+                			</div>
+                			<div class="modal-footer">
+                				<button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                			</div>
+                		</div>
+                	</div>
+                </div>
+
+<!-------------------------------------------breadcrumb---------------------------------------------->
+
+	<section class="container-fluid yellowbg py-1">
+		<div class="container">
+			<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+				<ol class="breadcrumb m-0 lgtext text-uppercase">
+					<li class="breadcrumb-item "><a href="./index.html">Home</a></li>
+					<li class="breadcrumb-item active " aria-current="page">Bootstrap</li>
+				</ol>
+			</nav>	
+		</div>
+	</section>
+
+<!---------------------------------------------------------------------------------------------------->
+
+	<section class="container-fluid bg1">
+		<h1 class="fw-bolder text-center text-light">
+			BOOTSTRAP
+		</h1>
+	</section>
+
+<!---------------------------------------------------------------------------------------------------->
+
+	<section class="container-fluid bg2 topbottompad">
+		<div class="container">
+            <div id="bootstrap_slide" class="carousel" data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="myrow ">
+                            <div class="mycol">
+                                <a href="./website/html/8/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/8.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/5/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/5.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/18/boot18.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/18.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mycol">
+                                <a href="./website/html/1/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/1.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/10/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/10.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/7/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/7.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mycol">
+                                <a href="./website/html/ex1/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/ex1.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/ex2/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/ex2.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/9/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/9.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/grad/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/grad.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/volton/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/volton.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/care/indexcare.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/care.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="myrow"> 
+                            <div class="mycol">
+                                <a href="./website/html/parallo/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/parallo.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/Transportz/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/transportz.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/astro_motion/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/astro-motion.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/black_beat/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/black_beat.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/zay_shop/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/zay_shop.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/vanilla/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/vanilla.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/pop/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/pop.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/avalon/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/avalon.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mycol">
+                                <a href="./website/html/leadership_event/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/leadership_event.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mycol">
+                                <a href="./website/html/ion/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/ion.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mycol">
+                                <a href="./website/html/eletronic/index.html" class="templateimg">
+                                    <div class="card shadow h-100 zoomimg">
+                                        <img src="./templete/eletronic.png" class="card-img-top">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <nav  class="mypagination" aria-label="Page navigation example">
+                <ul class="pagination justify-content-center" id="pagination_button">
+                    <li class="page-item disable">
+                        <a class="page-link bg-light text-muted" aria-label="Previous"><</a>
+                    </li>
+                    <li class="page-item actives"><a class="page-link active" data-bs-target="#bootstrap_slide" data-bs-slide-to="0">1</a> </li>
+                    <li class="page-item"><a class="page-link" href="#bootstrap_slide" data-bs-slide-to="1">2</a></li>
+                    <!-- <li class="page-item"><a class="page-link" href="#bootstrap_slide" data-bs-slide-to="2">3</a></li> -->
+                    <li class="page-item disable">
+                        <a class="page-link bg-light text-muted "  aria-label="Next">></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+	</section>
+
+<!---------------------------------------------------------------------------------------------------->
+
+	<footer class="container-fluid footbg">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-lg col-md-6 col-sm-12 linkhover2">
+					<h4 class="fw-bold pb-4">Contact</h4>
+					<ul class="ullink">
+						<li><i class="fab fa-facebook-f pe-4"></i> Facebook</li>
+						<li><i class="fab fa-twitter pe-3"></i> Twitter</li>
+						<li><i class="fas fa-phone-alt pe-3"></i> +9913190874</li>
+						<li><i class="fas fa-envelope pe-3"></i>np.webdesigner00@gmail.com</li>
+						
+				</div>
+				<div class="col-lg col-md-6 col-sm-12 linkhover2">
+					<h4 class="fw-bold pb-4">Useful Links</h4>
+					<ul class="ullink">
+						<li><a href="#home">BOOTSTRAP</a></li>
+						<li><a href="./index2.html#c">C</a></li>
+						<li><a href="">JAVA</a></li>
+						<!-- <a href=""></a>
+						<a href=""></a> -->
+				</div>
+				<div class="col-lg col-md-6 col-sm-12">
+					<h4 class="fw-bold pb-4">Contact Us</h4>
+					<form class="form2">
+						<input type="text" placeholder="Full name" class="rounded-pill w-100 p-2 input2" required="required">
+						<input type="email" placeholder="E-mail Address" class="rounded-pill w-100 p-2 input2" required="required">
+						<textarea class="p-2 w-100 input2 textarea2">Your Message</textarea>
+						<input type="submit" class="btn btn-outline-light rounded-pill submit3" value="SEND MESSAGE">
+					</form>
+				</div>
+			</div>		
+		</div>
+	</footer>
+
+<!---------------------------------------------------------------------------------------------------->
+
+<script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("pagination_button");
+        var corosolbtns = header.getElementsByClassName("page-item");
+        for (var i = 0; i < corosolbtns.length; i++) {
+            corosolbtns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("actives");
+                if (current.length > 0) { 
+                    current[0].className = current[0].className.replace(" actives", "");
+                }
+                this.className += " actives";
+            });
+        }
+    </script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

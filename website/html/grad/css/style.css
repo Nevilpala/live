@@ -1,0 +1,354 @@
+a{
+    text-decoration: none;
+}
+.container-fluid,span{
+    margin: 0;
+    padding: 0;
+}
+.bluebg{
+    background-color: rgba(22,34,57,0.95);
+}
+.lightbluebg{
+    background-color: rgba(22,34,57,0.85);
+}
+.yellowcolor{
+    color: rgb(255,194,33);
+}
+.yellowbg{
+    background-color: rgb(255,194,33);
+}
+.yellowbtn{
+    padding: 7px 20px;
+    background-color: rgb(255,194,33)!important;
+    border-radius: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.yellowbtn:hover{
+    color: white;
+    background-color: rgba(255,194,33,0.9);
+}
+
+/*HEADER-------------------------------------------------------------------------------*/
+
+nav{
+    padding : 0px 25px;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.logo:hover{
+    color: white;
+}
+.logo span{
+     color: rgb(255,194,33);
+}
+.mynavcollaspe ul li{
+    text-align: center;
+}
+.mynavcollaspe ul li ul li{
+    background-color: rgba(22,34,57,0.95);
+    font-size: 12px;
+}
+.mynavcollaspe  ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 640;
+    border : 1.5px solid rgba(0,0,0,0);
+    padding: 5px 15px;
+    font-size: 13px;
+    letter-spacing:0.5px;
+}
+.marginleft{
+    margin-left: 20px;
+}
+.mynavcollaspe  ul li a:hover{
+    border : 1.5px solid rgb(255,194,33);
+    color : white;
+}
+.navdropdown,.navdropdown ul{
+    margin: 0;
+    padding: 0;
+}
+.navdropdown ul li{
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+    text-align: center;
+}
+.navdropdown ul li a{
+    border:0;
+}
+.navdropdown ul li a:hover{
+    color: rgb(255,194,33);
+    background-color: rgba(22,34,57,0.95);
+    border :0;
+}
+
+/*SECTION 1 -----------------------------------------------------------------------*/
+
+.firstbg{
+    background-color: rgba(22,34,57,0.85)!important;
+    min-height: 90vh;
+    position: relative;
+}
+.firstbgcontent{
+    text-align: center;
+    font-weight: bold;
+}
+.firstbg p{
+    color: white;
+    overflow: hidden;
+}
+.firstbg h1{
+    font-weight: bolder;
+    color: white;
+}
+.height100{
+    min-height: 80vh;
+}
+.upperdown{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    width: 85%;
+    margin: 0px auto;
+}
+.upperdown .card{
+    padding: 20px;
+}
+.upperdowncontent{
+    width: 100%;
+}
+.upperdowncontent:hover{
+
+}
+.upperdowncontent p{
+    top: -25px;
+    z-index: -2;
+    position: absolute;
+
+}
+.upperdowncontent p:hover{
+    margin: 100px;
+    top: 25px;
+    position: relative;
+}
+
+/*SECTION-2-----------------------------------------------------------------------------------------*/
+
+.secondbg{
+    background-image: url(../images/choosing-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5% 0%;
+    text-align: center;
+    color: white; 
+}
+.second-head span{
+    padding: 9px 20px;
+    border: 1px solid grey;
+}
+.coroselbutton{
+    margin-top: 60px;
+}
+.coroselbutton button{
+    color: white;
+    border:0;
+}
+.square{
+    padding: 1px 6px 6px 6px;
+    border: 2px solid rgba(0,0,0,0);
+}
+.square:hover{
+    border: 2px solid rgb(255,194,33);
+}
+.coroselbutton button:hover{
+    color: rgb(255,194,33);
+}
+.coroselcontent{
+    margin-top: 70px;
+}
+.coroseinner{
+    text-align: left;
+}
+.coroseinner p{
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+/*SECTION-3 -----------------------------------------------------------------------------*/
+
+.thirdbg{
+    background-image: url(../images/coming-soon-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 7% 0%;
+}
+.third-leftside{
+    color: white;
+    padding: 20px;
+}
+.third-leftside h3{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.left-square-card{
+    background-color: rgba(255,255,255,0.1);
+    text-align: center;
+    padding: 15px;
+}
+.left-square-card h1{
+    font-size: 50px; 
+    font-weight: bolder;
+}
+.left-square-card p{
+    color: rgb(255,194,33);
+}
+.third-rightside{
+    color: white;
+}
+.right-head{
+    padding: 40px;
+    background-color: rgba(255,255,255,0.2);
+}
+.right-content{
+    padding: 60px 40px;
+    background-color: rgba(255,255,255,0.1);
+}
+.right-content input{
+    background-color: rgba(255,255,255,0.2);
+    padding: 7px 20px;
+    width: 100%;
+    margin-bottom: 25px;
+    border: 0;
+    color: white;
+}
+.right-content input::placeholder{
+    color: white;
+}
+.orangebtn{
+    padding: 10px 14px;
+    background-color: orange!important;
+    border-radius: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    width: auto!important;
+    line-height: 25px;
+}
+.orangebtn:hover{
+    color: white;
+    background-color: rgba(255,194,33,0.9)!important;
+}
+
+/*SECTION-4 -----------------------------------------------------------------------------*/
+
+.fourbg{
+    padding: 7% 0;
+    background-image: url(../images/choosing-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 102%;
+}
+.fourbg .second-head{
+    color: white;
+    margin-bottom: 60px;
+}
+.imgcard .card-title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.imgcard .card-text{
+    font-size: 13px;
+}
+.imgcard .card{
+    display: inline-block;
+}
+
+/*SECTION-5 -----------------------------------------------------------------------------*/
+
+.fivebg{
+    padding: 10% 0%;
+    background-image: url(../images/video-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+
+}
+.five-title{
+    font-weight: bolder;
+}
+.fivecontent p{
+    padding-top: 15px;
+    font-size: 15px;
+}
+.relative{
+    position: relative;
+}
+.absolute-body{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.65);
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/*SECTION-6 -----------------------------------------------------------------------------*/
+
+.sixbg{
+    padding: 8% 0%;
+    background-image: url(../images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+.mapcontent{
+    margin-top: 60px;
+}
+.mapleft{
+    padding: 30px;
+    background-color: rgba(255,255,255,0.2);
+    margin-right: 40px;
+}
+.sixbg input{
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(255,255,255,0.4);
+    border:0;
+    color: white;
+}
+.sixbg input::placeholder{
+    color: white;
+}
+.sixbg textarea{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.4);
+    border:0;
+    padding: 8px;
+    color: white;
+    height: 200px;
+}
+.footbg{
+    margin: 0!important;
+    padding: 0!important;
+    /*padding: 20px 0;*/
+}
+.footcontent{
+    padding: 20px 0;
+    margin: 0!important;
+    color: white;
+}

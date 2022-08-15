@@ -1,0 +1,181 @@
+header{
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+}
+header a{
+	color: white!important;
+}
+*{
+	/*border: 1px solid red;*/
+}
+.container-fluid,.navbar-nav,.navbar-collapse,p{
+	margin: 0!important;
+	padding: 0!important;
+}
+.container{
+	width: 55%;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.pointer{
+	cursor: pointer;
+}
+.textsm{
+	font-size: 12px;
+}
+.posirelative{
+	position: relative;
+}
+.xsmall{
+	font-size: 10px;
+}
+.yellowcolor{
+	color: rgb(255,194,33);
+}
+.yellowbg{
+	background-color: rgb(255,194,33);
+}
+.bluebg{
+	background-color: rgb(32,7,105);
+}
+.greybg{
+	background-color: rgb(195,195,195);
+}
+.bluecolor{
+	color: rgb(32,7,105);
+}
+.logo{
+	position: relative;
+	background-color: rgb(239,239,239);
+}
+.nav{
+	background-color: rgb(239,239,239);
+	/*padding: 2% 0;*/
+	position: relative;
+	top: 0;
+	left: 0;
+	right:0;
+	bottom: 0;
+}
+.arrowtop{
+	position: relative;
+	top: 0;
+	left: 0;
+	right:0;
+	bottom: 0;
+	/*z-index: 9999999;*/
+	margin: 0 -80px;
+}
+.arrowtop2{
+	position: relative;
+	/*z-index: 9999;*/
+	margin: 0 -48px;
+}
+.arrowtop3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 00px;
+	bottom: 0;
+	margin: 0 -21px;
+}
+header ul li{
+	display: inline-block;
+	padding: 0 1%;
+	font-size: 15px;
+}
+header ul li a{
+	font-size: 12px;
+	margin-top: 10px;
+}
+header ul li a:hover{
+	color: yellow!important;
+}
+.searchabsolute2{
+	position: relative;
+	right: 0px;
+	left: 5%;
+	top: 0;
+	bottom: 0;
+	background-color: rgb(15,5,47)!important;
+}
+.inputserach{
+	background-color: rgb(15,5,47)!important;
+	border:0;
+}
+.bg1{
+	background-image: url(../images/banner2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.shadows{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+.read{
+	color: white;
+}
+.padtopbottom{
+	padding: 5% 0%!important;
+}
+.magtopbottom{
+	margin: 5% 0%!important;
+}
+.greyabsolute{
+	position: absolute;
+	background-color: rgba(195,195,195,0.6);
+	height: 100%;
+	z-index: -1;
+	width: 50%;
+}
+.input1,.form1 textarea{
+	padding: 7px 10px;
+	border:1px solid rgba(0, 0, 0, 0.20);
+	margin-bottom: 20px;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.send{
+	padding: 7px 40px;
+	background-color: orange;
+	color: white;
+	border:0;
+}
+footer{
+	background-color: rgb(15,8,36)!important;
+	position: relative;
+}
+.violet{
+	color: rgb(15,8,36)!important;
+}
+.footer{
+	padding: 3% 0%;
+}
+.emailsearch{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: -25px auto;
+	/*z-index: -1;*/
+}
+.emailsearch input{
+	padding: 9px 15px;
+}
+.emailsearch button{
+	background-color: orange;
+}
+.footer li{
+	padding-bottom: 8px;
+}
+.circlepad{
+	padding: 2px 4px;
+}
+.circlepad1{
+	padding: 2px 6px;
+}
+.circlepad2{
+	padding: 2px 3px;
+}

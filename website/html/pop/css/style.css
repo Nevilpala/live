@@ -1,0 +1,236 @@
+a{
+	text-decoration: none;
+}
+div{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav,ul,li,nav,header,.img-fluid{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	padding: 0;
+}
+.custom-container{
+	padding: 0 30px;
+}
+.vh-center{
+	display: flex!important;
+	align-items: center!important;
+	justify-content: center;
+}
+.v-center{
+	display: flex!important;
+	align-items: center!important;
+}
+.paddingy{
+	padding: 4% 0%!important;
+}
+
+.textsm{
+	font-size: 13px;
+}
+
+
+
+body{
+	background-image: url(../img/pop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	height: 100vh;
+	color: white;
+}
+.mainbg{
+	min-height: 90vh;
+	color: white;
+	align-items: center;
+	display: flex;
+}
+.mainrow{
+	margin: 0;
+}
+.linedesign{
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+
+}
+.linedesign div{
+	width: 100%;
+	height: 2px;
+	background-color: white;
+}
+.linedesign span{
+	width: 35%;
+	background-color: white;
+	height: 20px;
+}
+.headerlink{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 55px 30px 10px 30px;
+	border: 1px solid white;
+	transition-duration: 1s;
+	background-color: transparent;
+	color: white;
+}
+.headerlink:hover{
+	background-color: rgba(128,128,128,0.9);
+}
+.headerlink i{
+	font-size: 50px;
+}	
+.headerlink p{
+	margin-top: 15px;
+	font-weight: lighter;
+	font-size: 20px;
+}
+footer{
+	width: 100%!important;
+	height: 7vh;
+	color: white;
+	margin-top: 3vh;
+}
+footer span{
+	background-color: rgba(0,0,0,0.7);
+	padding: 10px 20px;
+	width: auto;
+
+}
+
+/*ALL MODAL =======================================================*/
+
+.myclose-btn{
+	border: 0;
+	background-color: transparent;
+	font-size: 25px;
+	color: white;
+
+}
+.mymodal_design .modal-content{
+	background-color: #2c2a35;
+}
+.mymodal_design .modal-body{
+	min-height: 70vh;
+	margin-top: 0;
+	padding-top: 0;
+	padding: 0 40px;
+	padding-bottom: 25px;
+}
+.modal-title-body{
+	font-size: 35px;
+	margin: 10px 0 15px 0;
+	font-weight: lighter;
+}
+.mymodal_design .modal_row p, .body-text{
+	margin: 13px 0;
+	font-size: 17px;
+	letter-spacing: 1.5px;
+	font-weight: lighter;
+}
+.readmore{
+    background-color: #494752;
+    padding: 10px 40px;
+    border: 0;
+    color: white;
+}
+.readmore:hover{
+	background-color: #77757d;
+}
+.row_work_corosol{
+	width: 82%;
+	margin: 0 auto;
+}
+.indicator{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 15px;
+	position: relative;
+}
+.indicator button{
+	border: 0;
+	background-color: transparent;
+	color: white;
+	width: 18px!important;
+	height: 18px!important;
+	border-radius: 50%;
+}
+.contact input{
+	width: 100%;
+	background-color: #494752;
+	padding: 10px 25px 10px 15px;
+	border: 0;
+}
+.contact textarea{
+	width: 100%;
+	background-color: #494752;
+	padding: 10px 25px 10px 15px;
+	min-height: 200px;
+	border: 0;
+}
+.contact .submit{
+	padding: 9px 25px;
+	border: 0;
+	background-color: #006599;
+	color: white;
+}
+.myrow{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-top: 20px;
+}
+.mycol{
+	flex: 0 0 auto;
+	padding: 10px;
+	width: 25%;
+}
+
+
+
+
+@media screen and (max-width: 768px)
+{
+	body{
+		min-height: 100vh;
+		background-attachment: fixed;
+		background-size: cover 100%;
+		background-position: center center;
+	}
+	.headtitle{
+		font-size: 45px;
+	}
+	.headerlink{
+		padding: 50px 20px 5px 20px;
+	}
+	.headerlink i{
+		font-size: 40px;
+	}
+	.modal-lg{
+		max-width: 670px;
+	}
+}
+@media screen and (max-width: 576px)
+{
+	.paddingy-sm{
+		padding: 4% 0%!important;
+	}
+	.mainbg{
+		min-height: 101vh;
+	}
+	footer{
+		min-height: 10vh;
+		margin-top: 25px;
+		display: block;
+	}
+	footer span{
+		padding: 10px;
+	}
+	.mycol{
+		width: 50%;
+	}
+}

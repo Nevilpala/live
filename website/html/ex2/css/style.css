@@ -1,0 +1,321 @@
+/**{
+	border: 1px solid red;
+}*/
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+.container-fluid{
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+div{
+	display: block;
+}
+.pointer{
+	cursor: pointer;
+}
+.textsm{
+	font-size: 12px;
+}
+.xsmall{
+	font-size: 10px;
+}
+ul, li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+}
+.pinkcolor{
+	color: #fa65b1;
+}
+.pinkoutcol{
+	color: #fa65b1!important;
+	border: 1px solid #fa65b1!important;
+	background-color: transparent!important;
+	font-weight: bold;
+}
+.pinkoutcol:hover{
+	background-color: #fa65b1!important	;
+	border: 1px solid #fa65b1!important	;
+	color: white!important;
+}
+.bluecolor{
+	color: #726ae3;
+}
+.pinkbg{
+	background-color: #fa65b1;
+}
+.padtopbottom{
+	padding: 6% 0%;
+}
+
+/*HEADER*/
+header{
+	position: sticky!important;
+}
+.bg1{
+	background-color: #efefef;
+	padding: 15px 0px;
+}
+.bg1 ul li {
+  display: inline-block;
+}
+.icon1{
+	color: #afafaf;
+	font-size: 13px;
+}
+.icon2{
+	text-align: right;
+	font-size: 13px;
+}
+.icon2 li{
+	border-radius: 100%;
+	padding: 1% 2%;
+	color: white;
+	background-color: #afafaf;
+}
+.nav-item li a.active{
+	position: relative;
+}
+/*.nav-item li a.active:after {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #fa65b1;
+  content: '';
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+}*/
+.mynav li a{
+  font-weight: bolder;
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  border-bottom: 2px solid rgba(0,0,0,0);
+}
+.mynav span a{
+  font-weight: bolder;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.mynav li:hover a{
+  color: #fa65b1!important	;
+  border-bottom: 2px solid #fa65b1;
+}
+.mynav li a.active{
+	margin: 0 auto;
+  color: #fa65b1!important	;
+  border-bottom: 2px solid #fa65b1;
+}
+.pinkoutcol:hover{
+	background-color: #fa65b1;
+	border: 1px solid #fa65b1;
+	color: white!important;
+}
+.bg2{
+	background-image: url(../images/slider-left-dec.jpg), url(../images/slider-right-dec.jpg);
+	background-size: 20% 100%, 80% 100%;
+	background-repeat: no-repeat;
+	background-position: left,right;
+
+}
+.bg2 h6{
+	font-weight: bolder;
+	font-size: 20px;
+	color: #fa65b1;
+	text-transform: uppercase;
+}
+.bg2 h2{
+	font-weight: bolder;
+	font-size: 45px;
+	padding: 3% 0%;
+}
+.bg2 p{
+	color: grey;
+}
+.circle1{
+	text-align: center;
+	border: 2px solid #fa65b1;
+	height: 125px;
+	width: 125px;
+	padding-top: 25px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.circle2{
+	text-align: center;
+	border: 2px solid #726ae3;
+	height: 125px;
+	width: 125px;
+	padding-top: 25px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.circle3{
+	text-align: center;			
+	border: 2px solid orange;
+	height: 125px;
+	width: 125px;
+	padding-top: 25px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.corosol-button{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+.corosol-button button{
+	height: 100%;
+	width: 100%;
+	margin:0;
+	background-color: transparent;
+	border:0;
+}
+.corosol-button span{
+	width: 19%;
+	padding: 3% 0%;
+	border-radius: 25px;
+	overflow: hidden;
+}
+.actives, .corosolbtn:hover {
+  background-color: transparent;
+  color: black;
+	border: 1px solid grey;
+}
+.mycorosol{
+	padding: 8% 13%;/*
+	border: 1px solid grey;*/
+	border-radius: 40px;
+	box-shadow: -4px 10px 20px grey;
+}
+.mycorosol p{
+	opacity: 0.7;
+}
+.check{
+}
+.check span{
+	margin-right: 50px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+.bg5{
+	background-image: url(../images/quote-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+}
+.getquotenow{
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 30px;
+	background-color: white;
+	position: relative;
+}
+.inputtm{
+	padding: 2% 0% 2% 2%;
+}
+.search1{
+	width: 100%;
+	height: 100%;
+	padding: 3% 2% 3% 0%;
+	background-color: blue;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+.input1{
+	width: 50%;
+	padding: 1%;
+	margin:0;
+	float: left;
+	border:0;
+}
+.submit1{
+	padding: 1%;
+	margin:0;
+	width: 100%;
+	height: 100%;
+	border:0;
+	background-color: blue;	
+	color: white;
+	font-weight: bolder;
+}
+.sidebarleft{
+	border-radius: 50px 50px 0px 0px;
+	overflow: hidden;
+}
+.sidebarright img{
+	border-radius: 50px;
+}
+.mapdetail{
+	border-radius: 25px;
+	overflow: hidden;
+}
+.map{
+	overflow: hidden;
+	display: block;
+	background-color: white;
+	position: relative;
+	min-height: 620px;
+
+}
+.loading{
+	position: absolute;
+	z-index: 1;
+	top:50%;
+	left:0%;
+	right: 0;
+	bottom: 0;
+}
+.Map1{
+	position: absolute;
+	z-index: 2;
+	left: 0px; 
+	top: 0px;
+	height: 100%; 
+	width: 100%; 
+	padding: 0px; 
+	border-width: 0px; 
+	margin: 0px;
+	cursor: url("https://maps.gstatic.com/mapfiles/openhand_8_8.cur"), default;
+}
+.detail{
+	padding: 90px 100px !important;
+}
+
+.form2 input{
+	border:1px solid rgba(0,0,0,0.2);
+	color: grey;
+	width: 100%;
+}
+.inputs{
+	margin-bottom: 10%;
+
+}
+.form2 textarea{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 25px;
+	padding: 2%;
+	
+}
+footer{
+	background-image: url(../images/quote-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+	padding: 10% 0%;
+}

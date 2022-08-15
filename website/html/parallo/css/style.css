@@ -1,0 +1,199 @@
+.greycolor{
+	color: #333333!important;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 80%;
+	margin: 0 auto!important;
+	padding: 0!important;
+}
+.textsm{
+	font-size: 13px;
+}
+div{
+	display: block;
+}
+.paddingy{
+	padding: 4% 0%!important;
+}
+body{
+	background-image: url(../img/bg-01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	background-position: center center;
+}
+
+/*HEADER---------------------------------------------------------------------------*/
+
+header{
+	height: 200px;
+}
+header nav{
+	height: 100%;
+}
+/*LOGO*/
+header nav a.logo{
+	color: black;
+}
+header nav a.logo i{
+	color: white!important;
+	padding :15px;
+	background-color: #333436;
+	border-radius: 100%;
+	margin-right: 15px;
+}
+header nav a.logo div.logo-inner{
+	background-color :rgba(255, 255, 255, 0.8);
+	padding: 40px 30px 55px 30px;
+	max-width: 400px;
+	align-items: center;
+	margin: 0 auto;
+}
+header nav a.logo div.logo-text{
+	text-align: center;
+}
+/*MENU*/
+header nav div.mynav{
+	background-color :rgba(255, 255, 255, 0.8);
+	padding: 20px 10px;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	z-index: 99999999;
+}
+
+header nav div.mynav ul li a{
+	color: rgba(0,0,0,0.6);
+	font-size: 22px;
+	padding: 12px ;
+	margin: 0 40px;
+	border-top: 2px solid rgba(0,0,0,0);
+	font-family: arial;
+	position: relative;
+}
+header nav div.mynav ul li a:hover,header nav div.mynav ul li a.active{
+	color: rgba(0,0,0,1);
+	border-top: 2px solid grey;
+}
+header nav div.mynav ul li a:hover .square, header nav div.mynav ul li a.active .square{
+	position: absolute;
+	top: -8px;
+	left: 39%;
+	width: 15px;
+	height: 15px;
+	background-color: grey;
+	margin: 0 auto;
+	z-index: 9999;
+}
+header nav button i{
+	color: black!important;	
+	font-size: 50px;
+}
+
+/*SECTION1-------------------------------------------------------------------------*/
+
+.section1,.section1 hr{
+	width: 80%;
+	color: white!important;
+	opacity: 1;
+}
+.section1 button.learnmore{
+	background-color: white;
+	border-radius: 0;
+	padding: 8px 30px;
+
+}
+.section1 button.learnmore:hover{
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 0;
+	padding: 8px 30px;
+
+}
+
+/*SECTION2---------------------------------------------------------------------------*/
+
+.section2 div.mycard{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 30px 40px;
+	border-radius: 22px;
+}
+.section2 div.mycard i{
+	padding: 30px;
+	border: 1px solid grey;
+	border-radius: 50%;
+	width: auto;
+	font-size: 35px;
+	margin: 50px 0;
+}
+
+/*SECTION3---------------------------------------------------------------------------*/
+
+.section3 .email-text{
+	background-color: white;
+	height: 100%;
+	padding: 65px 40px;
+	font-family: arial;
+}
+.section3 .email-text p{
+	font-size: 19px;
+}
+.section3 input{
+	width: 100%;
+	padding: 7px 20px;
+}
+.section3 .input-email{
+	border: 2px solid grey;
+}
+.section3 .input-submit{
+	background-color: #247cff;
+	border: 2px solid #247cff;
+	color: white;
+}
+footer{
+	margin-top: 35px;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px)
+{
+	header nav div.mynav ul li a{
+		margin: 0 20px;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	header nav div.mynav ul li a{
+		margin: 0 0;
+	}
+	header nav a.logo div.logo-inner{
+		padding: 30px 15px 60px 15px;
+		max-width: 400px;
+		height: 100%;
+
+	}
+	header nav a.logo i{
+		margin-right: 0!important;
+	}
+}
+@media screen and (max-width: 425px)
+{
+	header nav div.mynav ul li a:hover .square, header nav div.mynav ul li a.active .square{
+		left: 49%!important;
+	}
+	.section1{
+		color: grey!important;
+	}
+	header nav div.mynav{
+		background-color :rgba(255, 255, 255, 0.95)!important;
+	}
+}

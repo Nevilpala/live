@@ -1,0 +1,349 @@
+.bluecolor{
+	color: #247cff!important;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 80%;
+	margin: 0 auto!important;
+	padding: 0!important;
+}
+.textsm{
+	font-size: 13px;
+}
+div{
+	display: block;
+}
+.paddingy{
+	padding: 7% 0%!important;
+}
+.paddingtop{
+	padding-top: 3%!important;
+}
+.paddingbot {
+	padding-bottom: 3%!important;
+}
+
+/*HEADER --------------------------------------------------------------------------------------*/
+
+header nav ul li a{
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 20px;
+}
+nav a.logo1{
+	padding-left: 30px; 
+	margin: 0 auto;
+	text-align: center;
+}
+nav a.logo1 h4,nav ul li.logo2 h4{
+	font-size: 25px;
+}
+nav a.logo1 p,nav ul li.logo2 p{
+	font-size: 12px;
+}
+nav ul li a{
+	padding-right: 20px!important;
+	padding-left: 20px!important;
+}
+.mynav ul{
+	align-items: center;
+}
+nav a.logo1,nav ul li.logo2{
+	cursor: pointer;
+}
+
+/*section1------------------------------------------------------------------------------------------*/
+
+.bgchange {
+	position: relative;
+	margin: 0 auto;
+}
+
+.bgchange img{
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.section1 .onimagetext{
+	position: absolute;
+	background-color: white;
+	bottom: 0;
+	right: 0;
+	width: 45%;
+	padding: 40px;
+}
+.section1 .onimagetext h2{
+	font-size: 35px;
+}
+.section1 .onimagetext p{
+	margin: 20px 0;
+	color: grey;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+.section1 .onimagetext .button{
+	padding: 4px 10px;
+	border:1px solid rgba(0,0,0,0.2);
+	color: blue;
+	margin-right: 30px; 
+
+}
+.section1 .onimagetext .button:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*section2-------------------------------------------------------------*/
+
+.section2{
+
+}
+.textcontent h1{
+	font-weight: bolder;
+}
+.textcontent p{
+	padding: 20px 0;
+	font-size: 17px;
+	color: grey;
+	font-weight: lighter!important;
+	letter-spacing: 0.5px;		
+}
+.year-exp{
+	padding: 0!important;
+	margin: 0!important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin:0 auto;
+}
+.year-exp h1{
+	font-weight: bolder;
+	font-size: 22px;
+	color: grey;
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius: 100%;
+	padding: 50px;
+	margin: 0 auto;
+}
+.year-exp span{
+	font-size: 125px;
+}
+
+/*section4-------------------------------------------------------------------------*/
+
+.icons{
+	font-size: 20px;
+	color: blue;
+	text-align: center!important;
+	width: 10%;
+	position: relative;
+	overflow: hidden;
+}
+.vrline{
+	position: absolute;
+	min-height: 500px;
+}
+.rows h2{
+	line-height: 30px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+.rows p{
+	padding: 20px;
+	color: rgba(0,0,0,0.6);
+}
+
+/*row1*/
+.row1{
+
+}
+.row1-content{
+	text-align: right;
+	width: 45%;	
+	/*border: 1px solid rgba(0,0,0,0.2)!important;*/
+	border-radius: 5px!important;
+	overflow: hidden;
+}
+.row1-time{
+	width: 45%;
+}
+
+/*row2*/
+.row2{
+	
+}
+.row2-content{
+	text-align: left;
+	width: 45%;
+	border-radius: 5px!important;
+	overflow: hidden;
+}
+.row2-time{
+	width: 45%;
+}
+
+/*row3*/
+.row3{
+	
+}
+.row3-content{
+	text-align: right;
+	width: 45%;
+	border-radius: 5px!important;
+	overflow: hidden;
+}
+.row3-time{
+	width: 45%;
+}
+
+/*row4*/
+.row4{
+	
+}
+.row4-content{
+	text-align: left;
+	width: 45%;
+	border-radius: 5px!important;
+	overflow: hidden;
+}
+.row4-time{
+	width: 45%;
+}
+
+/*section5-------------------------------------------------------------------------------------*/
+
+.carousel-content{
+	padding: 30px;
+	background-color: black;
+	color: white;
+}
+.carousel-content h4{
+	padding: 20px 0;
+}
+.carousel-content p{
+	color: white;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.carousel-content div.star{
+	color: white!important;
+}
+
+/*section6-------------------------------------------------------------------------------------*/
+
+/*form*/
+.book-input,textarea{
+	width: 100%!important;
+	margin-bottom: 10px;
+	padding: 20px;
+	border: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+textarea{
+	height: 150px;
+
+}
+.book-btn{
+	padding: 7px 30px;
+	background-color: black;
+	border-radius: 0;
+	color: white;
+}
+
+/*footer------------------------------------------------------------------------------------*/
+
+footer{
+	margin-top: 25px;
+	background-color: rgba(0,0,0,0.05	);	
+}
+footer ul{
+	list-style-type: none;
+	padding: 0!important;
+	margin-top: 25px!important; 
+}
+footer ul li{
+	padding: 13px 0;
+	border-bottom:1px solid rgba(0,0,0,0.2);
+}
+footer .topmag{
+	margin-top: 25px!important; 
+
+}
+footer p{
+	padding: 13px 0;
+}
+footer div.social {
+	padding: 12px 0!important;
+}
+footer ul li,footer p,.social{
+	color: rgba(0,0,0,0.6);
+}
+footer div.social i:hover{
+	color: #247cff;
+	cursor: pointer;
+}
+
+.myd-md-none{
+	display: none;
+}
+@media screen and (max-width: 768px)
+{
+	nav ul li a{
+		padding-right: 10px!important;
+		padding-left: 10px!important;
+	}
+	.section1 .onimagetext{
+		position: relative;
+		display: block;
+		width: 100%;
+		padding: 0;
+		margin-top: 25px; 
+	}
+
+
+	.section5 .container{
+		width: 75%!important;
+	}
+}
+@media screen and (max-width: 425px)
+{
+	.container{
+		width: 95%;
+		margin: 0 auto;
+	}
+	.logo2{
+		height: 0px;
+		overflow: hidden;
+	}
+	.mynav ul{
+		align-items:flex-start;
+		padding-left: 25px;
+	}
+	.row1-time,.row2-time,.row3-time,.row4-time{
+		height: 0!important;
+		overflow: hidden;	
+	}
+	.row-content{
+		display: none;
+	}
+	.row1-content,.row2-time .row2-content,.row3-content,.row4-time .row4-content{	
+		text-align: left!important;
+	}
+	.myd-md-none{
+	display: initial;
+	}
+
+	.section5 .container{
+		width: 100%!important;
+	}
+
+	.section5 button span {
+		color: white!important;
+	}
+
+}
+
+

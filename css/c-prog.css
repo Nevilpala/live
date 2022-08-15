@@ -1,0 +1,20 @@
+table{
+	border: .5px solid rgba(12,1,22,0.1);
+}
+table tr{
+	cursor: help;
+}
+table tr td{
+	font-family: sans-serif;
+}
+table tr:nth-child(odd){
+	background-color: rgba(12,1,22,0.5)!important;
+	color: white;
+}
+table tr:nth-child(even){
+	background-color:rgba(233,238,244,0.5)!important;
+	color: rgba(12,1,22,1);
+}
+table tr td:nth-child(2){
+	text-transform: capitalize;
+}

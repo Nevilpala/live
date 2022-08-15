@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required metaatags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<!--  Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+	<!--  Bootstrap-Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+	<!--  Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/mycss.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<!-- logo -->
+	<link rel="icon" href="./img/logo-icon.png" type="image/icon type">
+
+
+	<title>Nevil's WEB</title>	
+</head>
+<body>
+	<div class="starter-page vw-center">
+		<div class="loader"></div>
+	</div>
+
+
+	<!-- HEADER -->
+
+	<header id="index-header">
+		<nav class="navbar" id="menu">
+			<ul class="nav nav-pills" id="menu-link">
+				<li class="nav-item">
+					<a class="nav-link active" href="#home">
+						<div class="nav-hover">Home</div>
+						<div class="menu-icon">
+							<i class="bi bi-stop-circle stop"></i>
+							<i class="bi bi-stop-circle-fill stop-f"></i>
+						</div>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">
+						<div class="nav-hover">About</div>
+						<div class="menu-icon">
+							<i class="bi bi-stop-circle stop"></i>
+							<i class="bi bi-stop-circle-fill stop-f"></i>
+						</div>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#recent">
+						<div class="nav-hover">Recent</div>
+						<div class="menu-icon">
+							<i class="bi bi-stop-circle stop"></i>
+							<i class="bi bi-stop-circle-fill stop-f"></i>
+						</div>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#project">
+						<div class="nav-hover">Project</div>
+						<div class="menu-icon">
+							<i class="bi bi-stop-circle stop"></i>
+							<i class="bi bi-stop-circle-fill stop-f"></i>
+						</div>
+					</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">
+						<div class="nav-hover">Contact</div>
+						<div class="menu-icon">
+							<i class="bi bi-stop-circle stop"></i>
+							<i class="bi bi-stop-circle-fill stop-f"></i>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<nav class="header-first shadow-lg navbar navbar-expand-lg" id="header-main">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="./img/logo-icon.png" class="img-fluid" width="90">
+			</a>
+			<button class="navbar-toggler btn-menu w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-menu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="box-btn">
+					<input type="checkbox" class="btn">
+					<div class="btn-nav"></div>
+					<div class="btn-ex"></div>
+				</div>
+			</button>
+			<div class="collapse navbar-collapse" id="collapse-menu">
+				<ul class="nav nav-pills" id="scrolldirect">
+					<li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#game">Game</a></li>
+					<li class="nav-item"><a class="nav-link" href="#bootstrap">Bootstrap</a></li>
+					<li class="nav-item"><a class="nav-link" href="#c">C</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div data-bs-spy="scroll" data-bs-target="#menu-link" data-bs-parent="#scrolldirect" data-bs-offset="0" class="scrollspy-example scroll-menu" tabindex="0">
+
+		<!--================================== HOME =========================================-->
+
+		<section class="bg-light" id="home">
+			<div class="welcome row">
+				<div class="col-md display-1 fw-bold fst-italic text-center wel-content">
+					<span class="text-center"><img src="./img/logo-icon.png" width="40%"></span>
+					<hr>
+					<div class="text-light wel-text">
+						<span class="text-danger">W</span>ELCOME</span><br> 
+						<span class="text-light"><span class="text-primary">Y</span>OU</span>
+					</div>
+				</div>
+				<div class="col-md text-center wel-content">
+					<img src="./img/banner-right-image1.png">
+				</div>
+			</div>
+		</section>
+
+		<!--================================== ABOUT =========================================-->
+
+		<section id="about" class="container-fluid about_bg_sm paddingy-sm">
+			<div class=" p-0 m-0 mx-auto">
+				<div class="row g-2 align-items-center p-0 m-0 justify-content-center">
+					<div class="col-md p-0 dp-lg-none" uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
+						<img src="./img/blue-button.jpg" class="p-0 m-0 float-start">
+					</div>
+					<div class="col-lg-5 col-md p-3" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
+						<div class="">
+							<h1 class="display-4 my-3 "> ABOUT US</h1>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div>
+					</div>
+					<div class="col-md p-0 dp-md-none" uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
+						<img src="./img/red-button.jpg" class="float-end">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--================================== RECENT =========================================-->
+
+		<section id="recent" class="container-fluid paddingy-sm ">
+			<div class="container" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false">
+				<div class="row align-items-center">
+					<div class="col-md-4 recent-bg vw-center">
+						<div>	
+							<h1 class="text-center text-light py-5">RECENT</h1>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="p-5">
+							<ul class="row recent_slider ps-0" type="none" >
+								<li class="col zoom" >
+									<a href="./website/html/eletronic/index.html" target="_blank">
+										<img src="./templete/eletronic.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="col zoom">
+									<a href="./website/html/zay_shop/index.html" target="_blank">
+										<img src="./templete/zay_shop.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="col zoom dp-md-none">
+									<a href="./website/html/avalon/index.html" target="_blank">
+										<img src="./templete/avalon.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="col zoom dp-lg-none">
+									<a href="./website/html/8/index.html" target="_blank">
+										<img src="./templete/8.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--================================== GAME =========================================-->
+
+		<section id="game" class="containerfluid paddingy">
+			<div class="container">
+				<h1 class="text-center pb-5 display-4 fw-bold">-- GAME -- </h1>
+				<div class="row g-4 align-items-stretch justify-content-center text-center">
+					<div class="col-lg col-md-6">
+						<div class="game-item vw-center shadow">
+							<a href="https://nevilpala.github.io/js/car/" loading="lazy" target="_blank"><img src="./img/gamelogo/car.png"></a>
+						</div>
+					</div>
+					<div class="col-lg col-md-6">
+						<div class="game-item vw-center shadow">
+							<a href="https://nevilpala.github.io/js/snakegame/" loading="lazy" target="_blank"><img src="./img/gamelogo/snake.png"></a>
+						</div>
+					</div>
+					<div class="col-lg col-md-6">
+						<div class="game-item vw-center shadow">
+							<a href="https://nevilpala.github.io/js/stonepaper/" loading="lazy" target="_blank"><img src="./img/gamelogo/rock.png"></a>
+						</div>
+					</div>
+					<div class="col-lg col-md-6">
+						<div class="game-item vw-center shadow">
+							<a href="https://nevilpala.github.io/js/tic/" loading="lazy" target="_blank"><img src="./img/gamelogo/tic.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--================================== PROJECT =========================================-->
+
+		<section id="project" class=" container-fluid vw-center paddingy">
+			<div class="container">
+				<div class="row g-4 web-logo a" uk-grid uk-scrollspy="cls: uk-animation-fade; target: a; delay: 350; repeat: false">
+					<div class="col-lg col-6">
+						<a href="#bootstrap" title="HTML"><img src="./img/html.png" class="img-fluid"></a>
+					</div>
+					<div class="col-lg col-6">
+						<a href="#bootstrap" title="CSS"><img src="./img/css.png" class="img-fluid"></a>
+					</div>
+					<div class="col-lg col-6">
+						<a href="#bootstrap" title="JAVASCRIPT"><img src="./img/js.png" class="img-fluid"></a>
+					</div>
+					<div class="col-lg col-6">
+						<a href="#c" title="C PROMGRAMING LANGUAGE"><img src="./img/c.png" class="img-fluid"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ====================================  BOOTSTRAP  ============================================== -->
+
+		<section id="bootstrap" class="container-fluid paddingy">
+			<div class="container boot_bg py-4" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false">
+				<h1 class="b_title">
+					<img src="./img/boot1.png" width="200px">
+				</h1>
+				<div uk-slider="finite: true" class="container bootstrap_section ">
+					<div class="uk-position-relative">
+						<div class="uk-slider-container">
+							<ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-small">
+								<li class="zoom">
+									<a href="./website/html/eletronic/index.html" target="_blank">
+										<img src="./templete/eletronic.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="zoom">
+									<a href="./website/html/ion/index.html" target="_blank">
+										<img src="./templete/ion.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="zoom">
+									<a href="./website/html/leadership_event/index.html" target="_blank">
+										<img src="./templete/leadership_event.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="zoom">
+									<a href="./website/html/pop/index.html" target="_blank">
+										<img src="./templete/pop.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="zoom">
+									<a href="./website/html/astro_motion/index.html" target="_blank">
+										<img src="./templete/astro-motion.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="zoom">
+									<a href="./website/html/8/index.html" target="_blank">
+										<img src="./templete/8.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="zoom">
+									<a href="./website/html/zay_shop/index.html" target="_blank">
+										<img src="./templete/zay_shop.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="zoom">
+									<a href="./website/html/parallo/index.html" target="_blank">
+										<img src="./templete/parallo.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="zoom">
+									<a href="./website/html/avalon/index.html" target="_blank">
+										<img src="./templete/avalon.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+								<li class="zoom">
+									<a href="./website/html/ex2/index.html" target="_blank">
+										<img src="./templete/ex2.png" >
+										<div class="On_img_text">VIEW <i class="bi bi-arrow-right-short"></i></div>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<a class="uk-position-center-left-out" href="#" uk-slider-item="previous">
+							<i class="fas fa-angle-double-left slider-arrow"></i>
+						</a>
+						<a class="uk-position-center-right-out" href="#" uk-slider-item="next">
+							<i class="fas fa-angle-double-right slider-arrow"></i>
+						</a>
+					</div>
+					<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin text-light"></ul>
+				</div>
+				<div class="w-end">
+					<!-- <a type="button" href="boot.html" class="violet-bg viewmore py-3 px-5 text-light"> VIEW MORE..</a> -->
+					<a type="button" href="boot.html" ><div class="btn-border-grad-h"> VIEW MORE..</div></a>
+					<!-- <a href="boot.html" ><div class="viewmore"> VIEW MORE..</div></a> -->
+
+				</div>
+			</div>
+		</section>	
+
+		<!--================================== C =========================================-->
+
+		<section class="container-fluid c_section paddingy" id="c">
+			<div class="container"  uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false">
+				<h1 class="display-5 fw-bold c_title">
+					<img src="./img/c.png" width="5%" class="c-logo"><span> PROGRAMMING</span>
+				</h1>
+				<div class="col-md">
+					<div class="np_row cbody py-5 px-4 cmd">
+						<div class="np_col ">
+							<button class="btn myCbtn w-100" type="button" data-bs-toggle="modal" data-bs-target="#aboutmodal" aria-controls="offcanvasRight">Simple IF</button>
+							<!-- <button class="btn myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#simpleif" aria-controls="offcanvasRight">Simple IF</button> -->
+						</div>
+						<div class="np_col ">
+							<button class="btn myCbtn w-100" type="button" data-bs-toggle="modal" data-bs-target="#aboutmodal" aria-controls="offcanvasRight">Else IF</button>
+							<!-- <button class="btn myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#elseif" aria-controls="offcanvasRight">Else IF</button> -->
+						</div>
+						<div class="np_col ">
+							<button class="btn myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#conditional" aria-controls="offcanvasRight">Conditional Operator</button>
+						</div>
+						<div class="np_col ">
+							<button class="btn myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#switch" aria-controls="offcanvasRight">Switch-Case</button>
+						</div>
+						<div class="np_col ">
+							<button class="btn myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#loop" aria-controls="offcanvasRight">Loop</button>
+						</div>
+						<div class="np_col ">
+							<button class="btn myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#Pattern" aria-controls="offcanvasRight">Pattern</button>
+						</div>
+						<div class="np_col ">
+							<!-- <button class="btn myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#array" aria-controls="offcanvasRight">Array</button> -->
+							<button class="btn myCbtn w-100" type="button" data-bs-toggle="modal" data-bs-target="#aboutmodal" aria-controls="offcanvasRight">Array</button>
+						</div>
+						<div class="np_col ">
+							<button class="btn myCbtn w-100" type="button" data-bs-toggle="modal" data-bs-target="#aboutmodal" aria-controls="offcanvasRight">Array 2D</button>
+							<!-- <button class="btn myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#array2" aria-controls="offcanvasRight">Array 2D</button> -->
+						</div>
+						<div class="np_col ">
+							<button class="btn myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#structure" aria-controls="offcanvasRight">Structure</button>
+						</div>
+						<div class="np_col ">
+							<button class="btn myCbtn w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#function" aria-controls="offcanvasRight">Function</button>
+						</div>
+					</div>
+					<div class="w-end">
+						<a type="button" href="c-prog.html" ><div class="btn-border-grad-h"> VIEW MORE..</div></a>
+						<!-- <a type="button" href="c-prog.html" class="pink-bg py-3 px-5 viewmore text-dark"> VIEW MORE..</a> -->
+					</div>	
+				</div>
+			</div>
+		</section>
+
+		<!--================================== CONTACT =========================================-->
+
+		<footer class="container-fluid paddingy-sm pb-0" id="contact">
+			<div class="container" >
+				<div class="row g-5 align-items-stretch" >
+					<div class="col-lg-3 col-md-6 text-center order-lg-1 order-md-1 foot-section">
+						<ul class="ul footer-logo" >	
+							<img src="./img/logo-icon.png" class="mx-auto">
+							<hr class="hr-line">
+							<li class="mail"><a href="mailto: nevilpala03@gmail.com"><span><i class="fas fa-envelope"></i> nevilpala03@gmail.com</span></a></li>
+							<li class="social-icon text-center mt-2">
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-6 order-lg-2 order-md-3 foot-section">
+						<ul class="ul foot-link">
+							<h1>Menu</h1>
+							<hr class="hr-line">
+							<li><a href="index.html#home"> Home </a></li>
+							<li><a href="index.html#about"> About</a></li>
+							<li><a href="index.html#recent">Recent</a></li>
+							<li><a href="index.html#project">Project</a></li>
+							<li><a href="index.html#contact">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-6 order-lg-3 order-md-4 foot-section">
+						<ul class="ul foot-link">
+							<h1>Useful Links</h1>
+							<hr class="hr-line">
+							<li><a href="boot.html">Bootstrap</a></li>
+							<li><a href="c-prog.html">C Programming</a></li>
+							<li><a href="index2.html" target="_blank">Old Website</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-6 order-lg-4 order-md-2 foot-section">
+						<ul class="ul">
+							<h1>Contact us</h1>
+							<hr class="hr-line">
+							<form class="contact_form">
+								<li><input type="text" placeholder="Name" required="required"></li>
+								<li><input type="email" placeholder="Email" required="required"></li>
+								<li><textarea placeholder="Message"></textarea></li>
+								<li><button type="submit" class="submit">Send</button></li>
+							</form>
+						</ul>
+					</div>
+				</div>
+				<div class="footer">
+					<hr>
+					<span>Copyright 2022 All Right Reserved by NP</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div>
+		<!------------------------------        alert     ------------->
+
+		<div class="modal fade" id="aboutmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel"><img src="./images/logo.jpg" class="imgs img-fluid" width="20%"></h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div class="alert alert-primary d-flex align-items-center" role="alert">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+								<path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+							</svg>
+							<div>
+								Content will be coming soon...
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---------------------------------------- C ------------------------------------>
+
+		<!-- Simple If -->
+
+
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="simpleif" aria-labelledby="offcanvasRightLabel">
+			<div class="offcanvas-header">
+				<h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Simple IF</h4>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+
+			</div>
+		</div>
+		<!-- Else If -->
+
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="elseif" aria-labelledby="offcanvasRightLabel">
+			<div class="offcanvas-header">
+				<h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Else If</h4>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+
+			</div>
+		</div>
+
+		<!-- Conditional -->
+
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="conditional" aria-labelledby="offcanvasRightLabel">
+			<div class="offcanvas-header">
+				<h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Conditional Operator</h4>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<a href="./website/C/Conditional/2largecond.c">
+						<h5 class="fs-6">=> WAP to find out largest number from given 2 numbers</h5>
+					</a>
+				</div>
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<a href="./website/C/Conditional/3largecond.c">
+						<h5 class="fs-6">=> WAP to find out largest number from given 3 numbers</h5>
+					</a>
+				</div>
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<a href="./website/C/Conditional/mullarge.c">
+						<h5 class="fs-6">=> WAP to read 3 numbers, multiply largest number from first two numbers to third one</h5>
+					</a>
+				</div>
+				<hr class="cline m-0 p-0">
+
+			</div>
+		</div>
+
+		<!-- Switch-Case -->
+
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="switch" aria-labelledby="offcanvasRightLabel">
+			<div class="offcanvas-header">
+				<h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Switch-Case</h4>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<a href="./website/C/switchcase/day.c">
+						<h5 class="fs-6">=> WAP to print number of days in the given month</h5>
+					</a>
+				</div>
+
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<a href="./website/C/switchcase/week.c">
+						<h5 class="fs-6">=> WAP to perform day on a week like mon,tues..</h5>
+					</a>
+				</div>
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<a href="./website/C/switchcase/swchoice.c">
+						<h5 class="fs-6">=> WAP to perform Addition, Subtraction, Multiplication and Division of 2 numbers as per user’s choice</h5>
+					</a>
+				</div>
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<a href="./website/C/switchcase/swchoice2.c">
+						<h5 class="fs-6">=> WAP to perform in sign form +, -, * and / of 2 numbers as per user’s choice</h5>
+					</a>
+				</div>
+				<hr class="m-0 p-0">
+			</div>
+		</div>
+
+		<!-- loop  -->
+
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="loop" aria-labelledby="offcanvasRightLabel">
+			<div class="offcanvas-header">
+				<h5 id="offcanvasRightLabel" class="text-danger fw-bolder">Loop</h5>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#while">BASIC WHILE LOOP</button>
+				</div>
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<button type="button" class="btn btn-primary w-100 text-uppercase" data-bs-toggle="modal" data-bs-target="#p10">Sum of SERies</button>
+				</div>
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#p11">MATHS SUM</button>
+				</div>
+				<hr class="m-0 p-0">
+				<div class="blurlink">
+					<button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#nested">NESTED LOOP</button>
+				</div>
+				<hr class="m-0 p-0">  
+			</div>
+		</div>
+
+		<!----------------------------------While------------------------------------->
+
+		<div class="modal fade" id="while" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">BASIC WHILE LOOP</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p9/loop.c">
+								<h5 class="fs-6">=> Print 10time name</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p9/num.c">
+								<h5 class="fs-6">=> Print 1 to 10</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p9/1ton.c">
+								<h5 class="fs-6">=> Print 1 to n</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p9/odd1ton.c">
+								<h5 class="fs-6">=> Print odd numbers between 1 to n</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p9/div2not3.c">
+								<h5 class="fs-6">=> Print numbers between two given numbers which is divisible by 2 but not divisible by 3</h5>
+							</a>
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!----------------------------------SUM OF SERIES------------------------------------->
+
+		<div class="modal fade" id="p10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">SUM OF GIVEN STATEMENT</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p10/sum1ton.c">
+								<h5 class="fs-6">=> Sum of 1 to n numbers</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p10/1+4+9+16.c">
+								<h5 class="fs-6">=> Sum of series 1+4+9+16+25+36+…n</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p10/1-2+3-4.c">
+								<h5 class="fs-6">=> Sum of series 1–2+3–4+5–6+7… n</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p10/1+1-2+1-3+.c">
+								<h5 class="fs-6">=> Sum of series 1+1/2+1/3+1/4+1/5+...+ 1/n</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--------------------------MATHS Calculation------------------------------------->
+
+		<div class="modal fade" id="p11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">MATHS Calculation</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/factorial.c">
+								<h5 class="fs-6">=> Find factorial</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/factor.c">
+								<h5 class="fs-6">=> Find factors</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/fls.c">
+								<h5 class="fs-6">=> WAP to find out sum of first and last digit of a given number</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/x^y.c">
+								<h5 class="fs-6">=> Find x^y</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/perfect.c">
+								<h5 class="fs-6">=> WAP to check whether the given number is perfect or not.</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/printnumber.c">
+								<h5 class="fs-6">=> WAP to print digits of given number</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/sumofdigit.c">
+								<h5 class="fs-6">=> WAP to print sum of digits of given number</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/prime.c">
+								<h5 class="fs-6">=> WAP to find whether the given number is prime</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/Aormstong.c">
+								<h5 class="fs-6">=>  WAP to check whether the given number is Armstrong or not</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/palindrome.c">
+								<h5 class="fs-6">=> WAP to check whether the given number is palindrome or not</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/p11/reverse.c">
+								<h5 class="fs-6">=> REVERSE</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!----------------------------------NESTED LOOP------------------------------------->
+
+		<div class="modal fade" id="nested" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">SUM OF GIVEN STATEMENT</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/nested/1_1+2_1+2+3.c">
+								<h5 class="fs-6">=> WAP to find the sum of 1+(1+2)+(1+2+3)+(1+2+3+4)+…+(1+2+3+4+….+n)</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/nested/e.c">
+								<h5 class="fs-6">=> Evaluate  constant 'e' value 1+1/1!+1/2!+1/3!+....</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/nested/e^x.c">
+								<h5 class="fs-6">=> Evaluate e^x constant 1+x^1/1!+x^2/2!+x^3/3!+....</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/nested/ev1-x+.c">
+								<h5 class="fs-6">=> Evaluate the series 1-x + x^2/2! + x^3/3! + ... + x^9/9!</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+						<div class="blurlink">
+							<a href="./website/C/loop/nested/table.c">
+								<h5 class="fs-6">=> Table</h5>
+							</a>
+						</div>
+						<hr class="m-0 p-0">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- Pattern -->
+
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="Pattern" aria-labelledby="offcanvasRightLabel">
+			<div class="offcanvas-header">
+				<h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Pattern</h4>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body ">
+				<hr>
+
+            <!--//* * * * *
+                //*       *
+                //*       *
+                //*       *
+                //* * * * * -->
+                <h5><a href="./website/C/Pattern/space.c">
+                	* * * * *<br>
+                	* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br>
+                	* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br>
+                	* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br>
+                	* * * * *   
+                </a>
+                <br>
+            </h5>
+
+            <hr>
+
+            <!--// 1
+                // 12
+                // 123
+                // 1234 -->
+                <h5><a href="./website/C/Pattern/1_12_123patn.c">
+                	1<br>
+                	1 2<br>
+                	1 2 3<br>
+                	1 2 3 4 
+                </a>
+                <br>
+            </h5>
+
+            <hr>
+
+            <!--// 1
+                // 23
+                // 456
+                // 78910 -->
+                <h5><a href="./website/C/Pattern/1_23_456.c">
+                	1<br>
+                	2 3<br>
+                	4 5 6<br>
+                	7 8 9 10    
+                </a>
+                <br>
+            </h5>
+
+            <hr>
+
+            <!--// 1
+                // 23
+                // 345
+                // 4567 -->
+                <h5><a href="./website/C/Pattern/1_23_345.c">
+                	1<br>
+                	2 3<br>
+                	3 4 5<br>
+                	4 5 6 7 
+                </a>
+                <br>
+            </h5>
+
+            <hr>
+            <!--// 1
+                // 01
+                // 101
+                // 0101 -->
+                <h5><a href="./website/C/Pattern/1_01_101.c">
+                	1<br>
+                	0 1<br>
+                	1 0 1<br>
+                	0 1 0 1 
+                </a>
+                <br>
+            </h5>
+
+            <hr>
+                <!--// *
+                // **
+                // ***
+                //   **** -->
+                <h5><a href="./website/C/Pattern/lastspace.c">
+                	*<br>
+                	* *<br>
+                	* * *<br>
+                	&nbsp;&nbsp;&nbsp;* * * *   
+                </a>
+                <br>
+            </h5>
+
+            <hr>
+
+            <!--//*****
+                //****
+                //***
+                //**
+                //* -->
+                <h5>
+                	<a href="./website/C/Pattern/rev.c">
+                		*****<br>
+                		****<br>
+                		***<br>
+                		**<br>
+                		*
+                	</a>
+                	<br>
+                </h5>
+
+                <hr>
+
+            <!--// AAAAA
+                // BBBB
+                // CCC
+                // DD
+                // E -->
+                <h5>
+                	<a href="./website/C/Pattern/AAA_BB_C.c">
+                		AAAAA<br>
+                		BBBB<br>
+                		CCC<br>
+                		DD<br>
+                		E
+                	</a>
+                	<br>
+                </h5>
+
+                <hr>
+
+            <!--// 12345
+                // 1234
+                // 123
+                // 12
+                // 1 -->
+                <h5>
+                	<a href="./website/C/Pattern/12345_1234.c">
+                		12345<br>
+                		1234<br>
+                		123<br>
+                		12<br>
+                		1
+                	</a>
+                	<br>
+                </h5>
+
+                <hr>
+
+            <!--// 5 5 5 5 5
+                // 4 4 4 4
+                // 3 3 3
+                // 2 2
+                // 1 -->
+                <h5>
+                	<a href="./website/C/Pattern/555_55_5.c">
+                		55555<br>
+                		4444<br>
+                		333<br>
+                		22<br>
+                		1
+                	</a>
+                	<br>
+                </h5>
+
+                <hr>
+
+            <!--//   1
+                //  A B
+                // 2 3 4
+                //C D E F -->
+                <h5>
+                	<a href="./website/C/Pattern/1_a.c">
+                		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<br>
+                		&nbsp;&nbsp;&nbsp;A B<br>
+                		&nbsp;&nbsp;2 3 4<br>
+                		C D E F
+                	</a>
+                	<br>
+                </h5>
+
+                <hr>
+
+            <!--//   1   
+                //  2 2
+                // 3 3 3
+                //4 4 4 4 -->
+                <h5>
+                	<a href="./website/C/Pattern/patten.c">
+                		&nbsp;&nbsp;&nbsp;1<br>
+                		&nbsp;&nbsp;2 2<br>
+                		&nbsp;3 3 3<br>
+                		4 4 4 4
+                	</a>
+                	<br>
+                </h5>
+
+                <hr>
+
+            <!--//   *   
+                //  * *
+                // * * *
+                //* * * * -->
+                <h5>
+                	<a href="./website/C/Pattern/Untitled3.c">
+                		&nbsp;&nbsp;&nbsp;&nbsp;*<br>
+                		&nbsp;&nbsp;&nbsp;* *<br>
+                		&nbsp;&nbsp;* * *<br>
+                		&nbsp;* * * *
+                	</a>
+                	<br>
+                </h5>
+
+                <hr>
+            </div>
+        </div>
+
+
+        <!-- Array -->
+
+        <div class="offcanvas offcanvas-end about" tabindex="-1" id="aboutmodal" aria-labelledby="offcanvasRightLabel">
+        	<div class="offcanvas-header">
+        		<h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Array</h4>
+        		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        	</div>
+        	<div class="offcanvas-body">
+
+        	</div>
+        </div>
+        <!-- Array 2D-->
+
+        <div class="offcanvas offcanvas-end about" tabindex="-1" id="array2" aria-labelledby="offcanvasRightLabel">
+
+        	<div class="offcanvas-header">
+        		<h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Array 2D</h4>
+        		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        	</div>
+        	<div class="offcanvas-body">
+
+        	</div>
+        </div>
+        <!-- Structure -->
+
+        <div class="offcanvas offcanvas-end about" tabindex="-1" id="structure" aria-labelledby="offcanvasRightLabel">
+
+        	<div class="offcanvas-header">
+        		<h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Structure</h4>
+        		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        	</div>
+        	<div class="offcanvas-body">
+        		<hr class="m-0 p-0">
+        		<div class="blurlink">
+        			<a href="./website/C/Structure/stru_rna.c">
+        				<h5 class="fs-6">=> WAP rollno,name & address one student</h5>
+        			</a>
+        		</div>
+        		<hr class="m-0 p-0">
+        		<div class="blurlink">
+        			<a href="./website/C/Structure/stru_3rna.c">
+        				<h5 class="fs-6">=> WAP rollno,name & address multiple student</h5>
+        			</a>
+        		</div>   
+        		<hr class="m-0 p-0"> 
+        		<div class="blurlink">
+        			<a href="./website/C/Structure/rec_fact.c">
+        				<h5 class="fs-6">=> WAP to find the factorial of a given number using recursion</h5>
+        			</a>
+        		</div>
+        		<hr class="m-0 p-0">
+        		<div class="blurlink">
+        			<a href="./website/C/Structure/stru_book.c">
+        				<h5 class="fs-6">=> WAP to enter mupltiple record of book</h5>
+        			</a>
+        		</div>
+        		<hr class="m-0 p-0">
+
+        	</div>
+        </div>
+
+        <!-- Function -->
+
+        <div class="offcanvas offcanvas-end about" tabindex="-1" id="function" aria-labelledby="offcanvasRightLabel">
+
+        	<div class="offcanvas-header">
+        		<h4 id="offcanvasRightLabel" class="text-danger fw-bolder">Function</h4>
+        		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        	</div>
+        	<div class="offcanvas-body">
+        		<hr class="m-0 p-0">
+        		<div class="blurlink">
+        			<a href="./website/C/Function/max.c">
+        				<h5 class="fs-6">=> WAP to find maximum number from given two numbers using function</h5>
+        			</a>
+        		</div>
+        		<hr class="m-0 p-0">
+        		<div class="blurlink">
+        			<a href="./website/C/Function/bsi.c">
+        				<h5 class="fs-6">=> WAP to count simple interest using function</h5>
+        			</a>
+        		</div>
+        		<hr class="m-0 p-0">
+        		<div class="blurlink">
+        			<a href="./website/C/Function/addn.c">
+        				<h5 class="fs-6">=> WAP that defines a function to add first n numbers</h5>
+        			</a>
+        		</div>   
+        		<hr class="m-0 p-0">     
+        	</div>
+        </div> 
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+</body>
+</html>

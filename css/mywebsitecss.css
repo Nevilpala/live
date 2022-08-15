@@ -1,0 +1,277 @@
+.start-loading{
+    position: fixed;
+    z-index: 999999999;
+   	display: flex;
+   	align-items: center;
+   	justify-content: center;
+    width: 100%;
+    height: 100%;
+    animation-delay: 1s;
+    background-color: rgb(255,194,33);
+    animation-name: starter;  
+  	animation-fill-mode: forwards;
+}
+@keyframes starter{	
+	from{
+		position: fixed;
+		z-index: 9999999;
+	}
+	to{
+		position: fixed;
+		background-color: transparent;
+		z-index: -999999999999;
+	}
+}
+.start-loading div{
+	color: black!important;
+}
+body{
+	background-color: white;
+}
+*{
+	/*border: 1px solid red;*/
+}
+a{
+	text-decoration: none;
+}
+.container-fluid{
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+.pointer{
+	cursor: pointer;
+}
+.textsm{
+	font-size: 12px;
+}
+.xsmall{
+	font-size: 10px;
+}
+.yellowcolor{
+	color: rgb(255,194,33);
+}
+.yellowbg{
+	background-color: rgb(255,194,33);
+}
+.bg2{
+	background-image: url(../images/baner-dec-left.png),url(../images/baner-dec-right.png);
+	background-repeat: no-repeat;
+	background-position: left center,right center;
+	background-size: auto 100%,auto 100%;
+	background-color: rgb(255,255,255);
+}
+nav .myactive{
+	border-bottom: 3px solid rgb(255,194,33);
+	padding-bottom: 10px;
+}
+.mynav a:hover{
+	background-color: red;
+	color: white !important;	
+}
+.mydrop:hover{
+	background-color: red;
+}
+.mydropdown a:hover{
+	background-color: rgb(255,194,33);
+}
+.bg3{
+	background-image: url(../images/contact-bg.png);
+	background-size: 100% 120%;
+	background-repeat: no-repeat;
+}
+.colhover{
+	padding: 2%;
+}
+.colhover:hover{
+	background-image: linear-gradient(to right, rgb(202,0,1), red, rgba(255,255,255,0.5));
+	border-radius: 0% 30%;
+}
+.bg4{
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(255,255,255);
+	position: relative;
+	background-image:url(../image/slider-left-dec.jpg),url(../image/about-right-dec.jpg);
+	background-position: left center,right center;
+	background-size: auto 100%,auto 100%;
+	display: block;
+	padding: 3% 0%;
+	z-index: 1;
+}
+.bg4 h1{
+	color: white;
+}
+.bg41{
+	position: absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image:url(../image/quote-bg-v2.jpg);
+	background-size: 100% 100%,100% 100%;
+	background-repeat: no-repeat;
+	margin: 4px auto;
+	background-position: center center;
+	border-radius: 10px;
+	z-index: -1;
+	height: 99%;
+	width: 70%;
+}
+.upper{
+	z-index: 999;
+	height: 100%;
+	width: 100%;
+}
+.smallcontainer{
+	width: 55%;
+	padding: 6% 0%;
+	margin: 0 auto;
+}
+.zoomimg{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
+.zoomimg img{
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    max-width: 100%!important;
+    min-height: 100%;
+}
+.zoomimg img:hover{
+	transform: scale(1.025,1.025) !important;
+	-webkit-transform: scale(1.025,1.025);
+	opacity: 0.5 !important;
+}
+.loading{
+	position: absolute;
+	z-index:-1;
+	top: 0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	padding-top: 50%;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+.bg5{
+	background-repeat: no-repeat,no-repeat;
+	background-color: rgb(24,0,82);
+	background-image:url(../images/baner-dec-left.png),url(../images/baner-dec-right.png);
+	background-position: left center,right center;
+	background-size: auto 100%,auto 100%;
+}
+.bg5 h1{
+	color: white;
+}
+.cmd{
+	background-image: url(../image/cmd.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.comingsoon{
+	position: absolute;
+	top:0;
+	color: white;
+	height: 100%;
+	width: 100%;
+	 transition: all ease-in-out 400ms;
+    -webkit-transition: all ease-in-out 400ms;
+}
+.comingsoon span{
+	position: relative;
+	top:50%;
+	left: 15%;
+	height: 100%;
+	width: 100%;
+	font-family: monospace;
+	font-weight: bolder;
+	font-size: 20px;
+	z-index: 9999;
+}
+.comingsoon:hover{
+	/*color: black;*/
+	background-color: grey;
+	transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	opacity: 0.5;
+}
+.blurlink{
+	padding: 2% 0%;
+}
+.blurlink:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+.ullink{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.footbg{
+	background-image: url(../images/contact-bg.png);
+	background-size: 100% 150%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+	padding: 5% 0%;
+}
+.footbg a{
+	color: white;
+	font-size: 15px;
+}
+.input2{
+	color: black;
+	border: 0;
+	background-color: rgba(244,116,88,0.8);
+	margin-bottom: 13px;
+}
+.input2::-webkit-input-placeholder, textarea{
+        color: darkred;
+        font-size: 13px;
+        opacity: 0.8;
+}
+
+.input2:-moz-placeholder ,textarea{
+        color: darkred;
+        font-size: 13px;
+        opacity: 0.8;
+}
+textarea{
+	border-radius: 15px;
+	height: 100px;
+	border: 0;
+	background-color: rgba(244,116,88,0.8);
+	margin-bottom: 13px;
+}
+.linkhover2 a:hover{
+	/*color: rgb(164,198,59);*/
+	color: darkred;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.linkhover2 li:hover{
+	color: darkred;
+	cursor: pointer;
+	transition: all 0.2s;
+}		
+.roundeda{
+	border-radius: 30px;
+}
+.ullink li{
+	display: block;
+}
+.firstloading{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100%;
+	padding-top: 45vh;
+}

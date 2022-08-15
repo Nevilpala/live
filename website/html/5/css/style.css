@@ -1,0 +1,165 @@
+/**{
+	border: 1px solid grey;
+}*/
+.container{
+	width: 65%;
+}
+nav{
+	position: relative;
+}
+.hr1{
+	opacity: 1;
+	height: 4px;
+	border-width: 0px;
+	font-weight: bolder;
+}
+.headerbg{
+	background-image: url(../images/header-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bannerbg{
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 50vh;
+	padding-bottom: 50px;
+}
+.textsm{
+	font-size: 12px;
+}
+.rowsmall{
+	width: 90%;
+}
+#relativerowheader{
+	position: absolute;
+	left: 682px;
+}
+.relativetopcornerimg{
+	position: relative;
+	right:37px;
+}
+.paddingi{
+	padding: 0px 25px;
+}
+.toppadding{/*
+	padding: 15px 0px;*/
+}
+#navbarNav1 a{
+	margin: 0px 15px;
+	padding: 4px 7px;
+	border: 1px solid rgba(0,0,0,0);
+	color: white;
+}
+#navbarNav1 a:hover{
+	color: rgb(10,222,248);
+}
+.lightbluecolor{
+	color: rgb(10,222,248);
+}
+.fontlg{
+	font-size: 55px;
+}
+.top-margin{
+	margin-top: 70px;
+}
+.ReadMore{
+	border-radius: 20px;
+	background-color: #F3511D;
+	padding: 10px 35px;
+	margin-top: 30px;
+	color: white;
+}
+.ReadMore:hover{
+	background-color: #FE2D00;
+	color: white;	
+}
+.Search{
+	background-color: #F3511D;
+	color: white;
+}
+.Search:hover{
+	background-color: #FE2D00;
+	color: white;
+}
+.form{
+	background-color: rgba(255,255,255,0.9);
+}
+.formrow2{
+	margin-top: 10px;
+}
+.form label{
+	font-family: monospace;
+}
+.letterspacing{
+	letter-spacing: -6px;
+}
+.radianborder{
+	background-image: linear-gradient(to right, rgb(7,127,155), rgb(12,30,67));
+	margin-top: 90px;
+}
+.ReadMore2{
+	border-radius: 20px;
+	background-color: #F3511D;
+	padding: 7px 30px;
+	margin-top: 10px;
+	color: white;
+}
+.ReadMore2:hover{
+	background-color: #FE2D00;
+	color: white;	
+}
+.amazing{
+	background-image: url(../images/Amazing.jpg);
+	background-repeat: no-repeat;
+	padding: 5% 0%;
+	margin-top: 30px;
+	background-size: 100% 100%;
+}
+.daterelative{
+	position: relative;
+	color: white;
+	bottom: 406px;
+}
+.datetext{
+	position: relative;
+	background-color: rgb(12,30,67);
+	padding: 7px 17px;
+}
+.bgfooter{
+	background-color: rgb(12,30,67);
+	margin-top: 25px;
+	padding: 1% 0%;
+}
+.icons{
+	padding: 2% 0% 1% 0%;
+}
+.icons i{
+	margin-right: 7px;
+}
+.foot-a{
+	text-decoration: none;
+	color: white;
+}
+.input1{
+	width: 100%;
+	padding: 2% 4%;
+}
+.textarea{
+	width: 100%;
+	margin-top: 10px;
+	padding: 2% 4%;
+}
+.h51{
+	padding: 5% 0%;
+}
+.submit{
+	background-color: black;
+	color: white;
+	border:0px solid black;
+	margin-top: 10px;
+}
+.submit:hover{
+	background-color: #0f0f0f;
+	color: white;
+}

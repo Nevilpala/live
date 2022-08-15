@@ -1,0 +1,18 @@
+.backg1{
+		background-image: url(../image/bg06.jpg);
+		background-size: 100% ;
+		background-repeat: no-repeat;
+		padding: 7% 0%;
+}
+.backg2{
+		background-image: linear-gradient(to right, rgba(0,0,0,0.2), white, rgba(0,0,0,0.2));
+		background-size: 100% ;
+		background-repeat: no-repeat;
+		padding: 6% 0%;
+}
+.table tr:hover{
+	cursor: pointer;
+}
+tr:nth-child(even){
+  background-color: rgba(0,0,0,0.2);	
+}

@@ -1,0 +1,98 @@
+/**{
+	border: 1px solid grey;
+}*/
+.firstbg{
+	background-color: rgb(232,233,233);
+}
+.bluecolor{
+	color: rgb(15,187,173);
+}
+.bgblue{
+	background-color: rgb(15,187,173);
+}
+.menu_a{
+	text-decoration: none;
+	color: grey;
+	background-color: rgb(232,233,233);
+}
+.latestsizeincres{
+	font-size: 60px;
+
+}
+.shopnow{
+	font-size: 13px;
+	font-weight: 600;
+	padding: 7px 20px;
+}
+.relativeshop{
+	position: relative;
+	right: 122px;
+	bottom: 5px;	
+}
+.margintop{
+	margin-top: 60px;
+}
+.imgdiscount{
+	background-image: url(./images/discount.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.padding{
+	padding: 10%;
+}
+.relativeimgbot{
+	position: relative;
+	top: 30px;
+}
+.topmargin{
+	margin-top: 30px;
+}
+.imgpadding div{
+	padding: 0% 2%;
+}
+.topbottommargin{
+	padding: 2% 0%; 
+}
+.bggrey{
+	background-color: rgb(230,233,233);
+	padding: 1%;
+}
+.input{
+	width: 90%;
+	padding: 5px;
+	margin: 2% 0%;
+}
+.send{
+	width: 20%;
+}
+.bgmap{
+	background-image: url(./images/map.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.bgfooter{
+	background-color: rgb(1,49,46);
+	padding: 3% 0%;
+}
+.bgfooter a{
+	text-decoration: none;
+	color: white;
+	margin: 0px 6px;
+
+}
+.bgfooter i{
+	margin: 0px 5px;
+}
+.bgfooter2{
+	background-color: rgb(2,63,59);
+}
+.fontsm{
+	font-size: 13px;
+}
+.orange{
+	background-color: rgb(210,57,10);
+	color: white;
+}
+.paddingbottom{
+	padding-bottom: 2%;
+}

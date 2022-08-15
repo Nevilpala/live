@@ -1,0 +1,101 @@
+.textsm{
+	font-size: 12px;
+}
+.xsmall{
+	font-size: 10px;
+}
+.bg1{
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.container{
+	width: 65%;
+}
+.mynav a{
+	color: white !important;
+	font-weight: 450;
+	font-family: arial;
+}
+.mynav a:hover{
+	color: red !important;
+}
+.searchrow{
+	border: 1px solid rgba(0,0,0,0.2);
+	margin: 2% 0%;
+}
+.domain{
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border:0;
+}
+.search{
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border:0;
+	color: white;
+	background-color: black;
+}
+.greencolor{
+	color:  rgb(43,168,121);
+}
+.greenbg{
+	background-color: rgb(43,168,121);
+}
+.cards{
+	border-radius: 10%;
+	padding: 10% 5%;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+.bg3{
+	background-image: url(../images/top-bg.png), url(../images/bottom-bg.png);
+	background-position: top, bottom;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: rgb(43,168,121);
+	min-height: 300px;
+	padding: 6% 0%;
+}
+.arrow{
+	position: absolute;
+	top:40%;
+	right: 105%;	
+}
+.arr{
+	position: relative;
+}
+.cards1{
+	border-radius: 10%;
+	padding: 10% 5%;
+	border: 1px solid rgba(43,168,121,0.7);
+}
+.bg4{
+	background-image: url(../images/contact-bg.png), linear-gradient(to top, rgb(43,168,121),white);
+	background-size: 100% 100%, cover;
+	background-position: center, bottom;
+	background-repeat: no-repeat, no-repeat;
+	padding: 5% 0%;
+}
+.contact{
+	border-radius: 5%;
+}
+.continput, .contact textarea{
+	border:0;
+	background-color: rgb(236,236,236);
+	color: grey;
+}
+.send{
+	background-color: rgb(206,65,9);
+	color: white !important;
+	padding: 2% 10%;
+	border:0;
+}
+.send:hover{
+	background-color: rgba(206,65,9,0.9);
+}
+.contact textarea{
+	height: 120px;
+}
+.bg5{
+	background-color: rgb(34,34,34);
+}

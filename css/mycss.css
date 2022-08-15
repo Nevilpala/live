@@ -1,0 +1,210 @@
+a{
+	text-decoration: none!important;
+}
+div{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav,ul,li,nav,header,.img-fluid{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	padding: 0;
+}
+.custom-container{
+	padding: 0 30px;
+}
+.v-center{
+	display: flex!important;
+	align-items: center!important;
+}
+.w-center{
+	display: flex!important;
+	justify-content: center!important;
+}
+
+.w-end{
+	display: flex!important;
+	justify-content: flex-end!important;
+}
+.vw-center{
+	display: flex!important;
+	align-items: center!important;
+	justify-content: center!important;
+}
+.paddingy{
+	padding: 7% 0;
+}
+.paddingy-sm{
+	padding: 4% 0;
+}
+.textsm{
+	font-size: 13px;
+}
+.dp-none{
+	display: none;
+}
+.ul{
+	padding-left: 0;
+	list-style-type: none!important;
+}
+/*DISPLAY-NONE*/
+@media screen and (max-width: 768px){
+	.dp-md-none{
+		display: none!important;
+	}
+	.dp-md-block{
+		display: block!important;
+	}
+}
+@media screen and (max-width: 576px){
+	.dp-sm-none{
+		display: none!important;
+	}
+	.dp-sm-block{
+		display: block!important;
+	}
+}
+@media screen and (max-width: 425px){
+	.dp-xs-none{
+		display: none!important;
+	}
+	.dp-xs-block{
+		display: block!important;
+	}
+}
+
+/*CLOSE-BTN*/
+
+/*<button class="btn-menu">*/
+	/*<div class="box-btn">
+		<input type="checkbox" class="btn">
+		<div class="btn-nav"></div>
+		<div class="btn-ex"></div>
+	</div>*/
+/*</button>*/
+button.btn-menu{
+	background-color: transparent!important;
+	border: 0;
+	overflow: hidden;
+	cursor: default!important;
+}
+.box-btn{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: 0;
+}
+.box-btn .btn-ex::before{
+	content: ' ';
+	position: absolute;
+	top: 22.5px;
+	left: 0;
+	border-radius: 5px; 
+	background-color: blue; 
+	width: 50px;
+	height: 5px;
+	transition: all .3s;
+}
+.box-btn .btn-nav::after{ 
+	position: absolute;
+	content: ' ';	
+	width: 50px; 
+	top: 5px; 
+	border-radius: 5px; 
+	background-color: red; 
+	transition: all .3s;
+	height: 5px;
+	left: 0; 
+}
+.box-btn .btn-nav::before{ 
+	position: absolute; 
+	content: ' ';
+	width: 50px; 
+	height: 5px;
+	bottom: 5px;
+	left: 0; 
+	border-radius: 5px; 
+	background-color: red;
+	transition: all .5s;
+}
+.box-btn input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50px!important;
+	width: 50px!important; 
+	margin: 0; 
+	z-index: 9;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.box-btn input:checked~.btn-nav::after{
+
+	transform:translate(0px, 17.5px);
+	animation-name: hi; 
+	animation-duration: .4s;
+	animation-delay: .2s;
+	animation-fill-mode: forwards;
+}
+@keyframes hi{
+	from{
+	}
+	to{
+		transform: rotate(45deg) translate(10px, 15px);
+	}
+}
+.box-btn input:checked~.btn-nav::before{
+	transform: translate(0px, -17.5px);
+	animation-name: hi2; 
+	animation-duration: .4s;
+	animation-delay: .2s;
+	animation-fill-mode: forwards;
+}
+@keyframes hi2{
+	from{
+	}
+	to{
+		transform: rotate(-45deg) translate(10px, -15px);
+	}
+}
+.box-btn input:checked~.btn-ex::before{
+	opacity: 0;
+}
+.box-btn div{
+	background-color: red!important;
+}
+
+
+/*ZOOMING-IMAGE*/
+.zoom_img{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
+.zoom_img img{
+	transition: all ease-in-out 500ms;
+	-webkit-transition: all ease-in-out 500ms;
+	max-width: 100%;
+	min-height: 100%;
+}
+.zoom_img:hover img{
+	transform: scale(1.025,1.025) !important;
+	-webkit-transform: scale(1.025,1.025);
+	opacity: 0.5 !important;
+}
+
+
+.gradient-bg-1{
+	background: linear-gradient(to right,#00d8ad,#d2aaf9)!important;
+	background-size: cover;
+}
+.gradient-bg-2{
+	background: linear-gradient(to right,#3987f4,#cd3178)!important;
+	background-size: cover;
+}

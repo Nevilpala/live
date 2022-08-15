@@ -1,0 +1,256 @@
+a{
+	text-decoration: none;
+}
+div{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav,ul,li,nav,header,.img-fluid{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	padding: 0;
+}
+.custom-container{
+	padding: 0 30px;
+}
+.v-center{
+	display: flex!important;
+	align-items: center!important;
+}
+.paddingy{
+	padding: 7% 0;
+}
+.paddingy-sm{
+	padding: 4% 0;
+}
+.textsm{
+	font-size: 13px;
+}
+.greenbg{
+	background-color: #59ab6e!important; 
+}
+
+/*HEADER_TOP ===================================================================================================*/
+
+.header_top{
+	background-color: #212934;
+	line-height: 40px;
+	color: #cfd6e1;
+	font-size: 14px;
+}
+.header_top .social_icon span i{
+	padding: 0 8px;
+	color: #cfd6e1;
+}
+.header_top .social_icon i:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+/*HEADER ==============================================================================================*/
+
+header{
+	background-color: white;
+}
+.nav-button{
+	display: none;
+}
+header ul li{
+	align-self: center;
+}
+header nav a{
+	color: #212934!important;
+
+}
+header nav ul li a.active{
+	font-weight: bolder;
+}
+header nav ul li:nth-child(2) a:hover,header nav ul li:nth-child(3) a:hover,header nav ul li:nth-child(4) a:hover,header nav ul li:nth-child(5) a:hover{
+	color: #59ab6e!important;
+}
+.my_menu{
+	display: none;
+}
+nav div.logo{
+	display: none;
+}
+button.nav-button{
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	border:0;
+	font-size: 25px;
+}
+.menu_search a  span i{
+	padding: 0 10px;
+	position: relative;
+}
+.menu_search a  span i span.badge{
+	background-color: #cfd6e1;
+	color: #212934;
+}
+.lg-view li.logo{
+	width: 10%;
+}
+.modal{
+	background-color: white;
+}
+.modal .modal-dialog{
+	width: 100%;
+	padding: 100px 200px;
+}
+.modal .modal-header{
+	display: block;
+}
+.modal .btn-close{
+	font-size: 30px;
+}
+.modal_input{
+	height: 50px; 
+}
+.modal_input div{
+	width: 50px;
+	text-align: center;
+}
+.modal-body{
+	display: flex;
+	align-items: center;
+}
+
+/*SECTION-2 =============================================================================================*/
+
+.section2{
+	background-color: rgb(239,239,239);
+}
+.slide_content{
+	flex: 0 0 auto;
+	width: 50%;
+}
+.slide_main{
+	width: 100%;
+}
+.slide_main h2{
+	padding: 15px 0;
+}
+.mycarousel_indicators button div{
+	width: 100%;
+	height: 5px;
+	background-color: #59ab6e;
+}
+button.carousel_control i{
+	font-size: 75px;
+	color: #59ab6e;
+}
+
+/*SECTION-3 ===================================================================================================*/
+
+.card_shop .card-img{
+	border-radius: 50%;
+	width: 80%;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+.card_shop h3{
+	padding: 20px 0;
+}
+.card_shop button.button_shop{
+	background-color: #59ab6e;
+	color: white;
+}
+.card_shop button.button_shop:hover{
+	opacity: 0.9;
+}
+.card_shop{}
+
+/*SECTION-3 ===================================================================================================*/
+
+.section4{
+	background-color: rgb(233,238,244);
+}
+.card-detail{
+	font-size: 23px;
+	font-weight: lighter;
+}
+.rate{
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+
+/*FOOTER ============================================================================================*/
+
+footer{
+	background-color: #212934;
+	color: #cfd6e1;
+}
+footer .title_logo{
+	color: #59ab6e;
+	font-weight: bold;
+}
+footer h2{
+	font-weight: 400;
+}
+footer ul li a,footer ul li{
+	font-size: 20px;
+	padding-bottom: 10px;
+	color: #cfd6e1;
+}
+footer ul li a:hover{
+	color: #59ab6e;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+	.header_top{
+		display: none;
+	}
+	.lg-view{
+		display: none;
+	}
+	.nav-button{
+		display: block;
+	}
+	.my_menu{
+		display: block;
+	}
+	.my_menu ul li{
+		display: block;
+		float: none;
+		width: 100%;
+		text-align: left!important;
+	}
+	nav .my_menu ul li.logo{
+		display: none;
+	}
+	.flex-between{
+		display: flex;
+		justify-content: space-between;	
+		align-items: center;
+	}
+	.menu_search p{
+		display: flex;
+		align-items: center;
+	}
+	nav div.logo{
+		display: block;
+	}
+	button.carousel_control i{
+		font-size: 50px;
+	}
+}
+@media screen and (max-width: 576px){
+	.v-center{
+		display: block!important;
+		width: 100%;
+	}
+	.slide_content{
+		width: 100%;
+	}
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required metaatags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	<!--  Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+	<!--  Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/custom.css">
+	
+	<title></title>
+</head>
+<body id="shopdetail">
+	
+	<section class="container-fluid header_top">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-auto">
+					<i class="fas fa-envelope pe-2"></i>  info@company.com
+					<i class="fas fa-phone-alt px-2"></i>  010-020-0340
+				</div>
+				<div class="col-auto social_icon">
+					<a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+					<a href="#"><span><i class="fab fa-instagram"></i></span></a>
+					<a href="#"><span><i class="fab fa-twitter"></i></span></a>
+					<a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<header class="container-fluid shadow">
+		<div class="container">
+			<nav class="nav_menu ">
+				<div class="flex-between">
+					<div class="navbar-brand logo">
+						<a class="nav-link" href="#">
+							<img src="./img/apple-icon.png" class="img-fluid" width="40%">
+						</a>
+					</div>
+					<button class="nav-button " type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> 
+						<i class="fas fa-bars"></i>
+					</button>
+				</div>
+				<div class="collapse my_menu" id="menu">
+					<ul class="nav nav-fill">
+						<li class="navbar-brand logo">
+							<a class="nav-link" href="#">
+								<img src="./img/apple-icon.png" class="img-fluid" width="30%">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="./index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./about.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="./shop.html">Shop</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./contact.html">Contact</a>
+						</li>
+						<li class="nav-item menu_search">
+							<p class="nav-link">
+								<a href="#" class="input-group">
+										<input type="text" class="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2"></form>
+										<span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+								</a>
+								<a href="#"><span><i class="fas fa-shopping-cart"> 
+									<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">7
+										<span class="visually-hidden">unread messages</span>
+									</span></i></span>
+								</a>
+								<a href="#"><span><i class="fas fa-user">
+									<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">+99
+										<span class="visually-hidden">unread messages</span>
+									</span></i></span>
+								</a>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<ul class="nav nav-fill lg-view">
+					<li class="navbar-brand logo">
+						<a class="nav-link" href="#">
+							<img src="./img/apple-icon.png" class="img-fluid" >
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="./index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="./shop.html">Shop</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./contact.html">Contact</a>
+					</li>
+					<li class="nav-item menu_search">
+						<p class="nav-link">
+							<a data-bs-toggle="modal" data-bs-target="#exampleModal"><span><i class="fas fa-search"></i></span></a>
+							<a href=""><span><i class="fas fa-shopping-cart"> 
+								<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">7
+									<span class="visually-hidden">unread messages</span>
+								</span></i></span>
+							</a>
+							<a href=""><span><i class="fas fa-user">
+								<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">+99
+									<span class="visually-hidden">unread messages</span>
+								</span></i></span>
+							</a>
+						</p>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+<!-- SHOP_SECTION-1 ========================================================================================= -->
+		
+	<section class="paddingy container-fluid shopdetail_s1">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-xxl-5 col-lg-5 col-md-12 col-sm-12 ">
+					<div class="sidebar_content">
+						<div id="img_shop_main" class="carousel" data-bs-interval="false">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="./img/product_single_01.jpg" class="d-block w-100">
+								</div>
+								<div class="carousel-item">
+									<img src="./img/product_single_02.jpg" class="d-block w-100">
+								</div>
+								<div class="carousel-item">
+									<img src="./img/product_single_03.jpg" class="d-block w-100">
+								</div>
+								<div class="carousel-item">
+									<img src="./img/product_single_04.jpg" class="d-block w-100">
+								</div>
+								<div class="carousel-item">
+									<img src="./img/product_single_05.jpg" class="d-block w-100">
+								</div>
+								<div class="carousel-item">
+									<img src="./img/product_single_06.jpg" class="d-block w-100">
+								</div>
+								<div class="carousel-item">
+									<img src="./img/product_single_07.jpg" class="d-block w-100">
+								</div>
+								<div class="carousel-item">
+									<img src="./img/product_single_08.jpg" class="d-block w-100">
+								</div>
+								<div class="carousel-item">
+									<img src="./img/product_single_09.jpg" class="d-block w-100">
+								</div>
+							</div>
+						</div>
+
+
+						<div id="corosuel_shop" class="carousel slide mt-5" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="row img_shop w-75 mx-auto">
+										<div class="col">
+											<button  data-bs-target="#img_shop_main" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+												<img src="./img/product_single_01.jpg" class="img-fluid">
+											</button>
+										</div>
+										<div class="col">
+											<button  data-bs-target="#img_shop_main" data-bs-slide-to="1"  aria-current="true" aria-label="Slide 2">
+												<img src="./img/product_single_02.jpg" class="img-fluid">
+											</button>
+										</div>
+										<div class="col">
+											<button  data-bs-target="#img_shop_main" data-bs-slide-to="2"  aria-current="true" aria-label="Slide 3">
+												<img src="./img/product_single_03.jpg" class="img-fluid">
+											</button>
+										</div>
+									</div>
+								</div>	
+								<div class="carousel-item">
+									<div class="row img_shop w-75 mx-auto">
+										<div class="col">
+											<button data-bs-target="#img_shop_main" data-bs-slide-to="3" aria-current="true" aria-label="Slide 4">
+												<img src="./img/product_single_04.jpg" class="img-fluid">
+											</button>
+										</div>
+										<div class="col">
+											<button  data-bs-target="#img_shop_main" data-bs-slide-to="4" aria-current="true" aria-label="Slide 5">
+												<img src="./img/product_single_05.jpg" class="img-fluid">
+											</button>
+										</div>
+										<div class="col">
+											<button  data-bs-target="#img_shop_main" data-bs-slide-to="5" aria-current="true" aria-label="Slide 6">
+												<img src="./img/product_single_06.jpg" class="img-fluid">
+											</button>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="row img_shop w-75 mx-auto">
+										<div class="col">
+											<button  data-bs-target="#img_shop_main" data-bs-slide-to="6" aria-current="true" aria-label="Slide 7">
+												<img src="./img/product_single_07.jpg" class="img-fluid">
+											</button>
+										</div>
+										<div class="col">
+											<button  data-bs-target="#img_shop_main" data-bs-slide-to="7" aria-current="true" aria-label="Slide 8">
+												<img src="./img/product_single_08.jpg" class="img-fluid">
+											</button>
+										</div>
+										<div class="col">
+											<button  data-bs-target="#img_shop_main" data-bs-slide-to="8" aria-current="true" aria-label="Slide 9">
+												<img src="./img/product_single_09.jpg" class="img-fluid">
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button class="carousel-control-prev shopdetail_next_pre" type="button" data-bs-target="#corosuel_shop" data-bs-slide="prev">
+								<i class="fas fa-angle-left" aria-hidden="true"></i>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next shopdetail_next_pre" type="button" data-bs-target="#corosuel_shop" data-bs-slide="next">
+								<i class="fas fa-angle-right" aria-hidden="true"></i>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+
+<!-- --------------------------------------- 		RIGHT SIDE			----------------------------------------- -->
+
+				<div class="col-xxl col-lg col-md-12 col-sm-12 ">
+					<div class="sidebar_content sideright_content">
+						<p class="display-6 pt-0">Active Wear</p>
+						<p class="fs-4">$25.00</p>
+						<p class="fs-4">
+							<i class="fas fa-star pe-1 text-warning"></i>
+							<i class="fas fa-star pe-1 text-warning"></i>
+							<i class="fas fa-star pe-1 text-warning"></i>
+							<i class="fas fa-star pe-1 text-warning"></i>
+							<i class="fas fa-star pe-1"></i>
+							<span class="fw-light">
+								Rating 4.8 | 36 Comments
+							</span>
+						</p>
+						<p>
+							<strong>Brand:</strong>
+							<span class="text-muted fs-5">Easy Wear</span>
+						</p>
+						<p>
+							<strong>Description:</strong>
+							<div class="fs-5 fw-light">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse. Donec condimentum elementum convallis. Nunc sed orci a diam ultrices aliquet interdum quis nulla.
+							</div>
+						</p>
+						<p>
+							<strong>Avaliable Color :</strong>
+							<span class="text-muted fs-5">White / Black</span>
+						</p>
+						<p>
+							<strong>Specification :</strong>
+							<ul class="fs-5 fw-light ps-0" type="none">
+								<li>Lorem ipsum dolor sit</li>
+								<li>Amet, consectetur</li>
+								<li>Adipiscing elit,set</li>
+								<li>Duis aute irure</li>
+								<li>Ut enim ad minim</li>
+								<li>Dolore magna aliqua</li>
+								<li>Excepteur sint</li>
+							</ul>
+						</p>
+						<div class="size_quantity my-3">
+							<div class="fs-5 fw-light mt-3">Size :
+								<button class="btn btn-success">S</button>
+								<button class="btn btn-success">M</button>
+								<button class="btn btn-success">L</button>
+								<button class="btn btn-success">XL</button>
+							</div>
+							<div class="fs-5 fw-light mt-3">Quantity :
+								<select class=" btn btn-success">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</div>
+						<div class="buy v-center mt-4">
+							<a class="btn btn-lg btn-success mt-2" href="">Buy</a>
+							<a class="btn btn-lg btn-success me-0 mt-2" href="">Add To Card</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- FOOTER =================================================================================================== -->
+
+	<footer class=" container-fluid paddingy">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-xxl col-lg col-md col-sm-12">
+					<div class="p-2">
+						<h2 class="title_logo">Zay Shop</h2>
+						<hr>
+						<ul type="none" class="ps-0">
+							<li><i class="fas fa-map-marker-alt pe-2"></i> 123 Consectetur at ligula 10660</li>
+							<li><i class="fas fa-phone-alt pe-1"></i>  010-020-0340</li>
+							<li><i class="fas fa-envelope pe-1"></i> info@company.com</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xxl col-lg col-md col-sm-12">
+					<div class="p-2">
+						<h2>Products</h2>
+						<hr>
+						<ul type="none" class="ps-0">
+							<li><a href="">Luxury</a></li>
+							<li><a href="">Sport Wear</a></li>
+							<li><a href="">Men's Shoes</a></li>
+							<li><a href="">Women's Shoes</a></li>
+							<li><a href="">Popular Dress</a></li>
+							<li><a href="">Gym Accessories</a></li>
+							<li><a href="">Sport Shoes</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xxl col-lg col-md col-sm-12">
+					<div class="p-2">
+						<h2>Further Info</h2>
+						<hr>	
+						<ul type="none" class="ps-0">
+							<li><a href="">Home</a></li>
+							<li><a href="">About Us</a></li>
+							<li><a href="">Shop Locations</a></li>
+							<li><a href="">FAQs</a></li>
+							<li><a href="">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  	<div class="modal-dialog modal-fullscreen">
+	    	<div class="modal-content">
+	      		<div class="modal-header">
+	        		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  				</div>
+		      	<div class="modal-body">
+		        	<div class="input-group modal_input">
+						<input type="text" class="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2"></form>
+						<div data-bs-dismiss="modal" class="input-group-text greenbg" id="basic-addon2"><i class="fas fa-search text-light"></i></div>
+					</div>
+		      	</div>
+	      		
+	    	</div>
+	  	</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

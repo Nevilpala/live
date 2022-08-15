@@ -1,0 +1,75 @@
+
+/*ABOUT-SECTION-1 ================================================================================*/ 
+
+.about-section-1 h1{
+	color: black;
+	text-align: center;
+}
+.about-section-1 .hr-head{
+	opacity: 1;
+	color: black;
+	width: 50%;
+	margin: 25px auto;
+	padding: 1.5px;
+
+}
+.about-section-1 .mycard{
+	background-color: rgba(15, 29, 32, 0.76);
+	color: white;
+}
+.about-section-1  .head-card{
+	width: auto;
+	border: 1px solid white;
+	font-size: 25px;
+	padding: 7px;
+}
+
+.about-section-1 .mycard h5{
+	letter-spacing: 1.5px;
+	padding: 20px 0;
+}
+.about-section-1 .mycard .card-body p{
+	line-height: 27px;
+	padding: 7px 0;
+}
+.about-section-1 .mycard .card-body button.more,.about-section-1 .mycard .card-body button.detail{
+	background-color: #006868;
+	padding: 6px 30px;
+	border:0;
+	margin: 15px 0;
+	color: white;
+}
+.about-section-1 .mycard .card-body button.more:hover,.about-section-1 .mycard .card-body button.detail:hover{
+	background-color: #006890;
+}
+
+/*ABOUT-SECTION-2 ================================================================================*/ 
+
+.about-section-2 .app-feature{
+	background-color: rgba(15, 29, 32, 0.76);
+	text-align: center;
+	color: white;
+	padding: 30px;
+}
+
+/*ABOUT-SECTION-3 ================================================================================*/ 
+
+.about-section-3 .app-feature-detail{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px 10px;
+	height: 100%;
+}
+.about-section-3 .app-feature-detail i{
+	font-size: 40px;
+	padding: 20px;
+	border:1px solid grey;
+	border-radius: 50%;
+	color: grey;
+}
+.about-section-3 .app-feature-detail p{
+	color: rgba(0,0,0,0.7);
+	padding: 10px 0;
+}
+.about-section-3
+.about-section-3
+.about-section-3

@@ -1,0 +1,347 @@
+a{
+	text-decoration: none;
+}
+div{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav,ul,li,nav,header,.img-fluid{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	padding: 0 ;
+}
+.custom-container{
+	padding: 0 30px;
+
+}
+.v-center{
+	display: flex!important;
+	align-items: center!important;
+}
+.greencolor{
+	color: #99FF66;
+}
+.greenbg{
+	background-color: #99FF66;
+}
+body{
+	background-image: url(../img/tm-astro-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+}
+.paddingy{
+	padding: 7% 0;
+}
+.padding-sm-y{
+	padding: 4% 0;
+}
+div.circle{
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	background-color: white;
+}
+/*HEADER ===========================================================================================*/
+
+header nav a{
+	color: white!important;
+}
+header nav button.menu_icon i{
+	color: white;
+	padding: 6px;
+
+}
+header nav button.menu_icon{
+	border:1px solid white!important;
+}
+.custom_nav ul li{
+	position: relative;
+	cursor: pointer;
+}
+.custom_nav ul li a{
+	font-size: 25px;
+	margin: 0 15px;
+	padding: 20px 0;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+.custom_nav ul li a span{
+	padding: 0px 50px;
+}
+.custom_nav ul li div.circle{
+	position: absolute;
+	padding: 8px;
+	background-color: white;
+	border-radius: 50%;
+	top: 70px;
+	left: 45%;
+}
+.custom_nav ul li:hover div.circle{
+	background-color: #99FF66;
+}
+.custom_nav ul li:hover a span,.custom_nav ul li:hover a{
+	color: #99FF66;
+	border-color: #99FF66;
+}
+.custom_nav ul li.actives div.circle{
+	background-color: #99FF66;
+}
+.custom_nav ul li.actives a span{
+	color: #99FF66;
+}
+.custom_nav ul li.actives a{
+	border-color: #99FF66;
+}
+.custom_nav ul li.actives div.circle{
+	background-color: #99FF66;
+}
+
+/*FIRST-SLIDE ====================================================================*/
+
+.circle_title{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.circle_title .circle{
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	background-color: white;
+}
+.circle_title .circle_line{
+	padding: 1.3px;
+	background-color: white;
+	width: 100%;
+}
+
+/*SECOND-SLIDE ====================================================================*/
+
+.gallery_img_control{
+	justify-content: center;
+	display: flex;
+}
+.gallery_img_control .gallery_img{
+	cursor: pointer;
+	margin: 20px 10px;
+	position: relative;
+	height: auto;
+}
+.gallery_img_control .gallery_img img{
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	max-width: 100%;
+	min-height: 100%;
+	position: relative;
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+}
+.gallery_img .img-caption{
+	height: 100%!important;
+	background-color: red;
+}
+.gallery_img .img-caption p{
+	display: none;
+}
+.gallery_img:hover .img_hover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.4);
+
+}
+.gallery_img:hover img{
+
+	transform: scale(1.05,1.05) !important;
+	-webkit-transform: scale(1.05,1.05);
+}
+.gallery_img:hover p{
+	background-color: white;
+	display: flex!important;
+	align-items: center!important;
+	padding: 20px;
+	position: absolute;
+	top: 33%;
+	left: 0;
+	text-align: center!important;
+	color: black;
+	width: 100%;
+	animation-name: example;
+  	animation-duration: 1.25s;
+  	z-index: 9999;
+}
+@keyframes example{
+	0% {left :100px;}
+	100%{right: 100px;}
+}
+.zoomimg{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+/*THIRD-SLIDE ====================================================================*/
+
+.slide-content{
+	display: flex;
+}
+.first-content{
+	background-color: rgba(0,0,0,0.4);
+	padding: 25px;
+	line-height: 30px;
+}
+.first-content h2{
+	padding: 10px 0;
+}
+.first-content p{
+	padding: 15px 0;
+	font-size: 20px;
+}
+.third_slide{
+	width: 75%;
+}
+
+/*FOURTH-SLIDE ====================================================================*/
+
+.fourth_content{
+	display: flex;
+}
+.fourth_content div{
+	padding-top: 50px;
+	padding: 25px;
+}
+.form-contact .input-text{
+	width: 100%;
+	background-color: transparent;
+	border:0;
+	border-bottom: 2px solid white;
+	padding: 9px;
+	padding-left: 0;
+	margin-bottom: 25px;
+	font-size: 20px;
+	color: white!important;
+
+} 
+.form-contact .input-text::placeholder{
+	color: white;
+	opacity: 1;
+}
+.form-contact .input-text:hover{
+	border: 0;
+	border-bottom: 2px solid white;
+}
+.form-contact textarea{
+	height: 200px;
+}
+.form-contact input.submit{
+	padding: 8px 20px;
+	background-color: white;
+	border:0;
+	float: right;
+}
+.contact-detail h3{
+	padding: 10px;
+}
+.contact-detail p{
+	padding: 10px;
+	font-size: 17px;
+}
+.contact-detail iframe{
+	padding: 10px;
+}
+
+
+
+
+/*MEDIA QUERY FOR RESPONSIBLE WEBSITE ======================================================*/
+
+
+@media screen and (max-width: 768px){
+	.custom_nav ul{
+		width: 50%!important;
+		float: right;
+		background-color: rgba(0,0,0,0.4);
+		margin-top: 0;
+		padding-bottom: 25px;
+	}
+	.custom_nav ul li a{
+		font-size: 15px;
+	}
+	.custom_nav ul li div.circle{
+		top: 55px;
+		left: 45%;
+	}
+	.custom_nav ul li div.circle{
+		left: 49%;
+	}
+	.slide-content{
+		display: block;	
+		align-items: center;
+	}
+	.slide-content img{
+		margin: 25px auto;
+		padding: 0!important;
+	}
+	.first-content h2{
+		font-size: 28px;
+	}
+	.first-content p{
+		font-size: 15px;
+	}
+	.gallery_img:hover p{
+		top: 10%;
+	}
+	.third_slide{
+		width: 100%;
+	}
+	.fourth_content{
+		display: block;
+	}
+	.gallery_img_control{
+		display: flex;
+  		flex-wrap: wrap;
+  		flex-direction: row;
+  		margin: 20px 20px;
+		grid-gap: 20px;
+
+	}
+	.gallery_img_control .gallery_img{
+		margin: 0;
+		flex: 0 0 auto;
+		width: 25%;
+	}
+	.gallery_img_control .gallery_img p{
+		top: 27%;
+	}
+
+}
+@media screen and (max-width: 425px){
+	.custom_nav ul{
+		float: none;
+		width: 100%!important;
+	}
+	.home-img{
+		margin: 0 auto;
+		padding: 0;
+	}
+	.gallery_img_control .gallery_img{
+		margin: 0;
+		flex: 0 0 auto;
+		width: 45%;
+	}
+
+
+	.gallery_img:hover p{
+		font-size: 15px;
+		padding: 10px 5px;
+		top: 38%;
+		text-align: center;
+	}	
+}

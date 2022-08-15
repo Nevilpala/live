@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required metaatags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	<!--  Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+	<!--  Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	
+	<title></title>
+</head>
+<body id="home">
+	<header class="container-fluid custom-container">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<span class="display-5">Astro Motion</span>
+				</a>
+				<button class="navbar-toggler menu_icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fas fa-bars"></i>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end align-items-center custom_nav" id="navbarNav">
+					<ul class="navbar-nav" id="buttons">
+						<li class="nav-item corosolbtn actives">
+							<a class="nav-link" data-bs-target="#corosol-pages" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><span>Home</span>
+								<div class="circle active"></div>
+							</a>
+						</li>
+						<li class="nav-item corosolbtn">
+							<a class="nav-link" data-bs-target="#corosol-pages" data-bs-slide-to="1" aria-label="Slide 2"><span>Gallery</span>
+								<div class="circle"></div>
+							</a>
+						</li>
+						<li class="nav-item corosolbtn">
+							<a class="nav-link" data-bs-target="#corosol-pages" data-bs-slide-to="2" aria-label="Slide 3"><span>About</span>
+								<div class="circle"></div>
+							</a>
+						</li>
+						<li class="nav-item corosolbtn">
+							<a class="nav-link " data-bs-target="#corosol-pages" data-bs-slide-to="3" aria-label="Slide 4"><span>Contact</span>
+								<div class="circle"></div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section id="corosol-pages" class="carousel">
+		<div class="container text-light">
+			<div class="carousel-inner">
+
+				<!-- FIRST SLIDE -->
+				<div class="carousel-item active paddingy">
+					<div class="circle_title">
+						<div class="circle"></div>
+						<div class="circle_line"></div>
+						<div class="circle"></div>
+					</div>
+					<div class="slide-content padding-sm-y">
+						<div class="first-content">
+							<h2>Welcome to Astro Motion</h2>
+							<p>This HTML template has a motion video background loop which is provided by Get Free Pictures. This is one-page responsive layout for your websites. Feel free to use this for a commercial purpose.</p>
+
+							<p>You are not permitted to redistribute this template on your Free CSS collection websites. Please contact us for more information.</p>
+						</div>
+						<div class="home-img">
+							<img src="./img/home-img-1.jpg" class="p-4 pt-0">
+							<img src="./img/home-img-2.jpg" class="p-4 pb-0">
+						</div>
+					</div>
+					<div class="circle_title">
+						<div class="circle"></div>
+						<div class="circle_line"></div>
+						<div class="circle"></div>
+					</div>
+				</div>
+
+				<!-- SECOND SLIDE -->
+				<div class="carousel-item paddingy">
+					<div class="circle_title">
+						<div class="circle"></div>
+						<div class="circle_line"></div>
+						<div class="circle"></div>
+					</div>
+
+					<!-- START GALLERY CAROUSEL SLIDER -------------------------------------------->
+
+					<div class="gallery_slider">
+						<div class="gallery_img_control">
+							<div class="gallery_img zoomimg">
+								<img src="./img/gallery-img-01.jpg" class="d-block w-100">
+								<div class="img-caption">
+									<p>Julia dances in the deep dark</p>
+								</div>
+								<div class="img_hover"></div>
+							</div>
+							<div class="gallery_img zoomimg">
+								<img src="./img/gallery-img-02.jpg" class="d-block w-100">
+								<div class="img-caption">
+									<p>Julia dances in the deep dark</p>
+								</div>
+								<div class="img_hover"></div>
+							</div>
+							<div class="gallery_img zoomimg">
+								<img src="./img/gallery-img-03.jpg" class="d-block w-100">
+								<div class="img-caption">
+									<p>Julia dances in the deep dark</p>
+								</div>
+								<div class="img_hover"></div>
+							</div>
+							<div class="gallery_img zoomimg">
+								<img src="./img/gallery-img-04.jpg" class="d-block w-100">
+								<div class="img-caption">
+									<p>Julia dances in the deep dark</p>
+								</div>
+								<div class="img_hover"></div>
+							</div>
+							<div class="gallery_img zoomimg">
+								<img src="./img/gallery-img-05.jpg" class="d-block w-100">
+								<div class="img-caption">
+									<p>Julia dances in the deep dark</p>
+								</div>
+								<div class="img_hover"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- END GALLERY CAROUSEL SLIDER -------------------------------------------->
+		
+					<div class="circle_title">
+						<div class="circle"></div>
+						<div class="circle_line"></div>
+						<div class="circle"></div>
+					</div>
+				</div>
+
+				<!-- THIRD SLIDE -->
+				<div class="carousel-item paddingy third_slide">
+					<div class="circle_title">
+						<div class="circle"></div>
+						<div class="circle_line"></div>
+						<div class="circle"></div>
+					</div>
+					<div class="slide-content padding-sm-y">
+						<div class="first-content">
+							<h2>About our company</h2>
+							<p>You are allowed to use Astro Motion HTML Template for your websites. You are not allowed to re-distribute this template ZIP file on any Free CSS template collection website. Illegal redistribution is strongly prohibited.</p>
+
+							<p>Praesent auctor rhoncus arcu, vitae blandit est vestibulum sit amet. Integer erat turpis, vestibulum pellentesque aliquam ultricies, finibus nec dui. Donec bibendum enim mi, at tristique leo feugiat at. Thank you for visiting Template Mo.</p>
+						</div>
+					</div>
+					<div class="circle_title">
+						<div class="circle"></div>
+						<div class="circle_line"></div>
+						<div class="circle"></div>
+					</div>
+				</div>
+
+				<!-- FOURTH SLIDE -->
+				<div class="carousel-item paddingy">
+					<div class="fourth_content">
+						<div class="form-contact">
+							<form>
+								<input type="text" placeholder="Name" class="input-text" required="required">
+								<input type="email" placeholder="Email" class="input-text" required="required">
+								<textarea placeholder="Message" class="input-text" required="required"></textarea>
+								<input type="submit" class="submit" value="Send">
+							</form>
+						</div>
+						<div class="contact-detail">
+							<h3>Contact Us</h3>
+							<p>Integer erat turpis, vestibulum pellentesque aliquam ultricies, finibus nec dui. Donec bibendum enim mi, at tristique leo feugiat at.</p>
+							<p>Email: info@company.com<br>
+							Tel: 010-020-0340</p>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58756.987128414774!2d-43.385296!3d-23.012325!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdb695cd967b7%3A0x171cdd035a6a9d84!2sAv.%20L%C3%BAcio%20Costa%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%20Brazil!5e0!3m2!1sen!2sus!4v1647663386459!5m2!1sen!2sus" style="border:0; width: 100%; 	height: 55%;" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<footer class="text-center text-light p-4 fs-5">
+		Copyright 2021 Astro Motion Company Limited. All rights reserved.
+	</footer>
+
+
+
+
+
+
+	<script>
+		// Add active class to the current button (highlight it)
+		var header = document.getElementById("buttons");
+		var corosolbtns = header.getElementsByClassName("corosolbtn");
+		for (var i = 0; i < corosolbtns.length; i++) {
+			corosolbtns[i].addEventListener("click", function() {
+				var current = document.getElementsByClassName("actives");
+				if (current.length > 0) { 
+					current[0].className = current[0].className.replace(" actives", "");
+				}
+				this.className += " actives";
+			});
+		}
+	</script>	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

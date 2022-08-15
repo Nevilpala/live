@@ -1,0 +1,25 @@
+header{
+	margin-bottom: 25px;
+}
+.display-none{
+	display: none!important;
+}
+
+.section1{
+	background-image: url(../images/main-bg.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height:5vh;
+}
+
+.section2{
+	display: none;
+}
+
+header .custom-nav ul li a{
+	/*font-weight: bold!important;*/
+	font-size: 20px;
+	margin: 0 5px;
+	margin-top: 10px;
+}

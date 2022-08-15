@@ -1,0 +1,45 @@
+.myrow{
+	display: flex!important;
+	flex-wrap: wrap!important;
+}
+.mycol{
+	flex: 0 0 auto;
+	width: 25%;
+	padding: 6px;
+}
+@media screen and (max-width: 1200px){
+	.mycol{
+		flex: 0 0 auto;
+		width: 16.66666666666667%;
+	}
+}
+@media screen and (max-width: 1200px){
+	.mycol{
+		flex: 0 0 auto;
+		width: 20%;
+	}
+}
+@media screen and (max-width: 1024px){
+	.mycol{
+		flex: 0 0 auto;
+		width: 25%;
+	}
+}
+@media screen and (max-width: 768px){
+	.mycol{
+		flex: 0 0 auto;
+		width: 33.33333%;
+	}
+}
+@media screen and (max-width: 576px){
+	.mycol{
+		flex: 0 0 auto;
+		width: 33.33333%;
+	}
+}
+@media screen and (max-width: 300px){
+	.mycol{
+		flex: 0 0 auto;
+		width: 50%;
+	}
+}

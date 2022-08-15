@@ -1,0 +1,219 @@
+/**{
+	border: 0.5px solid black;
+}*/
+.container{
+	width: 70%;
+}
+.ourclass{
+	color: rgb(52,49,72);
+}
+.letter{
+	letter-spacing: -3px;
+}
+.but{
+	background-color: rgb(52,49,72);
+	color: pink;
+}
+.butt{
+	margin-top: 15px;
+}
+.imge{
+	margin-top: 20px;
+}
+.card p{
+	font-size: 13px;
+}
+.textsm{
+	font-size: 11px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.textsm span{
+	padding: 0px 4px;
+}
+.firbg{
+	background-color: rgb(52,49,72);
+	color: white;
+}
+.secbg{
+	background-color: rgb(247,202,201);
+	padding-bottom: 50px;
+}
+.logo{
+	font-size: 25px;
+	color: white;
+	letter-spacing: 4px;
+}
+.logo span{
+	color: rgb(52,49,72);
+}
+header{
+	background-color: rgba(0,0,0,0.1);
+}
+.navhov span{
+	color: white;
+	font-size: 12px;
+}
+.navhov span:hover{
+	color: blue;
+}
+.blog{
+	font-size: 12px;
+	padding-top: 1px;
+	color: white;
+}
+.blog:hover{
+	color: blue;	
+}
+.butcol{
+	background-color: rgb(52,49,72);
+	color: rgb(247,202,201);
+	margin-top: 10px;
+}
+.butcol:hover{
+	color:white;
+	transform: scale(1.02);
+}
+.relat{
+	position: relative;
+	bottom: 30px;
+	background-color: white;
+}
+.plus{
+	position: relative;
+	left: 6px;
+}
+.relatbg{
+	background-color: rgb(247,202,201);
+}
+.padtopbottom{
+	padding: 55px 0px;
+}
+.welcometoyoga p{
+	font-size: 13px;
+	color: grey;
+}
+.welcometoyoga h3{
+	padding-bottom: 20px;
+}
+.cards p{
+	font-size: 12px;
+}
+.cards h6{
+	padding-top: 10px;
+}
+.card2{
+	background-color: rgb(52,49,72);
+	color: white;
+}
+.card2 h6{
+	color: rgb(247,202,201);
+}
+.thirbg{
+	background-image: url(./img/discount-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20%;
+	min-height: 300px;
+}
+.thirbgcolor{
+	background-color: rgba(247,202,201,0.6);
+	min-height: 300px;
+}
+.bottommargin{
+	margin-bottom: 100px;
+}
+.rowss{
+	padding: 2%;
+}
+.rowss h2{
+	color: rgb(52,49,72);
+}
+.rowss p{
+	font-size: 12px;
+}
+.bluecolor{
+	color: rgb(52,49,72);
+	background-color: rgb(247,202,201);
+}
+.pinkcolor{
+	color:  rgb(247,202,201);
+	background-color:  rgb(52,49,72);
+}
+.butcolpink{
+	background-color: rgb(247,202,201);
+	color: rgb(52,49,72);
+	margin-top: 10px;
+}
+.butcolpink:hover{
+	transform: scale(1.02);
+	font-weight: bolds;
+}
+.table{
+	border: 1px solid rgba(0,0,0,0.1);
+}
+.table button{
+	margin: 20px;
+}
+.relativepopular{
+	position: relative;
+	left: 126px;
+	bottom: 4px;
+}
+.imgborder{
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 12px;
+	background-color: white;
+	position: relative;
+	top: 45px;
+}
+.relatdiv{
+	padding-top: 65px;
+	border: 1px solid rgba(0,0,0,0.1);
+	padding-bottom: 15px;
+}
+.relatdiv2{
+	padding-top: 65px;
+	color: white;
+	background-color: rgb(52,49,72);
+	border: 1px solid rgba(0,0,0,0.1);
+	padding-bottom: 15px;
+}
+.pinkcolors{
+	color: rgb(247,202,201); 
+}
+.bluecolors{
+	color: rgb(52,49,72); 
+}
+.imgborder1{
+	padding-top: 10px;
+	background-color: white;
+
+}
+.borders{
+	border: 1px solid rgba(0,0,0,0.1);
+}
+.nextforward{
+	padding: 2% 3%;
+}
+.foot{
+	height: 300px;
+}
+.footer{
+	background-image: url(./img/footer-bg.png);
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.footbgg{
+	background-color: rgba(52,49,72,0.8);
+	height: 300px;
+	padding: 10%;
+}
+.logo2{
+	color: rgb(247,202,201);
+	letter-spacing: 4px;
+}
+.logo2 span{
+	color:white;
+}

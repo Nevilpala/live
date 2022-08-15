@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required metaatags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	<!--  Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+	<!--  Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/custom.css">
+	
+	<title></title>
+</head>
+<body>
+	
+	<section class="container-fluid header_top">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-auto">
+					<i class="fas fa-envelope pe-2"></i>  info@company.com
+					<i class="fas fa-phone-alt px-2"></i>  010-020-0340
+				</div>
+				<div class="col-auto social_icon">
+					<a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+					<a href="#"><span><i class="fab fa-instagram"></i></span></a>
+					<a href="#"><span><i class="fab fa-twitter"></i></span></a>
+					<a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<header class="container-fluid shadow">
+		<div class="container">
+			<nav class="nav_menu ">
+				<div class="flex-between">
+					<div class="navbar-brand logo">
+						<a class="nav-link" href="#">
+							<img src="./img/apple-icon.png" class="img-fluid" width="40%">
+						</a>
+					</div>
+					<button class="nav-button " type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> 
+						<i class="fas fa-bars"></i>
+					</button>
+				</div>
+				<div class="collapse my_menu" id="menu">
+					<ul class="nav nav-fill">
+						<li class="navbar-brand logo">
+							<a class="nav-link" href="#">
+								<img src="./img/apple-icon.png" class="img-fluid" width="30%">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="./index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./about.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="./shop.html">Shop</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./contact.html">Contact</a>
+						</li>
+						<li class="nav-item menu_search">
+							<p class="nav-link">
+								<a href="#" class="input-group">
+										<input type="text" class="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2"></form>
+										<span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+								</a>
+								<a href="#"><span><i class="fas fa-shopping-cart"> 
+									<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">7
+										<span class="visually-hidden">unread messages</span>
+									</span></i></span>
+								</a>
+								<a href="#"><span><i class="fas fa-user">
+									<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">+99
+										<span class="visually-hidden">unread messages</span>
+									</span></i></span>
+								</a>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<ul class="nav nav-fill lg-view">
+					<li class="navbar-brand logo">
+						<a class="nav-link" href="#">
+							<img src="./img/apple-icon.png" class="img-fluid" >
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="./index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link  active" href="./shop.html">Shop</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./contact.html">Contact</a>
+					</li>
+					<li class="nav-item menu_search">
+						<p class="nav-link">
+							<a data-bs-toggle="modal" data-bs-target="#exampleModal"><span><i class="fas fa-search"></i></span></a>
+							<a href=""><span><i class="fas fa-shopping-cart"> 
+								<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">7
+									<span class="visually-hidden">unread messages</span>
+								</span></i></span>
+							</a>
+							<a href=""><span><i class="fas fa-user">
+								<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">+99
+									<span class="visually-hidden">unread messages</span>
+								</span></i></span>
+							</a>
+						</p>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+<!-- SHOP_SECTION-1 ========================================================================================= -->
+		
+	<section class="paddingy container shop_section1">
+		<div class="row g-4 sidebar_shop">
+			<div class="col-xxl-4 col-lg-3 col-md-12 col-sm-12">
+				<div class="side_left">
+					<h2 class="display-6 mb-4">Categories</h2>
+					<ul type="none" class="ps-0 drowpdown_categories">
+						<li> 
+							<a class="" data-bs-toggle="collapse" href="#gender" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<span>Gender</span> <i class="fas fa-arrow-circle-down"></i>
+  							</a>
+  							<div class="collapse" id="gender" >
+								<div class="down_content">
+									<a href="">Men</a>
+									<a href="">Women</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a class="" data-bs-toggle="collapse" href="#sale" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<span>Sale</span> <i class="fas fa-arrow-circle-down"></i>
+  							</a>
+  							<div class="collapse" id="sale">
+								<div class="down_content">
+									<a href="">Sport</a>
+									<a href="">Luxury</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a class="" data-bs-toggle="collapse" href="#product" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<span>Product</span> <i class="fas fa-arrow-circle-down"></i>
+  							</a>
+  							<div class="collapse" id="product">
+								<div class="down_content">
+									<a href="">Bag</a>
+									<a href="">Sweather</a>
+									<a href="">Sunglass</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+<!-- SIDE_RIGHT ---------------------------------------------------------------------------------------------->
+
+			<div class="col-xxl col-lg col-md-12 col-sm-12">
+				<div class="side_right">
+					<div class="display-6 title">
+						<span>
+							<a href="">All </a>
+							<a href="">Men's</a>
+							<a href="">Women's</a>
+						</span>
+						<select class="select_title">
+							<option>Featured</option>
+							<option>A to Z</option>
+							<option>Items</option>
+						</select>
+					</div>
+					<div class="row g-4 mt-4">
+						<div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+							<div class="card_shop shadow">
+								<div class="card_main">
+									<img src="./img/shop_01.jpg" class="img-fluid">
+									<div class="card_hover">
+										<a href="./shopdetail.html"><i class="far fa-heart"></i></a>
+										<a href="./shopdetail.html"><i class="far fa-eye"></i></a>
+										<a href="./shopdetail.html"><i class="fas fa-shopping-cart"></i></a>
+									</div>
+								</div>
+								<div class="card-body">
+									Oupidatat non<br>
+									M/L/X/XL
+									<p class="text-center">
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1"></i>
+										<i class="fas fa-star pe-1"></i>
+									</p>
+									<p class="text-center">$250.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xxl-4 col-lg-4 col-md-4 col-sm-6">
+							<div class="card_shop shadow">
+								<div class="card_main">
+									<img src="./img/shop_02.jpg" class="img-fluid">
+									<div class="card_hover">
+										<a href="./shopdetail.html"><i class="far fa-heart"></i></a>
+										<a href="./shopdetail.html"><i class="far fa-eye"></i></a>
+										<a href="./shopdetail.html"><i class="fas fa-shopping-cart"></i></a>
+									</div>
+								</div>
+								<div class="card-body">
+									Oupidatat non<br>
+									M/L/X/XL
+									<p class="text-center">
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1"></i>
+										<i class="fas fa-star pe-1"></i>
+									</p>
+									<p class="text-center">$250.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+							<div class="card_shop shadow">
+								<div class="card_main">
+									<img src="./img/shop_03.jpg" class="img-fluid">
+									<div class="card_hover">
+										<a href="./shopdetail.html"><i class="far fa-heart"></i></a>
+										<a href="./shopdetail.html"><i class="far fa-eye"></i></a>
+										<a href="./shopdetail.html"><i class="fas fa-shopping-cart"></i></a>	
+									</div>
+								</div>
+								<div class="card-body">
+									Oupidatat non<br>
+									M/L/X/XL
+									<p class="text-center">
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1"></i>
+										<i class="fas fa-star pe-1"></i>
+									</p>
+									<p class="text-center">$250.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+							<div class="card_shop shadow">
+								<div class="card_main">
+									<img src="./img/shop_04.jpg" class="img-fluid">
+									<div class="card_hover">
+										<a href="./shopdetail.html"><i class="far fa-heart"></i></a>
+										<a href="./shopdetail.html"><i class="far fa-eye"></i></a>
+										<a href="./shopdetail.html"><i class="fas fa-shopping-cart"></i></a>	
+									</div>
+								</div>
+								<div class="card-body">
+									Oupidatat non<br>
+									M/L/X/XL
+									<p class="text-center">
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1"></i>
+										<i class="fas fa-star pe-1"></i>
+									</p>
+									<p class="text-center">$250.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+							<div class="card_shop shadow">
+								<div class="card_main">
+									<img src="./img/shop_05.jpg" class="img-fluid">
+									<div class="card_hover">
+										<a href="./shopdetail.html"><i class="far fa-heart"></i></a>
+										<a href="./shopdetail.html"><i class="far fa-eye"></i></a>
+										<a href="./shopdetail.html"><i class="fas fa-shopping-cart"></i></a>	
+									</div>
+								</div>
+								<div class="card-body">
+									Oupidatat non<br>
+									M/L/X/XL
+									<p class="text-center">
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1"></i>
+										<i class="fas fa-star pe-1"></i>
+									</p>
+									<p class="text-center">$250.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+							<div class="card_shop shadow">
+								<div class="card_main">
+									<img src="./img/shop_06.jpg" class="img-fluid">
+									<div class="card_hover">
+										<a href="./shopdetail.html"><i class="far fa-heart"></i></a>
+										<a href="./shopdetail.html"><i class="far fa-eye"></i></a>
+										<a href="./shopdetail.html"><i class="fas fa-shopping-cart"></i></a>	
+									</div>
+								</div>
+								<div class="card-body">
+									Oupidatat non<br>
+									M/L/X/XL
+									<p class="text-center">
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1"></i>
+										<i class="fas fa-star pe-1"></i>
+									</p>
+									<p class="text-center">$250.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+							<div class="card_shop shadow">
+								<div class="card_main">
+									<img src="./img/shop_07.jpg" class="img-fluid">
+									<div class="card_hover">
+										<a href="./shopdetail.html"><i class="far fa-heart"></i></a>
+										<a href="./shopdetail.html"><i class="far fa-eye"></i></a>
+										<a href="./shopdetail.html"><i class="fas fa-shopping-cart"></i></a>	
+									</div>
+								</div>
+								<div class="card-body">
+									Oupidatat non<br>
+									M/L/X/XL
+									<p class="text-center">
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1"></i>
+										<i class="fas fa-star pe-1"></i>
+									</p>
+									<p class="text-center">$250.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+							<div class="card_shop shadow">
+								<div class="card_main">
+									<img src="./img/shop_08.jpg" class="img-fluid">
+									<div class="card_hover">
+										<a href="./shopdetail.html"><i class="far fa-heart"></i></a>
+										<a href="./shopdetail.html"><i class="far fa-eye"></i></a>
+										<a href="./shopdetail.html"><i class="fas fa-shopping-cart"></i></a>	
+									</div>
+								</div>
+								<div class="card-body">
+									Oupidatat non<br>
+									M/L/X/XL
+									<p class="text-center">
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1"></i>
+										<i class="fas fa-star pe-1"></i>
+									</p>
+									<p class="text-center">$250.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+							<div class="card_shop shadow">
+								<div class="card_main">
+									<img src="./img/shop_09.jpg" class="img-fluid">
+									<div class="card_hover">
+										<a href="./shopdetail.html"><i class="far fa-heart"></i></a>
+										<a href="./shopdetail.html"><i class="far fa-eye"></i></a>
+										<a href="./shopdetail.html"><i class="fas fa-shopping-cart"></i></a>	
+									</div>
+								</div>
+								<div class="card-body">
+									Oupidatat non<br>
+									M/L/X/XL</p>
+									<p class="text-center">
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1 text-warning"></i>
+										<i class="fas fa-star pe-1"></i>
+										<i class="fas fa-star pe-1"></i>
+									</p>
+									<p class="text-center">$250.00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- FOOTER =================================================================================================== -->
+
+	<footer class=" container-fluid paddingy">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-xxl col-lg col-md col-sm-12">
+					<div class="p-2">
+						<h2 class="title_logo">Zay Shop</h2>
+						<hr>
+						<ul type="none" class="ps-0">
+							<li><i class="fas fa-map-marker-alt pe-2"></i> 123 Consectetur at ligula 10660</li>
+							<li><i class="fas fa-phone-alt pe-1"></i>  010-020-0340</li>
+							<li><i class="fas fa-envelope pe-1"></i> info@company.com</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xxl col-lg col-md col-sm-12">
+					<div class="p-2">
+						<h2>Products</h2>
+						<hr>
+						<ul type="none" class="ps-0">
+							<li><a href="">Luxury</a></li>
+							<li><a href="">Sport Wear</a></li>
+							<li><a href="">Men's Shoes</a></li>
+							<li><a href="">Women's Shoes</a></li>
+							<li><a href="">Popular Dress</a></li>
+							<li><a href="">Gym Accessories</a></li>
+							<li><a href="">Sport Shoes</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xxl col-lg col-md col-sm-12">
+					<div class="p-2">
+						<h2>Further Info</h2>
+						<hr>	
+						<ul type="none" class="ps-0">
+							<li><a href="">Home</a></li>
+							<li><a href="">About Us</a></li>
+							<li><a href="">Shop Locations</a></li>
+							<li><a href="">FAQs</a></li>
+							<li><a href="">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  	<div class="modal-dialog modal-fullscreen">
+	    	<div class="modal-content">
+	      		<div class="modal-header">
+	        		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  				</div>
+		      	<div class="modal-body">
+		        	<div class="input-group modal_input">
+						<input type="text" class="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2"></form>
+						<div data-bs-dismiss="modal" class="input-group-text greenbg" id="basic-addon2"><i class="fas fa-search text-light"></i></div>
+					</div>
+		      	</div>
+	      		
+	    	</div>
+	  	</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

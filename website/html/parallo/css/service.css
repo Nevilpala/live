@@ -1,0 +1,77 @@
+#service .container{
+	width: 100%;
+}
+
+
+
+
+
+
+/*SERVICE-SECTION1 ======================================================================================*/
+
+.service-section-1{
+	background-image: url(../img/coffee-glass.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	min-height: 700px;
+	display: flex;
+	align-items: center;
+}
+.service-section-1 .our-service{
+	background-color: rgba(15, 29, 32, 0.76);
+	color: white;
+	padding: 50px 0;
+
+}
+.service-section-1 .our-service p{
+	padding: 10px 0;
+	margin-top: 40px;
+	font-size: 14px;
+}
+
+
+/*SERVICE-SECTION-2(ss2) =====================================================================================*/
+
+.service-section-2 .ss2{
+	background-color: rgba(15, 29, 32, 0.76);
+	padding: 60px 50px;
+	color: white;
+	line-height: 30px;
+}
+
+/*SERVICE-SECTION-3 =====================================================================================*/
+
+.service-section-3 div.corosolbtn button {
+	padding: 20px;
+	border: 2px solid rgba(255,255,255,0);
+	background-color: rgba(15, 29, 32, 0.76);
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-size: 20px;
+}
+.service-section-3 div.actives  button{
+	border: 2px solid rgba(255,255,255,0.7);
+
+}
+.service-section-3 div.corosolbtn button i{
+	font-size: 25px;
+	padding: 15px;
+	border: 1px solid rgba(255,255,255,0.7);
+	border-radius: 50%;
+}
+
+.service-section-3 .btn-detail{
+	background-color: rgba(15, 29, 32, 0.76);
+	width: 100%;
+	padding: 45px 55px;
+	color: white;
+	min-height: 100%;
+
+}
+.service-section-3 .btn-detail p{
+	margin-top: 25px;
+	
+}

@@ -1,0 +1,107 @@
+.container{
+	width: 100%;
+}
+
+
+
+
+/*CONTACT-SECTION-1 ======================================================================*/
+
+.contact-section-1{
+	background-image: url(../img/people.jpg);
+	min-height: 70vh;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+}
+.contact-section-1 .contact-head{
+	background-color: rgba(15, 29, 32, 0.76);
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding: 50px 0;
+
+}
+
+/*CONTACT-SECTION-2 ======================================================================*/
+
+.contact-section-2 .contact-detail{
+	background-color: rgba(15, 29, 32, 0.76);
+	padding: 60px 80px 60px 60px;
+}
+.contact-section-2 .input-contact{
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 13px;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid white;
+	color: white;
+}
+.contact-section-2 .input-contact::placeholder{
+	color: white;
+}
+.contact-section-2 textarea{
+	min-height: 120px;
+}
+.contact-section-2 input.input-submit{
+	padding: 8px 30px;
+}
+
+.contact-section-2 .contact-content{
+	background-color: rgba(15, 29, 32, 0.76);
+	padding: 60px 80px 60px 60px;	
+	color: white;
+	line-height: 30px;
+} 
+.contact-section-2 .contact-content i{
+	font-size: 50px;
+	padding: 13px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.contact-section-2 .contact-content h4{
+	padding: 10px 0;
+}
+.contact-section-2 .contact-content p{
+	padding: 10px 0;
+
+}
+
+/*CONTACT-SECTION-3 ======================================================================*/
+
+.contact-section-3 .contact-content{
+	padding: 63px;
+	background-color: white;
+	align-items: center;
+}
+.contact-section-3 .contact-content p{
+	padding: 40px 0;
+	line-height: 28px;
+	font-size: 18px;
+}
+.contact-section-3 .email-text{
+	background-color: white;
+	height: 100%;
+	padding: 65px 40px;
+	font-family: arial;
+}
+.contact-section-3 .email-text p{
+	font-size: 19px;
+}
+.contact-section-3 input{
+	width: 100%;
+	padding: 7px 20px;
+	
+}
+.contact-section-3 .input-email{
+	border: 2px solid grey;
+}
+.contact-section-3 .input-submit{
+	background-color: #247cff;
+	border: 2px solid #247cff;
+	color: white;
+}
