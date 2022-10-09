@@ -48,7 +48,18 @@ h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav,ul,li,nav,he
 	padding-left: 0;
 	list-style-type: none!important;
 }
+
+/*=====================================================================================*/
+
 /*DISPLAY-NONE*/
+@media screen and (max-width: 992px){
+	.dp-lg-none{
+		display: none!important;
+	}
+	.dp-lg-block{
+		display: block!important;
+	}
+}
 @media screen and (max-width: 768px){
 	.dp-md-none{
 		display: none!important;
@@ -73,7 +84,7 @@ h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav,ul,li,nav,he
 		display: block!important;
 	}
 }
-
+/*=====================================================================================*/
 /*CLOSE-BTN*/
 
 /*<button class="btn-menu">*/
@@ -177,6 +188,7 @@ button.btn-menu{
 	background-color: red!important;
 }
 
+/*==========================================================================================*/
 
 /*ZOOMING-IMAGE*/
 .zoom_img{
@@ -207,4 +219,185 @@ button.btn-menu{
 .gradient-bg-2{
 	background: linear-gradient(to right,#3987f4,#cd3178)!important;
 	background-size: cover;
+}
+
+/*=====================================================================================*/
+
+/*.BTN-BORDER-GRAD AT HOVER*/
+
+.btn-border-grad-h {
+	height: 3rem;
+	width: 10rem;
+	position: relative!important;
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	cursor: pointer;
+	z-index: 1;
+}
+/*
+.btn-border-grad-h:hover{
+	color: white;
+}*/
+.btn-border-grad-h::before{
+	content: ' ';
+	height: 100%!important;
+	width: 100%!important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-color: #111827;
+}
+.btn-border-grad-h:hover::after{
+	content: ' ';
+	height: calc(100% + 10px)!important;
+	width: calc(100% + 10px)!important;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	z-index: -2;	
+	background-image: linear-gradient(90deg, deeppink, deepskyblue, lawngreen, deeppink);
+	background-size: 300% 100%;
+	animation: btn 3s ease infinite;
+}
+@keyframes btn {
+
+	to{
+		background-position: 0% 0% ;
+	}
+
+	50% {
+		background-position: 90% 0%;
+	}
+	100% {
+		background-position: 0% 0%	;
+	}
+
+}
+./*BTN-BORDER-GRAD*/
+.btn-border-grad {
+	height: 3rem;
+	width: 10rem;
+	position: relative!important;
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	cursor: pointer;
+	z-index: 1;
+}
+/*
+.btn-border-grad:hover{
+	color: white;
+}*/
+.btn-border-grad::before{
+	content: ' ';
+	height: 100%!important;
+	width: 100%!important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-color: #111827;
+}
+.btn-border-grad:hover::after{
+	content: ' ';
+	height: calc(100% + 10px)!important;
+	width: calc(100% + 10px)!important;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	z-index: -2;	background-image: linear-gradient(90deg, deeppink, deepskyblue, lawngreen, deeppink);
+	background-size: 300% 100%;
+	animation: btn 3s ease infinite;
+}
+@keyframes btn {
+
+	to{
+		background-position: 0% 0% ;
+	}
+
+	50% {
+		background-position: 90% 0%;
+	}
+	100% {
+		background-position: 0% 0%	;
+	}
+
+}
+/*=====================================================================================*/
+/*HOVER_AFTER_SHADOW*/
+
+.btn-after-shadow{
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	/*border: 2px solid rgb(12,1,22);*/
+	border-radius: 2px;
+	color: rgb(12,1,22);
+	font-weight: bold;
+	background-color: rgba(12,1,22,0.3);
+	cursor: pointer; 
+	position: relative;
+}
+.btn-after-shadow:hover { 
+	background-color: rgba(12,1,22,0.8); 
+	color: white; 
+	transition: 1s ease;
+}
+.btn-after-shadow::before {
+	content: ' ';
+	position: absolute;
+	left: 0;
+	top: 40px;
+	background: transparent;
+	height: 50%;
+	width: 100%;
+	transform: perspective(1em) rotateX(48deg) scale(1, 0.35);
+	filter: blur(8px); 
+	transition: 1s ease;
+}
+.btn-after-shadow:hover::before { 
+	background: rgba(12,1,22,0.8); 
+	top: 60px;
+}
+
+
+/*SHINE BUTTON*/
+
+
+.shine{
+	background-color: #3b3b3b;
+	position: relative;
+	color: white;
+	z-index: 0;
+	transition: all 0.3s;
+	/*min-width: 200px;	*/
+	border: none;
+	box-sizing: border-box;	
+	padding: 18px 30px;
+	font-size: 16px;
+	color: #fff;
+}
+.shine::before{
+	content: "";
+	position: absolute;	
+	top: 0;
+	display: block;
+	left: -50px;
+	width: 70%;
+	height: 100%;
+	background: linear-gradient(90deg, transparent,#ffffff71,transparent);
+	transition: all 1s;
+	z-index: -1;
+	transform: translateX(-120px) skew(-20deg);
+}
+.shine:hover::before{
+	transform: translateX(300px) skew(-20deg);
+
 }
