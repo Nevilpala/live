@@ -43,7 +43,7 @@
 		<nav class="navbar" id="menu">
 			<ul class="nav nav-pills" id="menu-link">
 				<li class="nav-item">
-					<a class="nav-link active" href="#home">
+					<a class="nav-link  active" href="#home">
 						<div class="nav-hover">Home</div>
 						<div class="menu-icon">
 							<i class="bi bi-stop-circle stop"></i>
@@ -105,22 +105,22 @@
 			</button>
 			<div class="collapse navbar-collapse" id="collapse-menu">
 				<ul class="nav nav-pills" id="scrolldirect">
-					<li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="#game">Game</a></li>
-					<li class="nav-item"><a class="nav-link" href="#bootstrap">Bootstrap</a></li>
-					<li class="nav-item"><a class="nav-link" href="#c">C</a></li>
-					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+					<li class="nav-item"><a class="nav-link h_scroll active" href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link h_scroll" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link h_scroll" href="#game">Game</a></li>
+					<li class="nav-item"><a class="nav-link h_scroll" href="#bootstrap">Bootstrap</a></li>
+					<li class="nav-item"><a class="nav-link h_scroll" href="#c">C</a></li>
+					<li class="nav-item"><a class="nav-link h_scroll" href="#contact">Contact</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div data-bs-spy="scroll" data-bs-target="#menu-link" data-bs-parent="#scrolldirect" data-bs-offset="0" class="scrollspy-example scroll-menu" tabindex="0">
+	<div data-bs-spy="scroll" data-bs-target="#menu-link" data-bs-parent="#scrolldirect" data-bs-offset="0" class="scrollspy-example scroll-menu" tabindex="0" id="scroll-menu">
 
 		<!--================================== HOME =========================================-->
 
-		<section class="bg-light" id="home">
+		<section class="bg-light scroll-active" id="home">
 			<div class="welcome row">
 				<div class="col-md display-1 fw-bold fst-italic text-center wel-content">
 					<span class="text-center"><img src="./img/logo-icon.png" width="40%"></span>
@@ -138,7 +138,7 @@
 
 		<!--================================== ABOUT =========================================-->
 
-		<section id="about" class="container-fluid about_bg_sm paddingy-sm">
+		<section id="about" class="container-fluid about_bg_sm paddingy-sm scroll-active">
 			<div class=" p-0 m-0 mx-auto">
 				<div class="row g-2 align-items-center p-0 m-0 justify-content-center">
 					<div class="col-md p-0 dp-lg-none" uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
@@ -164,7 +164,7 @@
 
 		<!--================================== RECENT =========================================-->
 
-		<section id="recent" class="container-fluid paddingy-sm ">
+		<section id="recent" class="container-fluid paddingy-sm">
 			<div class="container" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false">
 				<div class="row align-items-center">
 					<div class="col-md-4 recent-bg vw-center">
@@ -208,8 +208,8 @@
 
 		<!--================================== GAME =========================================-->
 
-		<section id="game" class="containerfluid paddingy">
-			<div class="container">
+		<section id="game" class="containerfluid paddingy scroll-active">
+			<div class="container"  uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false">
 				<h1 class="text-center pb-5 display-4 fw-bold">-- GAME -- </h1>
 				<div class="row g-4 align-items-stretch justify-content-center text-center">
 					<div class="col-lg col-md-6">
@@ -259,7 +259,7 @@
 
 		<!-- ====================================  BOOTSTRAP  ============================================== -->
 
-		<section id="bootstrap" class="container-fluid paddingy">
+		<section id="bootstrap" class="container-fluid paddingy scroll-active">
 			<div class="container boot_bg py-4" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false">
 				<h1 class="b_title">
 					<img src="./img/boot1.png" width="200px">
@@ -342,7 +342,7 @@
 				</div>
 				<div class="w-end">
 					<!-- <a type="button" href="boot.html" class="violet-bg viewmore py-3 px-5 text-light"> VIEW MORE..</a> -->
-					<a type="button" href="boot.html" ><div class="btn-border-grad-h"> VIEW MORE..</div></a>
+					<a type="button" href="boot.html" ><div class="btn violet-bg text-light rounded-0 py-2 px-4 hoverbtn"> VIEW MORE..</div></a>
 					<!-- <a href="boot.html" ><div class="viewmore"> VIEW MORE..</div></a> -->
 
 				</div>
@@ -351,7 +351,7 @@
 
 		<!--================================== C =========================================-->
 
-		<section class="container-fluid c_section paddingy" id="c">
+		<section class="container-fluid c_section paddingy scroll-active" id="c">
 			<div class="container"  uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false">
 				<h1 class="display-5 fw-bold c_title">
 					<img src="./img/c.png" width="5%" class="c-logo"><span> PROGRAMMING</span>
@@ -394,7 +394,7 @@
 						</div>
 					</div>
 					<div class="w-end">
-						<a type="button" href="c-prog.html" ><div class="btn-border-grad-h"> VIEW MORE..</div></a>
+						<a type="button" href="c-prog.html" ><div class="btn violet-bg text-light rounded-0 py-2 px-4 hoverbtn"> VIEW MORE..</div></a>
 						<!-- <a type="button" href="c-prog.html" class="pink-bg py-3 px-5 viewmore text-dark"> VIEW MORE..</a> -->
 					</div>	
 				</div>
@@ -403,7 +403,7 @@
 
 		<!--================================== CONTACT =========================================-->
 
-		<footer class="container-fluid paddingy-sm pb-0" id="contact">
+		<footer class="container-fluid paddingy-sm pb-0 scroll-active" id="contact">
 			<div class="container" >
 				<div class="row g-5 align-items-stretch" >
 					<div class="col-lg-3 col-md-6 text-center order-lg-1 order-md-1 foot-section">
@@ -1175,7 +1175,8 @@
         	</div>
         </div> 
     </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+
 </body>
 </html>
