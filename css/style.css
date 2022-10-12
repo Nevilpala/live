@@ -16,6 +16,10 @@
 .lightblue-bg{
 	background-color: rgb(233,238,244);
 }
+.hoverbtn:hover{
+	filter: sepia(.5);
+
+}
 .starter-page{
 	display: none!important;
 	position: fixed;
@@ -295,7 +299,6 @@ section{
 /*<!--================================== GAME =========================================-->*/
 
 #game{
-	/*background: url(./img/banner3.png) no-repeat center; */
 	background-size: cover;
 	background-color: rgba(0,0,0,0.1);
 }
@@ -508,9 +511,8 @@ section{
 #c{
 	background-repeat: no-repeat;
 	background-image: 	url(../img/bg-top-grad.png),
-	url(../img/bg-bottom.png),
-	url(../img/services-left-dec.jpg)
-	;
+						url(../img/bg-botton.png),
+						url(../img/services-left-dec.jpg);
 	background-position: top center,bottom,center;
 	background-size: 100% auto,100% auto,cover;
 	position: relative;
